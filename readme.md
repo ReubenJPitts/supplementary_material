@@ -7,16 +7,16 @@ This folder contains the supplementary material for the doctoral dissertation "L
 
 The Python code requires the working directory to be initialised to the parent folder of the supplementary material, e.g. using:
 
-'''
+~~~
 import os
 os.chdir(r"~/supplementary_material")
-'''
+~~~
 
 Likewise for the R code:
 
-'''
+~~~
 setwd("~/supplementary_material")
-'''
+~~~
 
 Some of this code relies on external databases. For convenient use, the required files should be placed in their own folder within the parent folder, and given the following names:
 
