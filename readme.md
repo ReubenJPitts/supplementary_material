@@ -3,7 +3,7 @@
 
 This folder contains the supplementary material for the doctoral dissertation "Language Contact and Language Change in a Multilingual Epigraphic Corpus: The Italian Peninsula in the First Millennium BCE".
 
-## initialisation (working directory)
+## how to run these scripts
 
 The Python code requires the working directory to be initialised to the parent folder of the supplementary material, e.g. using:
 
@@ -34,7 +34,7 @@ These files can be downloaded from the following locations:
 
 For each script, this readme will specify which external files are required, except for CEIPoM, which is integral to all of this research.
 
-## initialisation (modules)
+## initialisation
 
 This folder contains two modules used by all subsequent code. These should be placed in the Python sys.path:
 
