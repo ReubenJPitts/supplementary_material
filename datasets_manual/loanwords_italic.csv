@@ -1,0 +1,1458 @@
+﻿order;id;name;field;latin;selection;distance_from_hearth;dfh_comment;latin_source;latin_score;sabellic;sabellic_source;sabellic_score
+1;1#1;the world;The physical world;orbis (terrae);nonspecific;1;natural features and phenomena are outside the home;Latin;0;;;
+2;1#21;the land;The physical world;terra;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+3;1#212;the soil;The physical world;solum;selection;0;universal phenomena;Latin;0;;;
+4;1#213;the dust;The physical world;pulvis;selection;0;universal phenomena;Latin;0;;;
+5;1#214;the mud;The physical world;lutum;selection;0;universal phenomena;Latin;0;;;
+6;1#215;the sand;The physical world;sabulum;selection;0;universal phenomena;substrate;0.25;;;
+7;1#22;the mountain or hill;The physical world;mons;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+8;1#222;the cliff or precipice;The physical world;rupes praerupta;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+9;1#23;the plain;The physical world;campus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+10;1#24;the valley;The physical world;vallis;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+11;1#25;the island;The physical world;insula;selection;1;natural features and phenomena are outside the home;substrate;0.5;;;
+12;1#26;the mainland;The physical world;continens terra;compound;1;natural features and phenomena are outside the home;;;;;
+13;1#27;the shore;The physical world;litus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+14;1#28;the cave;The physical world;specus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+15;1#31;the water;The physical world;aqua;selection;0;universal;Latin;0;aapas;Sabellic;0
+16;1#32;the sea;The physical world;mare;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+17;1#322;calm;The physical world;tranquillus;selection;0;adjectival concepts are universal;Latin;0;;;
+18;1#323;rough(2);The physical world;horridus;selection;0;adjectival concepts are universal;Latin;0;;;
+19;1#324;the foam;The physical world;spuma;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+20;1#329;the ocean;The physical world;oceanus;selection;1;natural features and phenomena are outside the home;Greek;1;;;
+21;1#33;the lake;The physical world;lacus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+22;1#34;the bay;The physical world;sinus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+23;1#341;the lagoon;The physical world;lacuna;nonspecific;1;natural features and phenomena are outside the home;Latin;0;;;
+24;1#342;the reef;The physical world;taenia;nonspecific;1;natural features and phenomena are outside the home;Greek;1;;;
+25;1#343;the cape;The physical world;promontorium;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+26;1#35;the wave;The physical world;unda;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+27;1#352;the tide;The physical world;aestus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+28;1#353;the low tide;The physical world;exortus aestus;compound;1;natural features and phenomena are outside the home;;;;;
+29;1#354;the high tide;The physical world;minuens aestus;compound;1;natural features and phenomena are outside the home;;;;;
+30;1#36;the river or stream;The physical world;flumen;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+31;1#362;the whirlpool;The physical world;vortex;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+32;1#37;the spring or well;The physical world;fons;selection;0;likely present in or near home?;Latin;0;bia;Sabellic;0
+33;1#38;the swamp;The physical world;palus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+34;1#39;the waterfall;The physical world;deiectus aquae;compound;1;natural features and phenomena are outside the home;;;;;
+35;1#41;the woods or forest;The physical world;silva;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+36;1#411;the savanna;The physical world;;anachronism;1;natural features and phenomena are outside the home;;;;;
+37;1#43;the wood;The physical world;lignum;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+38;1#44;the stone or rock;The physical world;lapis;selection;0;common materials;substrate;0.75;koram;Sabellic;0
+39;1#45;the earthquake;The physical world;terrae motus;compound;1;natural features and phenomena are outside the home;;;;;
+40;1#51;the sky;The physical world;caelum;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+41;1#52;the sun;The physical world;sol;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+42;1#53;the moon;The physical world;luna;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+43;1#54;the star;The physical world;stella;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+44;1#55;the lightning;The physical world;fulgur;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+45;1#56;the thunder;The physical world;tonitrus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+46;1#57;the bolt of lightning;The physical world;fulmen;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+47;1#58;the storm;The physical world;tempestas;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+48;1#59;the rainbow;The physical world;arcus (pluvius);nonspecific;1;natural features and phenomena are outside the home;;;;;
+49;1#61;the light;The physical world;lux;selection;0;universal concepts;Latin;0;;;
+50;1#62;the darkness;The physical world;tenebrae;selection;0;universal concepts;Latin;0;;;
+51;1#63;the shade or shadow;The physical world;umbra;selection;0;universal concepts;Latin;0;;;
+52;1#64;the dew;The physical world;ros;selection;0;universal phenomena;Latin;0;;;
+53;1#71;the air;The physical world;aer;selection;1;natural features and phenomena are outside the home;Greek;1;;;
+54;1#72;the wind;The physical world;ventus;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+55;1#73;the cloud;The physical world;nubes;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+56;1#74;the fog;The physical world;caligo;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+57;1#75;the rain;The physical world;pluvia;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+58;1#76;the snow;The physical world;nix;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+59;1#77;the ice;The physical world;glacies;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+60;1#771;the arctic lights;The physical world;;anachronism;1;natural features and phenomena are outside the home;;;;;
+61;1#775;to freeze;The physical world;gelo;selection;0;verbal concepts are universal;Latin;0;;;
+62;1#78;the weather;The physical world;tempestas;selection;1;natural features and phenomena are outside the home;Latin;0;;;
+63;1#81;the fire;The physical world;ignis;selection;0;fire is universal;Latin;0;pir;Sabellic;0
+64;1#82;the flame;The physical world;flamma;selection;0;fire is universal;Latin;0;;;
+65;1#83;the smoke;The physical world;fumus;selection;0;fire is universal;Latin;0;;;
+66;1#831;the steam;The physical world;aquae vapor;compound;0;fire is universal;;;;;
+67;1#84;the ash;The physical world;cinis;selection;0;fire is universal;Latin;0;;;
+68;1#841;the embers;The physical world;cinis;selection;0;fire is universal;Latin;0;;;
+69;1#851;to burn(1);The physical world;uro;selection;0;fire is universal;Latin;0;asum;Sabellic;0
+70;1#852;to burn(2);The physical world;ardeo;selection;0;fire is universal;Latin;0;;;
+71;1#86;to light;The physical world;accendo;selection;0;fire is universal;Latin;0;;;
+72;1#861;to extinguish;The physical world;exstinguo;selection;0;fire is universal;Latin;0;;;
+73;1#87;the match;The physical world;;anachronism;;;;;;;
+74;1#88;the firewood;The physical world;lignum;selection;0;fire is universal;Latin;0;;;
+75;1#89;the charcoal;The physical world;carbo;selection;0;fire is universal;Latin;0;;;
+76;2#1;the person;Kinship;homo;selection;0;human relationships are universal;Latin;0;homonus;Sabellic;0
+77;2#21;the man;Kinship;vir;selection;0;human relationships are universal;Latin;0;nir;Sabellic;0
+78;2#22;the woman;Kinship;mulier;selection;0;human relationships are universal;Latin;0;usurs;Sabellic;0
+79;2#23;male(1);Kinship;masculus;selection;0;human relationships are universal;Latin;0;;;
+80;2#24;female(1);Kinship;femina;selection;0;human relationships are universal;Latin;0;;;
+81;2#25;the boy;Kinship;puer;selection;0;human relationships are universal;Latin;0;;;
+82;2#251;the young man;Kinship;iuvenis;selection;0;human relationships are universal;Latin;0;;;
+83;2#26;the girl;Kinship;puella;selection;0;human relationships are universal;Latin;0;;;
+84;2#261;the young woman;Kinship;virgo;selection;0;human relationships are universal;Latin;0;;;
+85;2#27;the child(1);Kinship;puer;selection;0;human relationships are universal;Latin;0;malaks;Sabellic;0
+86;2#28;the baby;Kinship;infans;selection;0;human relationships are universal;Latin;0;;;
+87;2#31;the husband;Kinship;maritus;selection;0;human relationships are universal;Latin;0;;;
+88;2#32;the wife;Kinship;uxor;selection;0;human relationships are universal;Latin;0;;;
+89;2#33;to marry;Kinship;nubo;selection;0;human relationships are universal;Latin;0;;;
+90;2#34;the wedding;Kinship;dies nuptiarum;compound;0;human relationships are universal;;;;;
+91;2#341;the divorce;Kinship;divortium;selection;0;human relationships are universal;Latin;0;;;
+92;2#35;the father;Kinship;pater;selection;0;human relationships are universal;Latin;0;patereih;Sabellic;0
+93;2#36;the mother;Kinship;mater;selection;0;human relationships are universal;Latin;0;matereih;Sabellic;0
+94;2#37;the parents;Kinship;parentes;selection;0;human relationships are universal;Latin;0;;;
+95;2#38;the married man;Kinship;;none;0;human relationships are universal;;;;;
+96;2#39;the married woman;Kinship;matrona;nonspecific;0;human relationships are universal;;;;;
+97;2#41;the son;Kinship;filius;selection;0;human relationships are universal;Latin;0;puqloh;Sabellic;0
+98;2#42;the daughter;Kinship;filia;selection;0;human relationships are universal;Latin;0;futir;Sabellic;0
+99;2#43;the child(2);Kinship;liberi;selection;0;human relationships are universal;Latin;0;;;
+100;2#44;the brother;Kinship;frater;selection;0;human relationships are universal;Latin;0;fratrus;Sabellic;0
+101;2#444;the older brother;Kinship;frater maior;compound;0;human relationships are universal;;;;;
+102;2#445;the younger brother;Kinship;frater minor;compound;0;human relationships are universal;;;;;
+103;2#45;the sister;Kinship;soror;selection;0;human relationships are universal;Latin;0;;;
+104;2#454;the older sister;Kinship;soror maior;compound;0;human relationships are universal;;;;;
+105;2#455;the younger sister;Kinship;soror minor;compound;0;human relationships are universal;;;;;
+106;2#456;the sibling;Kinship;;none;0;human relationships are universal;;;;;
+107;2#61;the older sibling;Kinship;;none;0;human relationships are universal;;;;;
+108;2#62;the younger sibling;Kinship;;none;0;human relationships are universal;;;;;
+109;2#458;the twins;Kinship;gemini;selection;0;human relationships are universal;Latin;0;;;
+110;2#46;the grandfather;Kinship;avus;selection;0;human relationships are universal;Latin;0;;;
+111;2#461;the old man;Kinship;senex;selection;0;human relationships are universal;Latin;0;casnar;Sabellic;0
+112;2#47;the grandmother;Kinship;avia;selection;0;human relationships are universal;Latin;0;;;
+113;2#471;the old woman;Kinship;anus;selection;0;human relationships are universal;Latin;0;;;
+114;2#11;the grandparents;Kinship;;none;0;human relationships are universal;;;;;
+115;2#48;the grandson;Kinship;nepos;selection;0;human relationships are universal;Latin;0;n;Sabellic;0
+116;2#49;the granddaughter;Kinship;neptis;selection;0;human relationships are universal;Latin;0;;;
+117;2#5;the grandchild;Kinship;;none;0;human relationships are universal;;;;;
+118;2#51;the uncle;Kinship;patruus, avunculus;selection;0;human relationships are universal;Latin;0;;;
+119;2#511;the mother's brother;Kinship;avunculus;selection;0;human relationships are universal;Latin;0;;;
+120;2#512;the father's brother;Kinship;patruus;selection;0;human relationships are universal;Latin;0;;;
+121;2#52;the aunt;Kinship;amita / matertera;selection;0;human relationships are universal;Latin;0;;;
+122;2#521;the mother's sister;Kinship;matertera;selection;0;human relationships are universal;Latin;0;;;
+123;2#522;the father's sister;Kinship;amita;selection;0;human relationships are universal;Latin;0;;;
+124;2#53;the nephew;Kinship;fratris filius;compound;0;human relationships are universal;;;;;
+125;2#54;the niece;Kinship;fratris filia;compound;0;human relationships are universal;;;;;
+126;2#541;the sibling’s child;Kinship;;none;0;human relationships are universal;;;;;
+127;2#55;the cousin;Kinship;consobrinus;selection;0;human relationships are universal;Latin;0;;;
+128;2#56;the ancestors;Kinship;maiores;selection;0;human relationships are universal;Latin;0;;;
+129;2#57;the descendants;Kinship;progenies;selection;0;human relationships are universal;Latin;0;;;
+130;2#61;the father-in-law (of a man);Kinship;socer;selection;0;human relationships are universal;Latin;0;;;
+131;2#611;the father-in-law (of a woman);Kinship;socer;selection;0;human relationships are universal;Latin;0;;;
+132;2#62;the mother-in-law (of a man);Kinship;socrus;selection;0;human relationships are universal;Latin;0;;;
+133;2#621;the mother-in-law (of a woman);Kinship;socrus;selection;0;human relationships are universal;Latin;0;;;
+134;2#622;the parents-in-law;Kinship;;none;0;human relationships are universal;;;;;
+135;2#63;the son-in-law (of a man);Kinship;gener;selection;0;human relationships are universal;Latin;0;;;
+136;2#631;the son-in-law (of a woman);Kinship;gener;selection;0;human relationships are universal;Latin;0;;;
+137;2#64;the daughter-in-law (of a man);Kinship;nurus;selection;0;human relationships are universal;Latin;0;;;
+138;2#641;the daughter-in-law (of a woman);Kinship;nurus;selection;0;human relationships are universal;Latin;0;;;
+139;2#71;the stepfather;Kinship;vitricus;selection;0;human relationships are universal;Latin;0;;;
+140;2#72;the stepmother;Kinship;noverca;selection;0;human relationships are universal;Latin;0;;;
+141;2#73;the stepson;Kinship;privignus;selection;0;human relationships are universal;Latin;0;;;
+142;2#74;the stepdaughter;Kinship;privigna;selection;0;human relationships are universal;Latin;0;;;
+143;2#75;the orphan;Kinship;orbus;selection;0;human relationships are universal;Latin;0;;;
+144;2#76;the widow;Kinship;vidua;selection;0;human relationships are universal;Latin;0;;;
+145;2#77;the widower;Kinship;viduus (vir);compound;0;human relationships are universal;;;;;
+146;2#81;the relatives;Kinship;cognatus;selection;0;human relationships are universal;Latin;0;;;
+147;2#82;the family;Kinship;familia;selection;0;human relationships are universal;Latin;0;famerias;Sabellic;0
+148;2#91;I;Kinship;ego;selection;0;human relationships are universal;Latin;0;miom;Sabellic;0
+149;2#92;you (singular);Kinship;tu;selection;0;human relationships are universal;Latin;0;tiom;Sabellic;0
+150;2#93;he/she/it;Kinship;is;selection;0;human relationships are universal;Latin;0;eiseis;Sabellic;0
+151;2#931;he;Kinship;is;selection;0;human relationships are universal;Latin;0;esuf;Sabellic;0
+152;2#932;she;Kinship;ea;selection;0;human relationships are universal;Latin;0;;;
+153;2#933;it;Kinship;id;selection;0;human relationships are universal;Latin;0;iiuk;Sabellic;0
+154;2#94;we;Kinship;nos;selection;0;human relationships are universal;Latin;0;;;
+155;2#941;we (inclusive);Kinship;nos;selection;0;human relationships are universal;Latin;0;;;
+156;2#942;we (exclusive);Kinship;nos;selection;0;human relationships are universal;Latin;0;;;
+157;2#95;you (plural);Kinship;vos;selection;0;human relationships are universal;Latin;0;;;
+158;2#96;they;Kinship;ei;selection;0;human relationships are universal;Latin;0;erom;Sabellic;0
+159;3#11;the animal;Animals;animal;selection;0;universal concepts;Latin;0;;;
+160;3#12;male(2);Animals;mas;selection;0;universal concepts;Latin;0;;;
+161;3#13;female(2);Animals;femina;selection;0;universal concepts;Latin;0;;;
+162;3#15;the livestock;Animals;pecus;selection;0;domesticated animals;Latin;0;;;
+163;3#16;the pasture;Animals;pabulum;selection;0;domesticated animals;Latin;0;;;
+164;3#18;the herdsman;Animals;pastor;selection;0;domesticated animals;Latin;0;;;
+165;3#19;the stable or stall;Animals;stabulum;selection;0;domesticated animals;Latin;0;;;
+166;3#2;the cattle;Animals;pecus;selection;0;domesticated animals;Latin;0;pequo;Sabellic;0
+167;3#21;the bull;Animals;taurus;selection;0;domesticated animals;substrate;0.75;turuf;substrate;0.75
+168;3#22;the ox;Animals;bos;selection;0;domesticated animals;Sabellic;1;buf;Sabellic;0
+169;3#23;the cow;Animals;vacca;selection;0;domesticated animals;Latin;0;iveka;Sabellic;0
+170;3#24;the calf;Animals;vitellus;selection;0;domesticated animals;Latin;0;vitluf;Sabellic;0
+171;3#25;the sheep;Animals;ovis;selection;0;domesticated animals;Latin;0;uvef;Sabellic;0
+172;3#26;the ram;Animals;aries;selection;0;domesticated animals;Latin;0;erietu;Sabellic;0
+173;3#28;the ewe;Animals;ovis femina;compound;0;domesticated animals;;;;;
+174;3#29;the lamb;Animals;agnus;selection;0;domesticated animals;Latin;0;hapinaf;Sabellic;0
+175;3#32;the boar;Animals;aper;selection;0;domesticated animals;Latin;0;apruf;Sabellic;0
+176;3#34;the sow;Animals;scrofa / porca;selection;0;domesticated animals;substrate;0.25;parca;Sabellic;0
+177;3#35;the pig;Animals;porcus;selection;0;domesticated animals;Latin;0;sif;Sabellic;0
+178;3#36;the goat;Animals;caper;selection;0;domesticated animals;Celtic;0.25;kaprum;Celtic;0.25
+179;3#37;the he-goat;Animals;caper;nonspecific;0;domesticated animals;Latin;0;;;
+180;3#38;the kid;Animals;haedus;selection;0;domesticated animals;substrate;1;;;
+181;3#41;the horse;Animals;equus;selection;0;domesticated animals;Latin;0;;;
+182;3#42;the stallion;Animals;equus admissarius;compound;0;domesticated animals;;;;;
+183;3#44;the mare;Animals;equa;selection;0;domesticated animals;Latin;0;;;
+184;3#45;the foal or colt;Animals;pullus (equinus);selection;0;domesticated animals;Latin;0;;;
+185;3#46;the donkey;Animals;asinus;selection;0;domesticated animals;Sabellic;1;;;
+186;3#47;the mule;Animals;mulus;selection;0;domesticated animals;Latin;0;;;
+187;3#5;the fowl;Animals;volucres;selection;0;domesticated animals;Latin;0;;;
+188;3#52;the cock/rooster;Animals;gallus;selection;0;domesticated animals;Latin;0;;;
+189;3#54;the hen;Animals;gallina;selection;0;domesticated animals;Latin;0;;;
+190;3#55;the chicken;Animals;pullus (gallinaceus);selection;0;domesticated animals;Latin;0;;;
+191;3#56;the goose;Animals;anser;selection;1;mostly wild?;Sabellic;0.75;;;
+192;3#57;the duck;Animals;anas;selection;1;mostly wild?;Latin;0;;;
+193;3#58;the nest;Animals;nidus;selection;1;mostly wild?;Latin;0;;;
+194;3#581;the bird;Animals;avis;selection;1;mostly wild?;Latin;0;aves;Sabellic;0
+195;3#582;the seagull;Animals;larus / gavia;selection;1;wild animals;Greek;1;;;
+196;3#583;the heron;Animals;ardea;selection;1;wild animals;substrate;0.5;;;
+197;3#584;the eagle;Animals;aquila;selection;1;wild animals;Latin;0;;;
+198;3#585;the hawk;Animals;accipiter;selection;1;wild animals;Latin;0;;;
+199;3#586;the vulture;Animals;vultur;selection;1;wild animals;Latin;0;;;
+200;3#591;the bat;Animals;vespertilio;selection;1;wild animals;Latin;0;;;
+201;3#592;the parrot;Animals;psittacus;selection;1;wild animals;Greek;1;;;
+202;3#593;the crow;Animals;cornix;selection;1;wild animals;Latin;0;curnase;Sabellic;0
+203;3#594;the dove;Animals;columba;selection;1;wild animals;Greek;0.25;;;
+204;3#596;the owl;Animals;bubo;selection;1;wild animals;Latin;0;;;
+205;3#597;the cormorant;Animals;;none?;1;wild animals;;;;;
+206;3#598;the toucan;Animals;;anachronism;1;wild animals;;;;;
+207;3#61;the dog;Animals;canis;selection;0;domesticated animals;Latin;0;;;
+208;3#614;the rabbit;Animals;cuniculus;selection;1;wild animals;Greek;1;;;
+209;3#62;the cat;Animals;feles;selection;1;wild animals;Latin;0;;;
+210;3#622;the opossum;Animals;;anachronism;1;wild animals;;;;;
+211;3#63;the mouse or rat;Animals;mus;selection;1;wild animals;Latin;0;;;
+212;3#65;the fish;Animals;piscis;selection;1;wild animals;Latin;0;;;
+213;3#652;the fin;Animals;pinna;selection;1;wild animals;Latin;0;;;
+214;3#653;the scale;Animals;squama;selection;1;wild animals;substrate;0.25;;;
+215;3#654;the gill;Animals;;none?;1;wild animals;;;;;
+216;3#655;the shell;Animals;testa;selection;1;wild animals;substrate;0.25;;;
+217;3#661;the shark;Animals;pristix;selection;1;wild animals;Greek;1;;;
+218;3#662;the porpoise or dolphin;Animals;delphinus;selection;1;wild animals;Greek;1;;;
+219;3#663;the whale;Animals;balaena;selection;1;wild animals;Greek;1;;;
+220;3#664;the stingray;Animals;raia;selection;1;wild animals;substrate;0.25;;;
+221;3#665;the freshwater eel;Animals;anguilla;selection;1;wild animals;Latin;0;;;
+222;3#71;the wolf;Animals;lupus;selection;1;wild animals;Sabellic;1;;;
+223;3#72;the lion;Animals;leo;selection;1;wild animals;Greek;1;;;
+224;3#73;the bear;Animals;ursus;selection;1;wild animals;Sabellic;0.75;;;
+225;3#74;the fox;Animals;vulpes;selection;1;wild animals;Latin;0;;;
+226;3#75;the deer;Animals;cervus;selection;1;wild animals;Latin;0;;;
+227;3#76;the monkey;Animals;simia;selection;1;wild animals;Greek;1;;;
+228;3#77;the elephant;Animals;elephantus;selection;1;wild animals;Greek;1;;;
+229;3#78;the camel;Animals;camelus;selection;1;wild animals;Greek;1;;;
+230;3#81;the insect;Animals;bestiola;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+231;3#811;the head louse;Animals;pediculus;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+232;3#812;the body louse;Animals;pediculus;nonspecific;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+233;3#813;the flea;Animals;pulex;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+234;3#814;the centipede;Animals;centipeda;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+235;3#815;the scorpion;Animals;scorpio;selection;0;non-domesticated animals which would have been present in any home;Greek;1;;;
+236;3#816;the cockroach;Animals;blatta;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+237;3#817;the ant;Animals;formica;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+238;3#818;the spider;Animals;aranea;selection;0;non-domesticated animals which would have been present in any home;Greek;1;;;
+239;3#819;the spider web;Animals;araneae texta;selection;0;non-domesticated animals which would have been present in any home;Greek;1;;;
+240;3#82;the bee;Animals;apis;selection;1;wild animals;Semitic;0.25;;;
+241;3#821;the beeswax;Animals;cera;selection;1;wild animals;Greek;0.75;;;
+242;3#822;the beehive;Animals;alveus;selection;1;wild animals;Latin;0;;;
+243;3#823;the wasp;Animals;vespa;selection;1;wild animals;Latin;0;;;
+244;3#83;the fly;Animals;musca;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+245;3#831;the sandfly or midge or gnat;Animals;culex;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+246;3#832;the mosquito;Animals;culex;selection;0;non-domesticated animals which would have been present in any home;Latin;0;;;
+247;3#833;the prawns or shrimp;Animals;;none?;1;wild animals;;;;;
+248;3#834;the termites;Animals;;none?;1;wild animals;;;;;
+249;3#835;the tick;Animals;ricinus;selection;1;wild animals;Latin;0;;;
+250;3#84;the worm;Animals;vermis;selection;1;wild animals;Latin;0;;;
+251;3#85;the snake;Animals;anguis;selection;1;wild animals;Latin;0;;;
+252;3#862;the coyote;Animals;;anachronism;1;wild animals;;;;;
+253;3#863;the hare;Animals;lepus;selection;1;wild animals;substrate;1;;;
+254;3#865;the quail;Animals;coturnix;selection;1;wild animals;Latin;0;;;
+255;3#866;the raccoon;Animals;;anachronism;1;wild animals;;;;;
+256;3#869;the squirrel;Animals;sciurus;selection;1;wild animals;Greek;1;;;
+257;3#871;the reindeer/caribou;Animals;reno;selection;1;wild animals;Germanic Celtic;1;;;
+258;3#872;the elk/moose;Animals;alces;selection;1;wild animals;Germanic;1;;;
+259;3#873;the beaver;Animals;castor;selection;1;wild animals;Greek;1;;;
+260;3#88;the kangaroo;Animals;;anachronism;1;wild animals;;;;;
+261;3#89;the anteater;Animals;;anachronism;1;wild animals;;;;;
+262;3#9;the jaguar;Animals;leopardus, panthera;selection;1;wild animals;Greek;1;;;
+263;3#91;the firefly;Animals;musca ignifera;compound;1;wild animals;;;;;
+264;3#913;the chameleon;Animals;chamaeleon;selection;1;wild animals;Greek;1;;;
+265;3#917;the buffalo;Animals;bos bubalus?;compound;1;wild animals;;;;;
+266;3#92;the butterfly;Animals;papilio;selection;1;wild animals;Latin;0;;;
+267;3#93;the grasshopper;Animals;gryllus;selection;1;wild animals;Greek;1;;;
+268;3#94;the snail;Animals;cochlea;selection;1;wild animals;Greek;1;;;
+269;3#95;the frog;Animals;rana;selection;1;wild animals;Latin;0;;;
+270;3#96;the lizard;Animals;lacerta;selection;1;wild animals;Greek;0.25;;;
+271;3#97;the crocodile or alligator;Animals;crocodilus;selection;1;wild animals;Greek;1;;;
+272;3#98;the turtle;Animals;testudo;selection;1;wild animals;substrate;0.5;;;
+273;3#99;the tapir;Animals;;selection;1;wild animals;;;;;
+274;4#11;the body;The body;corpus;selection;0;body parts are universal;Latin;0;;;
+275;4#12;the skin or hide;The body;cutis;selection;0;body parts are universal;Latin;0;;;
+276;4#13;the flesh;The body;caro;selection;0;body parts are universal;Latin;0;;;
+277;4#14;the hair;The body;capillus;selection;0;body parts are universal;Latin;0;;;
+278;4#142;the beard;The body;barba;selection;0;body parts are universal;substrate;0.25;;;
+279;4#144;the body hair;The body;pilus;selection;0;body parts are universal;Latin;0;;;
+280;4#145;the pubic hair;The body;pilus;nonspecific;0;body parts are universal;;;;;
+281;4#146;the dandruff;The body;furfures capitis;compound;0;body parts are universal;;;;;
+282;4#15;the blood;The body;sanguis;selection;0;body parts are universal;Latin;0;;;
+283;4#151;the vein or artery;The body;vena, arteries;selection;0;body parts are universal;Latin;0;;;
+284;4#16;the bone;The body;os;selection;0;body parts are universal;Latin;0;;;
+285;4#162;the rib;The body;costa;selection;0;body parts are universal;Latin;0;vatuva;Sabellic;0
+286;4#17;the horn;The body;cornu;selection;0;body parts are universal;Latin;0;;;
+287;4#18;the tail;The body;cauda;selection;0;body parts are universal;Latin;0;;;
+288;4#19;the back;The body;tergum;selection;0;body parts are universal;Latin;0;;;
+289;4#191;the spine;The body;spina;selection;0;body parts are universal;Latin;0;;;
+290;4#2;the head;The body;caput;selection;0;body parts are universal;Latin;0;;;
+291;4#201;the temples;The body;tempus;selection;0;body parts are universal;Latin;0;;;
+292;4#202;the skull;The body;calvaria;selection;0;body parts are universal;Latin;0;;;
+293;4#203;the brain;The body;cerebrum;selection;0;body parts are universal;Latin;0;;;
+294;4#204;the face;The body;os;selection;0;body parts are universal;Latin;0;;;
+295;4#205;the forehead;The body;frons;selection;0;body parts are universal;Latin;0;;;
+296;4#207;the jaw;The body;maxilla;selection;0;body parts are universal;Latin;0;;;
+297;4#208;the cheek;The body;gena;selection;0;body parts are universal;Latin;0;;;
+298;4#209;the chin;The body;mentum;selection;0;body parts are universal;Latin;0;;;
+299;4#21;the eye;The body;oculus;selection;0;body parts are universal;Latin;0;;;
+300;4#212;the eyebrow;The body;supercilium;selection;0;body parts are universal;Latin;0;;;
+301;4#213;the eyelid;The body;palpebra;selection;0;body parts are universal;Latin;0;;;
+302;4#214;the eyelash;The body;palpebrarum pili;compound;0;body parts are universal;Latin;0;;;
+303;4#215;to blink;The body;conniveo;selection;0;body parts are universal;Latin;0;;;
+304;4#22;the ear;The body;auris;selection;0;body parts are universal;Latin;0;;;
+305;4#221;the earlobe;The body;auricula infima;compound;0;body parts are universal;;;;;
+306;4#222;the earwax;The body;sordes aurium;compound;0;body parts are universal;;;;;
+307;4#23;the nose;The body;nasus;selection;0;body parts are universal;Latin;0;;;
+308;4#231;the nostril;The body;naris;selection;0;body parts are universal;Latin;0;;;
+309;4#232;the nasal mucus;The body;mucus;selection;0;body parts are universal;Latin;0;;;
+310;4#24;the mouth;The body;os;selection;0;body parts are universal;Latin;0;;;
+311;4#241;the beak;The body;rostrum;selection;0;body parts are universal;Latin;0;;;
+312;4#25;the lip;The body;labrum;selection;0;body parts are universal;substrate;0.25;;;
+313;4#26;the tongue;The body;lingua;selection;0;body parts are universal;Latin;0;fangvam;Sabellic;0
+314;4#27;the tooth;The body;dens;selection;0;body parts are universal;Latin;0;;;
+315;4#271;the gums;The body;gingiva;selection;0;body parts are universal;Latin;0;;;
+316;4#272;the molar tooth;The body;dens molaris;compound;0;body parts are universal;Latin;0;;;
+317;4#28;the neck;The body;collum;selection;0;body parts are universal;Latin;0;;;
+318;4#281;the nape of the neck;The body;cervix;selection;0;body parts are universal;Latin;0;;;
+319;4#29;the throat;The body;fauces;selection;0;body parts are universal;Latin;0;;;
+320;4#3;the shoulder;The body;humerus;selection;0;body parts are universal;Latin;0;uze;Sabellic;0
+321;4#301;the shoulderblade;The body;scapula;selection;0;body parts are universal;substrate;0.25;;;
+322;4#302;the collarbone;The body;jugulum;selection;0;body parts are universal;Latin;0;;;
+323;4#31;the arm;The body;brachium;selection;0;body parts are universal;Greek;1;;;
+324;4#312;the armpit;The body;ala, axilla;selection;0;body parts are universal;Latin;0;;;
+325;4#32;the elbow;The body;cubitus;selection;0;body parts are universal;Latin;0;;;
+326;4#321;the wrist;The body;;none;0;body parts are universal;;;;;
+327;4#33;the hand;The body;manus;selection;0;body parts are universal;Latin;0;manus;Sabellic;0
+328;4#331;the palm of the hand;The body;palma;selection;0;body parts are universal;substrate;0.25;;;
+329;4#34;the finger;The body;digitus;selection;0;body parts are universal;Latin;0;;;
+330;4#342;the thumb;The body;pollex;selection;0;body parts are universal;Latin;0;;;
+331;4#344;the fingernail;The body;unguis;selection;0;body parts are universal;Latin;0;;;
+332;4#345;the claw;The body;unguis;selection;0;body parts are universal;Latin;0;;;
+333;4#35;the leg;The body;crus;selection;0;body parts are universal;Latin;0;;;
+334;4#351;the thigh;The body;femur;selection;0;body parts are universal;Latin;0;;;
+335;4#352;the calf of the leg;The body;sura;selection;0;body parts are universal;Latin;0;;;
+336;4#36;the knee;The body;genu;selection;0;body parts are universal;Latin;0;;;
+337;4#37;the foot;The body;pes;selection;0;body parts are universal;Latin;0;peri;Sabellic;0
+338;4#371;the ankle;The body;talus;selection;0;body parts are universal;Latin;0;;;
+339;4#372;the heel;The body;calx;selection;0;body parts are universal;Greek;1;;;
+340;4#374;the footprint;The body;vestigium;selection;0;body parts are universal;Latin;0;;;
+341;4#38;the toe;The body;digitus;selection;0;body parts are universal;Latin;0;;;
+342;4#392;the wing;The body;ala;selection;0;body parts are universal;Latin;0;;;
+343;4#393;the feather;The body;penna;selection;0;body parts are universal;Latin;0;;;
+344;4#4;the chest;The body;thorax;selection;0;body parts are universal;Greek;1;;;
+345;4#41;the breast;The body;mamma;selection;0;body parts are universal;Greek;1;;;
+346;4#412;the nipple or teat;The body;papilla;selection;0;body parts are universal;Latin;0;;;
+347;4#42;the udder;The body;uber;selection;0;body parts are universal;Latin;0;;;
+348;4#43;the navel;The body;umbilicus;selection;0;body parts are universal;Latin;0;;;
+349;4#431;the belly;The body;venter;selection;0;body parts are universal;Latin;0;;;
+350;4#44;the heart;The body;cor;selection;0;body parts are universal;Latin;0;;;
+351;4#441;the lung;The body;pulmo;selection;0;body parts are universal;Latin;0;;;
+352;4#45;the liver;The body;iecur;selection;0;body parts are universal;Latin;0;iepru;Sabellic;0
+353;4#451;the kidney;The body;ren;selection;0;body parts are universal;Latin;0;;;
+354;4#452;the spleen;The body;lien;selection;0;body parts are universal;Latin;0;;;
+355;4#46;the stomach;The body;stomachus;selection;0;body parts are universal;Greek;1;;;
+356;4#461;the intestines or guts;The body;intestinum;selection;0;body parts are universal;Latin;0;;;
+357;4#462;the waist;The body;;none;0;body parts are universal;;;;;
+358;4#463;the hip;The body;coxendix;selection;0;body parts are universal;Latin;0;;;
+359;4#464;the buttocks;The body;clunis;selection;0;body parts are universal;Latin;0;;;
+360;4#465;the sinew or tendon;The body;nervus;selection;0;body parts are universal;Latin;0;;;
+361;4#47;the womb;The body;uterus;selection;0;body parts are universal;Latin;0;;;
+362;4#49;the testicles;The body;testis;selection;0;body parts are universal;Latin;0;;;
+363;4#492;the penis;The body;mentula;selection;0;body parts are universal;Latin;0;;;
+364;4#493;the vagina;The body;cunnus;nonspecific;0;body parts are universal;;;;;
+365;4#494;the vulva;The body;cunnus;selection;0;body parts are universal;Latin;0;;;
+366;4#51;to breathe;The body;spiro;selection;0;universal concepts;Latin;0;;;
+367;4#52;to yawn;The body;oscito;selection;0;universal concepts;Latin;0;;;
+368;4#521;to hiccough;The body;singultio;selection;0;universal concepts;Latin;0;;;
+369;4#53;to cough;The body;tussio;selection;0;universal concepts;Latin;0;;;
+370;4#54;to sneeze;The body;sternuo;selection;0;universal concepts;Latin;0;;;
+371;4#55;to perspire;The body;sudo;selection;0;universal concepts;Latin;0;;;
+372;4#56;to spit;The body;spuo;selection;0;universal concepts;Latin;0;;;
+373;4#57;to vomit;The body;vomo;selection;0;universal concepts;Latin;0;;;
+374;4#58;to bite;The body;mordeo;selection;0;universal concepts;Latin;0;;;
+375;4#59;to lick;The body;lambo;selection;0;universal concepts;Latin;0;;;
+376;4#591;to dribble;The body;stillo;selection;0;universal concepts;Latin;0;;;
+377;4#61;to sleep;The body;dormio;selection;0;universal concepts;Latin;0;veiat;Sabellic;0
+378;4#612;to snore;The body;sterto;selection;0;universal concepts;Latin;0;;;
+379;4#62;to dream;The body;somnio;selection;0;universal concepts;Latin;0;;;
+380;4#63;to wake up;The body;expergiscor;selection;0;universal concepts;Latin;0;;;
+381;4#64;to fart;The body;pedo;selection;0;universal concepts;Latin;0;;;
+382;4#65;to piss;The body;meio, mingo;selection;0;universal concepts;Latin;0;;;
+383;4#66;to shit;The body;caco;selection;0;universal concepts;Latin;0;;;
+384;4#67;to have sex;The body;futuo;selection;0;universal concepts;Latin;0;;;
+385;4#68;to shiver;The body;horreo;selection;0;universal concepts;Latin;0;;;
+386;4#69;to bathe;The body;lavor;selection;0;universal concepts;Latin;0;;;
+387;4#71;to beget;The body;gigno;selection;0;universal concepts;Latin;0;;;
+388;4#72;to be born;The body;nascor;selection;0;universal concepts;Latin;0;;;
+389;4#73;pregnant;The body;gravida;selection;0;universal concepts;Latin;0;kumiaf;Sabellic;0
+390;4#732;to conceive;The body;concipio;selection;0;universal concepts;Latin;0;;;
+391;4#74;to be alive;The body;vivo;selection;0;universal concepts;Latin;0;;;
+392;4#741;the life;The body;vita;selection;0;universal concepts;Latin;0;biitam;Sabellic;0
+393;4#75;to die;The body;morior;selection;0;universal concepts;Latin;0;;;
+394;4#7501;dead;The body;mortuus;selection;0;universal concepts;Latin;0;;;
+395;4#751;to drown;The body;submergo;selection;0;universal concepts;Latin;0;;;
+396;4#76;to kill;The body;interficio;selection;0;universal concepts;Latin;0;;;
+397;4#77;the corpse;The body;cadaver;selection;0;universal concepts;Latin;0;;;
+398;4#771;the carcass;The body;cadaver;selection;0;universal concepts;Latin;0;;;
+399;4#78;to bury;The body;sepelio;selection;0;universal concepts;Latin;0;pelsana;Sabellic;0
+400;4#79;the grave;The body;sepulcrum;selection;0;universal concepts;Latin;0;vepeten;substrate;0.5
+401;4#81;strong;The body;fortis;selection;0;universal concepts;Latin;0;;;
+402;4#82;weak;The body;infirmus;selection;0;universal concepts;Latin;0;;;
+403;4#83;healthy;The body;sanus;selection;0;universal concepts;Latin;0;salaus;Sabellic;0
+404;4#84;sick/ill;The body;aeger;selection;0;universal concepts;Latin;0;;;
+405;4#841;the fever;The body;febris;selection;0;universal concepts;Latin;0;;;
+406;4#842;the goitre/goiter;The body;gutturosus;selection;0;universal concepts;Latin;0;;;
+407;4#843;the cold;The body;gravedo;selection;0;universal concepts;Latin;0;;;
+408;4#844;the disease;The body;morbus;selection;0;universal concepts;Latin;0;;;
+409;4#85;the wound or sore;The body;vulnus;selection;0;universal concepts;Latin;0;;;
+410;4#852;the bruise;The body;contusio;selection;0;universal concepts;Latin;0;;;
+411;4#853;the swelling;The body;tumor;selection;0;universal concepts;Latin;0;;;
+412;4#854;the itch;The body;pruritus;selection;0;universal concepts;Latin;0;;;
+413;4#41;to scratch;The body;rado;selection;0;universal concepts;Latin;0;;;
+414;4#855;the blister;The body;pustula;selection;0;universal concepts;Latin;0;;;
+415;4#856;the boil;The body;vomica;selection;0;universal concepts;Latin;0;;;
+416;4#857;the pus;The body;pus;selection;0;universal concepts;Latin;0;;;
+417;4#858;the scar;The body;cicatrix;selection;0;universal concepts;Latin;0;;;
+418;4#86;to cure;The body;curo;selection;0;universal concepts;Latin;0;;;
+419;4#87;the physician;The body;medicus;selection;1;specialised trades;Latin;0;;;
+420;4#88;the medicine;The body;medicamentum;selection;1;specialised trades;Latin;0;;;
+421;4#89;the poison;The body;venenum;selection;1;specialised trades;Latin;0;;;
+422;4#91;tired;The body;fessus;selection;0;universal concepts;Latin;0;;;
+423;4#912;to rest;The body;requiesco;selection;0;universal concepts;Latin;0;;;
+424;4#92;lazy;The body;ignavus;selection;0;universal concepts;Latin;0;;;
+425;4#93;bald;The body;calvus;selection;0;universal concepts;Latin;0;;;
+426;4#94;lame;The body;claudus;selection;0;universal concepts;Latin;0;;;
+427;4#95;deaf;The body;surdus;selection;0;universal concepts;Latin;0;;;
+428;4#96;mute;The body;mutus;selection;0;universal concepts;Latin;0;;;
+429;4#97;blind;The body;caecus;selection;0;universal concepts;Latin;0;;;
+430;4#98;drunk;The body;ebrius;selection;0;universal concepts;Latin;0;;;
+431;4#99;naked;The body;nudus;selection;0;universal concepts;Latin;0;;;
+432;5#11;to eat;Food and drink;edo;selection;0;universal concepts;Latin;0;edum;Sabellic;0
+433;5#12;the food;Food and drink;cibus;selection;0;universal concepts;Greek;0.5;kebu;Latin;0.75
+434;5#121;cooked;Food and drink;coctus;selection;0;universal concepts;Latin;0;;;
+435;5#122;raw;Food and drink;crudus;selection;0;universal concepts;Latin;0;;;
+436;5#123;ripe;Food and drink;maturus;selection;0;universal concepts;Latin;0;;;
+437;5#124;unripe;Food and drink;immaturus;selection;0;universal concepts;Latin;0;;;
+438;5#125;rotten;Food and drink;putridus;selection;0;universal concepts;Latin;0;;;
+439;5#13;to drink;Food and drink;bibo;selection;0;universal concepts;Latin;0;;;
+440;5#14;to be hungry;Food and drink;esurio;selection;0;universal concepts;Latin;0;;;
+441;5#141;the famine;Food and drink;fames;selection;0;universal concepts;Latin;0;;;
+442;5#15;to be thirsty;Food and drink;sitio;selection;0;universal concepts;Latin;0;;;
+443;5#16;to suck;Food and drink;sugo;selection;0;universal concepts;Latin;0;;;
+444;5#18;to chew;Food and drink;mando;selection;0;universal concepts;Latin;0;;;
+445;5#181;to swallow;Food and drink;haurio;selection;0;universal concepts;Latin;0;;;
+446;5#19;to choke;Food and drink;strangulo;selection;0;universal concepts;Greek;1;;;
+447;5#21;to cook;Food and drink;coquo;selection;0;universal concepts;Latin;0;;;
+448;5#22;to boil;Food and drink;fervefacio;selection;0;universal concepts;Latin;0;;;
+449;5#23;to roast or fry;Food and drink;torreo;selection;0;universal concepts;Latin;0;;;
+450;5#24;to bake;Food and drink;coquo;selection;0;universal concepts;Latin;0;;;
+451;5#25;the oven;Food and drink;furnus;selection;0;would have been present in any home?;Sabellic;0.5;;;
+452;5#26;the pot;Food and drink;olla;selection;0;would have been present in any home?;substrate;1;;;
+453;5#27;the kettle;Food and drink;lebes;selection;1;likely not present in every home;Greek;1;;;
+454;5#28;the pan;Food and drink;sartago;selection;1;likely not present in every home;substrate;1;;;
+455;5#31;the dish;Food and drink;patina;selection;0;would have been present in any home?;Greek;1;;;
+456;5#32;the plate;Food and drink;catillus;selection;0;would have been present in any home?;substrate;0.5;;;
+457;5#33;the bowl;Food and drink;crater;selection;0;would have been present in any home?;Greek;1;;;
+458;5#34;the jug/pitcher;Food and drink;urceus;selection;0;would have been present in any home?;Greek;1;;;
+459;5#35;the cup;Food and drink;poculum;selection;0;would have been present in any home?;Latin;0;;;
+460;5#36;the saucer;Food and drink;phiala;selection;1;likely not present in every home;Greek;1;;;
+461;5#37;the spoon;Food and drink;cochlear;selection;1;likely not present in every home;Greek;1;;;
+462;5#38;the knife(1);Food and drink;culter;selection;0;would have been present in any home?;Latin;0;;;
+463;5#39;the fork;Food and drink;furca;selection;1;likely not present in every home;Sabellic;0.25;;;
+464;5#391;the tongs;Food and drink;forceps;selection;1;likely not present in every home;substrate;0.25;;;
+465;5#41;the meal;Food and drink;cena;selection;0;would have been present in any home?;Latin;0;;;
+466;5#42;the breakfast;Food and drink;ientaculum;selection;0;culturally appropriate?;Latin;0;;;
+467;5#43;the lunch;Food and drink;prandium;selection;1;not culturally appropriate?;Latin;0;;;
+468;5#44;the dinner;Food and drink;cena;selection;0;culturally appropriate?;Latin;0;kerssnais;Sabellic;0
+469;5#45;the supper;Food and drink;cena;nonspecific;0;culturally appropriate?;Latin;0;;;
+470;5#46;to peel;Food and drink;cutem reseco;compound;0;universal concepts;;;;;
+471;5#47;to sieve or to strain;Food and drink;cribro;selection;0;universal concepts;Latin;0;;;
+472;5#48;to scrape;Food and drink;scabo;selection;0;universal concepts;Latin;0;;;
+473;5#49;to stir or to mix;Food and drink;misco;selection;0;universal concepts;Latin;0;;;
+474;5#51;the bread;Food and drink;panis;selection;0;Romans ate this;Latin;0;;;
+475;5#53;the dough;Food and drink;massa;selection;0;Romans ate this;Greek;1;;;
+476;5#54;to knead;Food and drink;subigo;selection;0;universal concepts;Latin;0;;;
+477;5#55;the flour;Food and drink;farina;selection;0;Romans ate this;substrate;0.25;;;
+478;5#56;to crush or to grind;Food and drink;molo;selection;0;universal concepts;Latin;0;kumultu;Sabellic;0
+479;5#57;the mill;Food and drink;mola;selection;1;likely not present in every home;Latin;0;;;
+480;5#58;the mortar(1);Food and drink;pila;selection;0;would have been present in any home?;Latin;0;;;
+481;5#59;the pestle;Food and drink;pium;selection;0;would have been present in any home?;Latin;0;;;
+482;5#61;the meat;Food and drink;caro;selection;0;Romans ate this;Latin;0;pelmner;Sabellic;0
+483;5#63;the sausage;Food and drink;farcimen;selection;0;Romans ate this?;Latin;0;;;
+484;5#64;the soup;Food and drink;ius;selection;0;Romans ate this?;Latin;0;;;
+485;5#65;the vegetables;Food and drink;olus;selection;0;Romans ate this?;Latin;0;;;
+486;5#66;the bean;Food and drink;faba;selection;0;Romans ate this?;substrate;0.25;;;
+487;5#7;the potato;Food and drink;;anachronism;1;Romans did not eat this;;;;;
+488;5#71;the fruit;Food and drink;fructus;selection;0;Romans ate this?;Latin;0;fri;Sabellic;0
+489;5#712;the bunch;Food and drink;racemus;selection;0;universal concepts;substrate;0.5;;;
+490;5#75;the fig;Food and drink;ficus;selection;0;domesticated plant;substrate;0.75;;;
+491;5#76;the grape;Food and drink;acinus;selection;0;domesticated plant;Latin;0;;;
+492;5#77;the nut;Food and drink;nux;selection;0;probably wild?;substrate;0.25;;;
+493;5#78;the olive;Food and drink;olea;selection;0;domesticated plant;Greek;1;;;
+494;5#79;the oil;Food and drink;oleum;selection;0;domesticated plant;Greek;1;;;
+495;5#791;the grease or fat;Food and drink;adeps;selection;0;universal concepts;Etruscan Sabellic;0.5;;;
+496;5#81;the salt;Food and drink;sal;selection;0;universal concepts;Latin;0;salu;Sabellic;0
+497;5#82;the pepper;Food and drink;piper;selection;1;Romans did not eat this?;Greek;1;;;
+498;5#821;the chili pepper;Food and drink;;anachronism;1;Romans did not eat this?;;;;;
+499;5#84;the honey;Food and drink;mel;selection;1;likely not an everyday food item;Latin;0;;;
+500;5#85;the sugar;Food and drink;saccharum;selection;1;Romans did not eat this?;Greek;1;;;
+501;5#86;the milk;Food and drink;lac;selection;0;universal concepts;Latin;0;;;
+502;5#87;to milk;Food and drink;mulgeo;selection;0;universal concepts;Latin;0;;;
+503;5#88;the cheese;Food and drink;caseus;selection;0;Romans ate this?;substrate;0.25;;;
+504;5#89;the butter;Food and drink;butyrum;selection;0;Romans ate this?;Greek;1;;;
+505;5#9;the drink;Food and drink;potus;selection;0;universal concepts;Latin;0;;;
+506;5#91;the mead;Food and drink;mulsum;selection;0;Romans ate this?;Latin;0;puni;Sabellic;0
+507;5#92;the wine;Food and drink;vinum;selection;0;Romans ate this?;substrate;0.25;vinu;substrate;0.25
+508;5#93;the beer;Food and drink;cerevisia;selection;1;Romans hated this (for some reason);Gaulish;1;;;
+509;5#94;the fermented drink;Food and drink;;none?;0;Romans had these;;;;;
+510;5#97;the egg;Food and drink;ovum;selection;0;Romans ate this?;Latin;0;;;
+511;5#971;the yolk;Food and drink;luteum;selection;0;Romans ate this?;Latin;0;;;
+512;5#983;the manioc bread;Food and drink;;anachronism;1;Romans did not eat this;;;;;
+513;6#11;to put on;Clothing and grooming;induo;selection;0;universal concepts;Latin;0;;;
+514;6#12;the clothing or clothes;Clothing and grooming;vestis;selection;0;universal concepts;Latin;0;;;
+515;6#13;the tailor;Clothing and grooming;vestitor;selection;1;specialised trades;Latin;0;;;
+516;6#21;the cloth;Clothing and grooming;textile;selection;0;worn by Romans;Latin;0;;;
+517;6#22;the wool;Clothing and grooming;lana;selection;0;worn by Romans;Latin;0;;;
+518;6#23;the linen;Clothing and grooming;linteum textum;compound;1;not everyday clothes?;;;;;
+519;6#24;the cotton;Clothing and grooming;gossypium;selection;1;not everyday clothes?;Greek;1;;;
+520;6#25;the silk;Clothing and grooming;sericus +N;selection;1;not everyday clothes?;Greek;1;;;
+521;6#27;the felt;Clothing and grooming;coactus +N;nonspecific;1;not everyday clothes?;;;;;
+522;6#28;the fur;Clothing and grooming;lana;selection;1;not everyday clothes?;Latin;0;;;
+523;6#29;the leather;Clothing and grooming;corium;selection;1;not everyday clothes?;Latin;0;;;
+524;6#31;to spin;Clothing and grooming;neo;selection;0;would have occurred in any house?;Latin;0;;;
+525;6#32;the spindle;Clothing and grooming;fusus;selection;0;would have occurred in any house?;Latin;0;;;
+526;6#33;to weave;Clothing and grooming;texo;selection;0;would have occurred in any house?;Latin;0;;;
+527;6#34;the loom;Clothing and grooming;tela;selection;0;would have occurred in any house?;Latin;0;;;
+528;6#35;to sew;Clothing and grooming;suo;selection;0;would have occurred in any house?;Latin;0;;;
+529;6#36;the needle(1);Clothing and grooming;acus;selection;0;would have occurred in any house?;Latin;0;;;
+530;6#37;the awl;Clothing and grooming;subula;selection;0;would have occurred in any house?;Latin;0;;;
+531;6#38;the thread;Clothing and grooming;filum;selection;0;would have occurred in any house?;Latin;0;;;
+532;6#39;to dye;Clothing and grooming;tingo;selection;0;would have occurred in any house?;Latin;0;;;
+533;6#41;the cloak;Clothing and grooming;pallium;selection;0;worn by Romans;substrate;0.25;;;
+534;6#411;the poncho;Clothing and grooming;;anachronism;0;worn by Romans;;;;;
+535;6#42;the (woman's) dress;Clothing and grooming;;anachronism;0;worn by Romans;;;;;
+536;6#43;the coat;Clothing and grooming;;anachronism;0;worn by Romans;;;;;
+537;6#44;the shirt;Clothing and grooming;subucula;anachronism;0;worn by Romans;Latin;0;;;
+538;6#45;the collar;Clothing and grooming;monile;anachronism;0;worn by Romans;Latin;0;;;
+539;6#46;the skirt;Clothing and grooming;;anachronism;0;worn by Romans;;;;;
+540;6#461;the grass-skirt;Clothing and grooming;;anachronism;0;worn by Romans;;;;;
+541;6#48;the trousers;Clothing and grooming;feminalia;selection;1;not worn by everyone?;Latin;0;;;
+542;6#49;the sock or stocking;Clothing and grooming;udo;selection;1;not worn by everyone?;Greek;1;;;
+543;6#51;the shoe;Clothing and grooming;calceus;selection;0;worn by Romans;Etruscan;0.5;;;
+544;6#52;the boot;Clothing and grooming;cothurnus;selection;1;not worn by everyone?;Greek;1;;;
+545;6#54;the shoemaker;Clothing and grooming;sutor;selection;1;specialised trades;Latin;0;;;
+546;6#55;the hat or cap;Clothing and grooming;petasus;selection;0;worn by Romans;Greek;1;;;
+547;6#57;the belt;Clothing and grooming;petasus;selection;0;worn by Romans;Greek;1;;;
+548;6#58;the glove;Clothing and grooming;manus intectus;compound;0;worn by Romans;;;;;
+549;6#59;the veil;Clothing and grooming;rica;selection;1;not worn by everyone?;Latin;0;;;
+550;6#61;the pocket;Clothing and grooming;sacculus;nonspecific;0;worn by Romans;Greek;1;;;
+551;6#62;the button;Clothing and grooming;;anachronism;0;worn by Romans;;;;;
+552;6#63;the pin;Clothing and grooming;acus;selection;0;worn by Romans;Latin;0;;;
+553;6#71;the ornament or adornment;Clothing and grooming;ornamentum;selection;0;worn by Romans;Latin;0;;;
+554;6#72;the jewel;Clothing and grooming;gemma;selection;1;not worn by everyone?;Latin;0;;;
+555;6#73;the ring;Clothing and grooming;anulus;selection;1;not worn by everyone?;Latin;0;;;
+556;6#74;the bracelet;Clothing and grooming;armilla;selection;1;not worn by everyone?;Latin;0;;;
+557;6#75;the necklace;Clothing and grooming;monile;selection;1;not worn by everyone?;Latin;0;;;
+558;6#76;the bead;Clothing and grooming;;none?;0;worn by Romans;;;;;
+559;6#77;the earring;Clothing and grooming;inaures;selection;1;not worn by everyone?;Latin;0;;;
+560;6#78;the headband or headdress;Clothing and grooming;vitta;selection;1;not worn by everyone?;Latin;0;;;
+561;6#79;the tattoo;Clothing and grooming;;none?;1;not worn by everyone?;;;;;
+562;6#81;the handkerchief or rag;Clothing and grooming;sudarium;selection;0;present in every home?;Latin;0;;;
+563;6#82;the towel;Clothing and grooming;mantele;selection;0;present in every home?;Latin;0;;;
+564;6#91;the comb;Clothing and grooming;pecten;selection;0;present in every home?;Latin;0;;;
+565;6#92;the brush;Clothing and grooming;peniculus;selection;0;present in every home?;Latin;0;;;
+566;6#921;the plait/braid;Clothing and grooming;spira;selection;0;worn by Romans;Greek;1;;;
+567;6#93;the razor;Clothing and grooming;novacula;selection;0;present in every home?;Latin;0;;;
+568;6#94;the ointment;Clothing and grooming;unguentum;selection;0;present in every home?;Latin;0;;;
+569;6#95;the soap;Clothing and grooming;sapo;anachronism;1;not in general use;Germanic Celtic;1;;;
+570;6#96;the mirror;Clothing and grooming;speculum;selection;1;not in general use;Latin;0;;;
+571;6#98;the snowshoe;Clothing and grooming;calceus nivibus traiciendis aptus factusque;compound;1;not in general use;;;;;
+572;7#11;to live;The house;habito;selection;0;universal concept;Latin;0;;;
+573;7#12;the house;The house;domus;selection;0;universal concept;Latin;0;triibum;Sabellic;0
+574;7#13;the hut;The house;tugurium;selection;1;not present in every home;substrate;0.25;;;
+575;7#131;the garden-house;The house;;none?;1;not present in every home;;;;;
+576;7#14;the tent;The house;tabernaculum;selection;1;not present in every home;Latin;0;;;
+577;7#15;the yard or court;The house;area;selection;1;not present in every home;Latin;0;;;
+578;7#16;the men's house;The house;;none?;1;not present in every home;;;;;
+579;7#17;the cookhouse;The house;;none?;1;not present in every home;;;;;
+580;7#18;the meeting house;The house;conventiculum;selection;1;outside the home;Latin;0;;;
+581;7#21;the room;The house;conclave;selection;0;present in every home?;Latin;0;;;
+582;7#22;the door or gate;The house;ianua;selection;0;present in every home?;Latin;0;;;
+583;7#221;the doorpost;The house;postis;selection;0;present in every home?;Latin;0;;;
+584;7#23;the lock;The house;;anachronism;1;not present in every home;;;;;
+585;7#231;the latch or door-bolt;The house;pessulus;selection;1;not present in every home;Greek;1;;;
+586;7#232;the padlock;The house;;anachronism;1;not present in every home;;;;;
+587;7#24;the key;The house;clavis;selection;1;not present in every home;Latin;0;;;
+588;7#25;the window;The house;fenestra;selection;0;present in every home?;Etruscan;0.25;;;
+589;7#26;the floor;The house;solum;selection;0;present in every home?;Latin;0;;;
+590;7#27;the wall;The house;murus;selection;0;present in every home?;Latin;0;;;
+591;7#31;the fireplace;The house;focus;selection;0;present in every home?;Latin;0;;;
+592;7#32;the stove;The house;focus;selection;0;present in every home?;Latin;0;;;
+593;7#33;the chimney;The house;;anachronism;1;present in every home?;;;;;
+594;7#37;the ladder;The house;scala;selection;0;present in every home?;Latin;0;;;
+595;7#42;the bed;The house;lectus;selection;0;present in every home?;Latin;0;;;
+596;7#421;the pillow;The house;cervical;selection;0;present in every home?;Latin;0;;;
+597;7#422;the blanket;The house;lodix;selection;0;present in every home?;Celtic;1;;;
+598;7#43;the chair;The house;sella;selection;0;present in every home?;Latin;0;sersi;Sabellic;0
+599;7#44;the table;The house;mensa;selection;0;present in every home?;Latin;0;;;
+600;7#45;the lamp or torch;The house;lucerna;selection;0;present in every home?;Latin;0;;;
+601;7#46;the candle;The house;candela;selection;0;present in every home?;Latin;0;;;
+602;7#47;the shelf;The house;pluteus;selection;0;present in every home?;Latin;0;;;
+603;7#48;the trough;The house;alveus;selection;0;present in every home?;Latin;0;;;
+604;7#51;the roof;The house;tectum;selection;0;present in every home?;Latin;0;;;
+605;7#52;the thatch;The house;stramentum;selection;0;present in every home?;Latin;0;;;
+606;7#53;the ridgepole;The house;;none?;0;present in every home?;;;;;
+607;7#54;the rafter;The house;trabs;nonspecific;0;present in every home?;Latin;0;;;
+608;7#55;the beam;The house;trabs;selection;0;present in every home?;Latin;0;;;
+609;7#56;the post or pole;The house;asser;selection;0;present in every home?;Latin;0;;;
+610;7#57;the board;The house;tabula;selection;0;present in every home?;Latin;0;tafle;Sabellic;0
+611;7#58;the arch;The house;arcus;selection;1;specialised trades;Latin;0;;;
+612;7#61;the mason;The house;structor;selection;1;specialised trades;Latin;0;;;
+613;7#62;the brick;The house;later;selection;1;specialised trades;Latin;0;;;
+614;7#63;the mortar(2);The house;mortarium;selection;1;specialised trades;Latin;0;;;
+615;7#64;the adobe;The house;later;nonspecific;0;present in every home;;;;;
+616;7#65;the camp;The house;castra;selection;0;present in every home;Latin;0;;;
+617;7#66;the hammock;The house;lectus suspensus;selection;1;not present in every home;Latin;0;;;
+618;7#67;to tan;The house;coria perficio;compound;1;specialised trades;;;;;
+619;8#11;the farmer;Agriculture and vegetation;agricola;selection;0;universal concept;Latin;0;;;
+620;8#12;the field;Agriculture and vegetation;ager;selection;0;common action in farm;Latin;0;arvam;Sabellic;0
+621;8#121;the paddy;Agriculture and vegetation;;anachronism;1;;;;;;
+622;8#13;the garden;Agriculture and vegetation;hortus;selection;1;not in every home;Latin;0;hurtin;Sabellic;0
+623;8#15;to cultivate;Agriculture and vegetation;colere;selection;0;common action in farm;Latin;0;;;
+624;8#16;the fence;Agriculture and vegetation;saepes;selection;0;common action in farm;Latin;0;;;
+625;8#17;the ditch;Agriculture and vegetation;fossa;selection;0;common action in farm;Latin;0;;;
+626;8#21;to plough/plow;Agriculture and vegetation;arare;selection;0;common action in farm;Latin;0;;;
+627;8#212;the furrow;Agriculture and vegetation;sulcus;selection;0;common action in farm;Latin;0;;;
+628;8#22;to dig;Agriculture and vegetation;fodio;selection;0;common action in farm;Latin;0;;;
+629;8#23;the spade;Agriculture and vegetation;pala;selection;0;common implement;Latin;0;;;
+630;8#24;the shovel;Agriculture and vegetation;pala;selection;0;common implement;Latin;0;;;
+631;8#25;the hoe;Agriculture and vegetation;sarculum;selection;0;common implement;Latin;0;;;
+632;8#26;the fork(2)/pitchfork;Agriculture and vegetation;furca;selection;0;common implement;Sabellic;0.25;;;
+633;8#27;the rake;Agriculture and vegetation;rastellus;selection;0;common implement;Latin;0;;;
+634;8#28;the digging stick (=yamstick);Agriculture and vegetation;;none?;1;;;;;;
+635;8#29;the lasso;Agriculture and vegetation;;anachronism;1;;;;;;
+636;8#31;to sow;Agriculture and vegetation;serere;selection;0;common action in farm;Latin;0;;;
+637;8#311;the seed;Agriculture and vegetation;semen;selection;0;common action in farm;Latin;0;;;
+638;8#32;to mow;Agriculture and vegetation;secare;selection;0;common action in farm;Latin;0;;;
+639;8#33;the sickle or scythe;Agriculture and vegetation;falx;selection;0;common implement;Sabellic;0.75;;;
+640;8#34;to thresh;Agriculture and vegetation;extero;selection;0;common action in farm;Latin;0;;;
+641;8#35;the threshing-floor;Agriculture and vegetation;area;selection;0;common action in farm;Latin;0;;;
+642;8#41;the harvest;Agriculture and vegetation;messis;selection;0;common action in farm;Latin;0;;;
+643;8#42;the grain;Agriculture and vegetation;frumentum;selection;0;domesticated plant;Latin;0;;;
+644;8#43;the wheat;Agriculture and vegetation;triticum;selection;0;domesticated plant;Latin;0;;;
+645;8#44;the barley;Agriculture and vegetation;hordeum;selection;0;domesticated plant;substrate;0.5;;;
+646;8#45;the rye;Agriculture and vegetation;secale;selection;0;domesticated plant;substrate;0.75;;;
+647;8#46;the oats;Agriculture and vegetation;avena;selection;0;domesticated plant;substrate;0.5;;;
+648;8#47;the maize/corn;Agriculture and vegetation;;anachronism;1;;;;;;
+649;8#48;the rice;Agriculture and vegetation;oryza;selection;1;;Greek;1;;;
+650;8#51;the grass;Agriculture and vegetation;gramen / herba;selection;0;universal to plants;substrate;0.25;;;
+651;8#52;the hay;Agriculture and vegetation;faenum;selection;0;universal to plants;Latin;0;;;
+652;8#53;the plant;Agriculture and vegetation;herba;selection;0;universal to plants;Latin;0;;;
+653;8#531;to plant;Agriculture and vegetation;sero;selection;0;universal to plants;Latin;0;;;
+654;8#54;the root;Agriculture and vegetation;radix;selection;0;universal to plants;Latin;0;;;
+655;8#55;the branch;Agriculture and vegetation;ramus;selection;0;universal to plants;Latin;0;;;
+656;8#56;the leaf;Agriculture and vegetation;folium;selection;0;universal to plants;Latin;0;;;
+657;8#57;the flower;Agriculture and vegetation;flos;selection;0;universal to plants;Latin;0;;;
+658;8#6;the tree;Agriculture and vegetation;arbor;selection;0;universal to plants;Latin;0;;;
+659;8#61;the oak;Agriculture and vegetation;quercus;selection;1;wild plants;Latin;0;;;
+660;8#62;the beech;Agriculture and vegetation;fagus;selection;1;wild plants;Latin;0;;;
+661;8#63;the birch;Agriculture and vegetation;betula;selection;1;wild plants;Celtic;1;;;
+662;8#64;the pine;Agriculture and vegetation;pinus;selection;1;wild plants;substrate;0.25;;;
+663;8#65;the fir;Agriculture and vegetation;abies;selection;1;wild plants;substrate;0.5;;;
+664;8#66;the acorn;Agriculture and vegetation;glans (querna);selection;1;wild plants;Latin;0;;;
+665;8#67;the vine;Agriculture and vegetation;vitis;selection;0;domesticated plant;Latin;0;;;
+666;8#68;the tobacco;Agriculture and vegetation;;anachronism;1;;;;;;
+667;8#69;to smoke;Agriculture and vegetation;fumare;selection;1;not in every home;Latin;0;;;
+668;8#691;the pipe;Agriculture and vegetation;infurnibulum;selection;1;not in every home;Latin;0;;;
+669;8#72;the tree stump;Agriculture and vegetation;;none?;0;universal to plants;;;;;
+670;8#73;the tree trunk;Agriculture and vegetation;truncus;selection;0;universal to plants;Latin;0;;;
+671;8#74;the forked branch;Agriculture and vegetation;;none?;0;universal to plants;;;;;
+672;8#75;the bark;Agriculture and vegetation;cortex;selection;0;universal to plants;Latin;0;;;
+673;8#76;the sap;Agriculture and vegetation;sucus;selection;0;universal to plants;substrate;0.25;;;
+674;8#81;the palm tree;Agriculture and vegetation;palma;selection;1;wild plants;substrate;0.25;;;
+675;8#82;the coconut;Agriculture and vegetation;;anachronism;1;wild plants;;;;;
+676;8#83;the citrus fruit;Agriculture and vegetation;citrus;selection;1;wild plants;Etruscan;0.75;;;
+677;8#84;the banana;Agriculture and vegetation;ariena;selection;1;wild plants;substrate;1;;;
+678;8#85;the banyan;Agriculture and vegetation;;anachronism;1;wild plants;;;;;
+679;8#91;the sweet potato;Agriculture and vegetation;;anachronism;1;wild plants;;;;;
+680;8#911;the millet or sorghum;Agriculture and vegetation;milium;selection;0;domesticated plant;Latin;0;;;
+681;8#912;the yam;Agriculture and vegetation;;anachronism;1;wild plants;;;;;
+682;8#92;the cassava/manioc;Agriculture and vegetation;;anachronism;1;wild plants;;;;;
+683;8#93;the gourd;Agriculture and vegetation;cucurbita;selection;1;wild plants;substrate;0.75;;;
+684;8#931;the pumpkin or squash;Agriculture and vegetation;pepo;anachronism;1;wild plants;Greek;;;;
+685;8#94;the bamboo;Agriculture and vegetation;arundo indica;compound;1;wild plants;;;;;
+686;8#941;the sugar cane;Agriculture and vegetation;;anachronism;1;wild plants;;;;;
+687;8#96;the fish poison;Agriculture and vegetation;;none?;1;wild plants;;;;;
+688;8#97;the nettle;Agriculture and vegetation;urtica;selection;1;wild plants;Etruscan;0.25;;;
+689;8#98;the mushroom;Agriculture and vegetation;fungus;selection;1;wild plants;substrate;0.75;;;
+690;8#991;the larch;Agriculture and vegetation;larix;selection;1;wild plants;substrate;0.75;;;
+691;8#993;the needle(2);Agriculture and vegetation;acus;selection;1;wild plants;Latin;0;;;
+692;8#996;the cone;Agriculture and vegetation;conus;selection;1;wild plants;Greek;1;;;
+693;9#11;to do;Basic actions and technology;ago;selection;0;universal concepts;Latin;0;feitu;Sabellic;0
+694;9#111;to make;Basic actions and technology;facio;selection;0;universal concepts;Latin;0;fifikus;Sabellic;0
+695;9#12;the work;Basic actions and technology;opera;selection;0;universal concepts;Latin;0;;;
+696;9#14;to bend;Basic actions and technology;flecto;selection;0;universal concepts;Latin;0;;;
+697;9#15;to fold;Basic actions and technology;plico;selection;0;universal concepts;Latin;0;;;
+698;9#16;to tie;Basic actions and technology;ligo;selection;0;universal concepts;Latin;0;preuilatu;Sabellic;0
+699;9#161;to untie;Basic actions and technology;solvo;selection;0;universal concepts;Latin;0;;;
+700;9#18;the chain;Basic actions and technology;catena;selection;0;universal concepts;Latin;0;;;
+701;9#19;the rope;Basic actions and technology;funis;selection;0;universal concepts;Latin;0;;;
+702;9#192;the knot;Basic actions and technology;nodus;selection;0;universal concepts;substrate;0.25;;;
+703;9#21;to strike or hit or beat;Basic actions and technology;ferio;selection;0;universal concepts;Latin;0;;;
+704;9#211;to pound;Basic actions and technology;percutio;selection;0;universal concepts;Latin;0;;;
+705;9#22;to cut;Basic actions and technology;seco;selection;0;universal concepts;Latin;0;iseceles;Sabellic;0
+706;9#221;to cut down;Basic actions and technology;caedo;selection;0;universal concepts;Latin;0;;;
+707;9#222;to chop;Basic actions and technology;dolo;selection;0;universal concepts;Latin;0;;;
+708;9#223;to stab;Basic actions and technology;fodio;selection;0;universal concepts;Latin;0;;;
+709;9#23;the knife(2);Basic actions and technology;culter;selection;0;universal concepts;Latin;0;;;
+710;9#24;the scissors or shears;Basic actions and technology;forfices;selection;1;not in every home;substrate;0.25;;;
+711;9#25;the axe/ax;Basic actions and technology;securis;selection;1;not in every home;Latin;0;;;
+712;9#251;the adze;Basic actions and technology;ascia;selection;1;not in every home;substrate;0.25;;;
+713;9#26;to break;Basic actions and technology;frango;selection;0;universal concepts;Latin;0;hvidas;Sabellic;0
+714;9#261;broken;Basic actions and technology;fractus;selection;0;universal concepts;Latin;0;;;
+715;9#27;to split;Basic actions and technology;findo;selection;0;universal concepts;Latin;0;;;
+716;9#28;to tear;Basic actions and technology;scindo;selection;0;universal concepts;Latin;0;;;
+717;9#29;to skin;Basic actions and technology;deglubo;selection;0;universal concepts;Latin;0;;;
+718;9#31;to rub;Basic actions and technology;frico;selection;0;universal concepts;Latin;0;;;
+719;9#311;to wipe;Basic actions and technology;tergeo;selection;0;universal concepts;Latin;0;;;
+720;9#32;to stretch;Basic actions and technology;obtendo;selection;0;universal concepts;Latin;0;;;
+721;9#33;to pull;Basic actions and technology;traho;selection;0;universal concepts;Latin;0;;;
+722;9#34;to spread out;Basic actions and technology;extendo;selection;0;universal concepts;Latin;0;;;
+723;9#341;to hang up;Basic actions and technology;suspendo;selection;0;universal concepts;Latin;0;;;
+724;9#342;to press;Basic actions and technology;premo;selection;0;universal concepts;Latin;0;;;
+725;9#343;to squeeze;Basic actions and technology;comprimo;selection;0;universal concepts;Latin;0;;;
+726;9#35;to pour;Basic actions and technology;fundo;selection;0;universal concepts;Latin;0;vestikatu;Sabellic;0
+727;9#36;to wash;Basic actions and technology;lavo;selection;0;universal concepts;Latin;0;vutu;Sabellic;0
+728;9#37;to sweep;Basic actions and technology;verro;selection;0;universal concepts;Latin;0;;;
+729;9#38;the broom;Basic actions and technology;scopae;selection;0;universal concepts;substrate;0.25;;;
+730;9#422;the tool;Basic actions and technology;instrumentum;selection;0;universal concepts;Latin;0;;;
+731;9#43;the carpenter;Basic actions and technology;faber;selection;1;specialised trades;Latin;0;;;
+732;9#44;to build;Basic actions and technology;aedifico;selection;0;universal concepts;Latin;0;oupsens;Sabellic;0
+733;9#46;to bore;Basic actions and technology;perforo;selection;0;universal concepts;Latin;0;;;
+734;9#461;to hollow out;Basic actions and technology;excavo;selection;0;universal concepts;Latin;0;;;
+735;9#48;the saw;Basic actions and technology;serra;selection;1;specialised trades;Latin;0;;;
+736;9#49;the hammer;Basic actions and technology;malleus;selection;1;specialised trades;Latin;0;;;
+737;9#5;the nail;Basic actions and technology;clavus;selection;1;specialised trades;Latin;0;seples;Sabellic;0
+738;9#56;the glue;Basic actions and technology;gluten;selection;1;specialised trades;Latin;0;;;
+739;9#6;the blacksmith;Basic actions and technology;ferrarius faber;compound;1;specialised trades;;;;;
+740;9#61;to forge;Basic actions and technology;fabricor;selection;1;specialised trades;Latin;0;;;
+741;9#62;the anvil;Basic actions and technology;incus;selection;1;specialised trades;Latin;0;;;
+742;9#63;to cast;Basic actions and technology;fundo;selection;1;specialised trades;Latin;0;;;
+743;9#64;the gold;Basic actions and technology;aurum;selection;1;specialised trades;Latin;0;;;
+744;9#65;the silver;Basic actions and technology;argentum;selection;1;specialised trades;Latin;0;aragetud;Latin;0.5
+745;9#66;the copper;Basic actions and technology;aeneus;selection;1;specialised trades;Latin;0;;;
+746;9#67;the iron;Basic actions and technology;ferreus;selection;1;specialised trades;substrate;0.75;;;
+747;9#68;the lead;Basic actions and technology;plumbum;selection;1;specialised trades;Greek;0.75;;;
+748;9#69;the tin or tinplate;Basic actions and technology;plumbum album;compound;1;specialised trades;;;;;
+749;9#71;the potter;Basic actions and technology;figulus;selection;1;specialised trades;Latin;0;;;
+750;9#72;to mould/mold;Basic actions and technology;fingo;selection;1;specialised trades;Latin;0;;;
+751;9#73;the clay;Basic actions and technology;argilla;selection;1;specialised trades;Greek;1;;;
+752;9#74;the glass;Basic actions and technology;vitrum;selection;1;specialised trades;Latin;0;;;
+753;9#75;to weave or plait/braid;Basic actions and technology;texo;selection;0;present in home?;Latin;0;;;
+754;9#76;the basket;Basic actions and technology;corbis;selection;0;present in home?;substrate;0.25;;;
+755;9#77;the mat;Basic actions and technology;teges;selection;0;present in home?;Latin;0;;;
+756;9#771;the rug;Basic actions and technology;stragulus;selection;0;present in home?;Latin;0;;;
+757;9#78;the netbag;Basic actions and technology;;none?;1;specialised trades;;;;;
+758;9#79;the fan;Basic actions and technology;flabellum;selection;1;specialised trades;Latin;0;;;
+759;9#791;to fan;Basic actions and technology;ventilo;selection;1;specialised trades;Latin;0;;;
+760;9#81;to carve;Basic actions and technology;sculpo;selection;1;specialised trades;Latin;0;;;
+761;9#82;the sculptor;Basic actions and technology;sculptor;selection;1;specialised trades;Latin;0;;;
+762;9#83;the statue;Basic actions and technology;statua;selection;1;specialised trades;Latin;0;ereclum;Etruscan;0.25
+763;9#84;the chisel;Basic actions and technology;scalprum;selection;1;specialised trades;Latin;0;;;
+764;9#87;the boomerang;Basic actions and technology;;anachronism;1;;;;;;
+765;9#88;the paint;Basic actions and technology;pigmentum;selection;1;specialised trades;Latin;0;;;
+766;9#89;to paint;Basic actions and technology;pingo;selection;1;specialised trades;Latin;0;;;
+767;9#9;to draw water;Basic actions and technology;haurio;selection;0;universal concepts;Latin;0;;;
+768;9#91;the peg;Basic actions and technology;clavus ligneus;compound;0;common item?;;;;;
+769;9#92;the tumpline;Basic actions and technology;;anachronism;1;specialised trades;;;;;
+770;9#93;the whetstone;Basic actions and technology;cos;selection;1;specialised trades;Latin;0;;;
+771;10#11;to move;Motion;moveo;selection;0;universal concepts;Latin;0;;;
+772;10#12;to turn;Motion;verto;selection;0;universal concepts;Latin;0;;;
+773;10#13;to turn around;Motion;converto;selection;0;universal concepts;Latin;0;vurtus;Sabellic;0
+774;10#14;to wrap;Motion;involvo;selection;0;universal concepts;Latin;0;;;
+775;10#15;to roll;Motion;volvo;selection;0;universal concepts;Latin;0;;;
+776;10#16;to drop;Motion;demitto;selection;0;universal concepts;Latin;0;;;
+777;10#17;to twist;Motion;torqueo;selection;0;universal concepts;Latin;0;;;
+778;10#21;to rise;Motion;orior;selection;0;universal concepts;Latin;0;urtas;Sabellic;0
+779;10#22;to raise or lift;Motion;tollo;selection;0;universal concepts;Latin;0;;;
+780;10#23;to fall;Motion;cado;selection;0;universal concepts;Latin;0;;;
+781;10#24;to drip;Motion;stillo;selection;0;universal concepts;Latin;0;;;
+782;10#25;to throw;Motion;iacio;selection;0;universal concepts;Latin;0;;;
+783;10#252;to catch;Motion;capio;selection;0;universal concepts;Latin;0;habe;Sabellic;0
+784;10#26;to shake;Motion;quatio;selection;0;universal concepts;Latin;0;;;
+785;10#32;to flow;Motion;fluo;selection;0;universal concepts;Latin;0;;;
+786;10#33;to sink;Motion;sido;selection;0;universal concepts;Latin;0;;;
+787;10#34;to float;Motion;fluito;selection;0;universal concepts;Latin;0;;;
+788;10#35;to swim;Motion;no;selection;0;universal concepts;Latin;0;;;
+789;10#351;to dive;Motion;se immergere;compound;0;universal concepts;;;;;
+790;10#352;to splash;Motion;aspergo;selection;0;universal concepts;Latin;0;;;
+791;10#36;to sail;Motion;navigo;selection;0;universal concepts;Latin;0;;;
+792;10#37;to fly;Motion;volo;selection;0;universal concepts;Latin;0;;;
+793;10#38;to blow;Motion;flo;selection;0;universal concepts;Latin;0;;;
+794;10#41;to crawl;Motion;repo;selection;0;universal concepts;Latin;0;;;
+795;10#412;to kneel;Motion;genu flectere;selection;0;universal concepts;Latin;0;kunikaz;Sabellic;0
+796;10#413;to crouch;Motion;se demitto;compound;0;universal concepts;;;;;
+797;10#42;to slide or slip;Motion;labor;selection;0;universal concepts;Latin;0;;;
+798;10#43;to jump;Motion;salio;selection;0;universal concepts;Latin;0;;;
+799;10#431;to kick;Motion;caedere;selection;0;universal concepts;Latin;0;;;
+800;10#44;to dance;Motion;salto;selection;0;universal concepts;Latin;0;;;
+801;10#45;to walk;Motion;ambulo / pedes incedere;selection;0;universal concepts;Latin;0;amboltu;Sabellic;0
+802;10#451;to limp;Motion;claudico;selection;0;universal concepts;Latin;0;;;
+803;10#46;to run;Motion;curro;selection;0;universal concepts;Sabellic;0.5;;;
+804;10#47;to go;Motion;ire;selection;0;universal concepts;Latin;0;etu;Sabellic;0
+805;10#471;to go up;Motion;ascendo, subire;selection;0;universal concepts;Latin;0;;;
+806;10#472;to climb;Motion;inscendo;selection;0;universal concepts;Latin;0;;;
+807;10#473;to go down;Motion;descendo;selection;0;universal concepts;Latin;0;;;
+808;10#474;to go out;Motion;exeo;selection;0;universal concepts;Latin;0;;;
+809;10#48;to come;Motion;venio;selection;0;universal concepts;Latin;0;menes;Sabellic;0
+810;10#481;to come back;Motion;revenio;selection;0;universal concepts;Latin;0;;;
+811;10#49;to leave;Motion;discedo;selection;0;universal concepts;Latin;0;daetom;Sabellic;0
+812;10#491;to disappear;Motion;evanesco;selection;0;universal concepts;Latin;0;;;
+813;10#51;to flee;Motion;fugio;selection;0;universal concepts;Latin;0;;;
+814;10#52;to follow;Motion;sequor;selection;0;universal concepts;Latin;0;;;
+815;10#53;to pursue;Motion;persequor;selection;0;universal concepts;Latin;0;;;
+816;10#55;to arrive;Motion;advenio;selection;0;universal concepts;Latin;0;;;
+817;10#56;to approach;Motion;accedo;selection;0;universal concepts;Latin;0;;;
+818;10#57;to enter;Motion;intro;selection;0;universal concepts;Latin;0;;;
+819;10#58;to go or return home;Motion;redeo domum;compound;0;universal concepts;;;;;
+820;10#61;to carry;Motion;fero;selection;0;universal concepts;Latin;0;fertu;Sabellic;0
+821;10#612;to carry in hand;Motion;fero;selection;0;universal concepts;Latin;0;;;
+822;10#613;to carry on shoulder;Motion;fero;selection;0;universal concepts;Latin;0;;;
+823;10#614;to carry on head;Motion;fero;selection;0;universal concepts;Latin;1;;;
+824;10#615;to carry under the arm;Motion;fero;selection;0;universal concepts;Latin;0;;;
+825;10#62;to bring;Motion;affero;selection;0;universal concepts;Latin;0;purtitaf;Sabellic;0
+826;10#63;to send;Motion;mitto;selection;0;universal concepts;Latin;0;;;
+827;10#64;to lead;Motion;duco;selection;0;universal concepts;Latin;0;;;
+828;10#65;to drive;Motion;rego;selection;0;universal concepts;Latin;0;;;
+829;10#66;to ride;Motion;vehor;selection;0;universal concepts;Latin;0;;;
+830;10#67;to push;Motion;impello;selection;0;universal concepts;Latin;0;;;
+831;10#71;the road;Motion;via;selection;1;not in the home;Latin;0;viam;Sabellic;0
+832;10#72;the path;Motion;semita;selection;1;not in the home;Latin;0;;;
+833;10#74;the bridge;Motion;pons;selection;1;not in the home;Latin;0;;;
+834;10#75;the cart or wagon;Motion;plaustrum;selection;0;wagon = sufficiently common?;Celtic;0.25;;;
+835;10#76;the wheel;Motion;rota;selection;0;wagon = sufficiently common?;Latin;0;;;
+836;10#77;the axle;Motion;axis;selection;0;wagon = sufficiently common?;Latin;0;;;
+837;10#78;the yoke;Motion;iugum;selection;0;wagon = sufficiently common?;Latin;0;;;
+838;10#79;the sledge/sled;Motion;traha;selection;0;wagon = sufficiently common?;Latin;0;;;
+839;10#81;the ship;Motion;navis;selection;1;travel;Latin;0;;;
+840;10#83;the boat;Motion;navis;selection;1;travel;Latin;0;;;
+841;10#831;the canoe;Motion;linter;selection;1;travel;Latin;0;;;
+842;10#832;the outrigger;Motion;;none?;1;travel;;;;;
+843;10#84;the raft;Motion;ratis;selection;1;travel;Latin;0;;;
+844;10#85;the oar;Motion;remus;selection;1;travel;Latin;0;;;
+845;10#851;the paddle;Motion;;none?;1;travel;;;;;
+846;10#852;to row;Motion;remigo;selection;1;travel;Latin;0;;;
+847;10#86;the rudder;Motion;gubernaculum;selection;1;travel;Greek;1;;;
+848;10#87;the mast;Motion;malus;selection;1;travel;substrate;0.25;;;
+849;10#88;the sail;Motion;velum;selection;1;travel;Latin;0;;;
+850;10#89;the anchor;Motion;ancora;selection;1;travel;Etruscan;1;;;
+851;10#91;the port;Motion;portus;selection;1;travel;Latin;0;;;
+852;10#92;to land;Motion;egredior (e navi);selection;1;travel;Latin;0;;;
+853;11#11;to have;Possession;habeo;selection;0;universal concepts;Latin;0;habetutu;Sabellic;0
+854;11#12;to own;Possession;teneo;selection;0;universal concepts;Latin;0;;;
+855;11#13;to take;Possession;capio;selection;0;universal concepts;Latin;0;anouihimu;Sabellic;0
+856;11#14;to grasp;Possession;prenso;selection;0;universal concepts;Latin;0;;;
+857;11#15;to hold;Possession;gesto;selection;0;universal concepts;Latin;0;tenitu;Sabellic;0
+858;11#16;to get;Possession;nanciscor;selection;0;universal concepts;Latin;0;;;
+859;11#17;to keep;Possession;retineo;selection;0;universal concepts;Latin;0;;;
+860;11#18;the thing;Possession;res;selection;0;universal concepts;Latin;0;;;
+861;11#21;to give;Possession;do;selection;0;universal concepts;Latin;0;dedens;Sabellic;0
+862;11#22;to give back;Possession;reddo;selection;0;universal concepts;Latin;0;;;
+863;11#24;to preserve;Possession;tueor;selection;0;universal concepts;Latin;0;;;
+864;11#25;to rescue;Possession;eripio;selection;0;universal concepts;Latin;0;;;
+865;11#27;to destroy;Possession;perimo;selection;0;universal concepts;Latin;0;;;
+866;11#28;to injure;Possession;noceo;selection;0;universal concepts;Latin;0;;;
+867;11#29;to damage;Possession;laedo;selection;0;universal concepts;Latin;0;;;
+868;11#31;to look for;Possession;quaero;selection;0;universal concepts;Latin;0;;;
+869;11#32;to find;Possession;reperio;selection;0;universal concepts;Latin;0;;;
+870;11#33;to lose;Possession;amitto;selection;0;universal concepts;Latin;0;;;
+871;11#34;to let go;Possession;omitto;selection;0;universal concepts;Latin;0;;;
+872;11#43;the money;Possession;pecunia;selection;0;universal concepts;Latin;0;eituam;Sabellic;0
+873;11#44;the coin;Possession;nummus;selection;0;universal concepts;Greek;0.75;numer;Latin Greek;0.75
+874;11#51;rich;Possession;dives;selection;0;universal concepts;Latin;0;des;Sabellic;0
+875;11#52;poor;Possession;pauper;selection;0;universal concepts;Latin;0;;;
+876;11#53;the beggar;Possession;mendicus;selection;1;not in every home;Latin;0;;;
+877;11#54;stingy;Possession;sordidus;selection;0;universal concepts;Latin;0;;;
+878;11#61;to lend;Possession;mutuum do;compound;1;specialised trades;;;;;
+879;11#62;to borrow;Possession;mutuor;selection;1;specialised trades;Latin;0;;;
+880;11#63;to owe;Possession;debeo;selection;1;specialised trades;Latin;0;;;
+881;11#64;the debt;Possession;aes alienum;compound;0;universal concepts;;;;;
+882;11#65;to pay;Possession;pendo;selection;0;universal concepts;Latin;0;;;
+883;11#66;the bill;Possession;nomen?;selection;1;specialised trades;Latin;0;;;
+884;11#69;the tax;Possession;vectigal;selection;1;political term;Latin;0;;;
+885;11#77;to hire;Possession;conduco;selection;1;specialised trades;Latin;0;;;
+886;11#78;the wages;Possession;merces;selection;1;specialised trades;Etruscan;0.5;;;
+887;11#79;to earn;Possession;mereo;selection;0;universal concepts;Latin;0;;;
+888;11#81;to buy;Possession;emo;selection;0;universal concepts;Latin;0;emantur;Sabellic;0
+889;11#82;to sell;Possession;vendo;selection;0;universal concepts;Latin;0;amiricatud;Etruscan;0.5
+890;11#83;to trade or barter;Possession;muto;selection;0;universal concepts;Latin;0;;;
+891;11#84;the merchant;Possession;mercator;selection;1;specialised trades;Etruscan;0.5;;;
+892;11#85;the market;Possession;macellum;selection;1;specialised trades;Greek;1;;;
+893;11#86;the shop/store;Possession;taberna;selection;1;specialised trades;Latin;0;;;
+894;11#87;the price;Possession;pretium;selection;0;universal concepts;Latin;0;;;
+895;11#88;expensive;Possession;sumptuosus;selection;0;universal concepts;Latin;0;;;
+896;11#89;cheap;Possession;vilis;selection;0;universal concepts;Latin;0;;;
+897;11#91;to share;Possession;communico;selection;0;universal concepts;Latin;0;;;
+898;11#92;to weigh;Possession;pendo;selection;0;universal concepts;Latin;0;;;
+899;12#01;after;Spatial relations;post;selection;0;universal concepts;Latin;0;pus;Sabellic;0
+900;12#011;behind;Spatial relations;post;selection;0;universal concepts;Latin;0;;;
+901;12#012;in;Spatial relations;in;selection;0;universal concepts;Latin;0;en;Sabellic;0
+902;12#013;at;Spatial relations;ad / apud;selection;0;universal concepts;Latin;0;a;Sabellic;0
+903;12#02;beside;Spatial relations;ad;selection;0;universal concepts;Latin;0;postin;Sabellic;0
+904;12#03;down;Spatial relations;deorsum;selection;0;universal concepts;Latin;0;;;
+905;12#04;before;Spatial relations;ante;selection;0;universal concepts;Latin;0;pre;Sabellic;0
+906;12#041;in front of;Spatial relations;ante;selection;0;universal concepts;Latin;0;;;
+907;12#05;inside;Spatial relations;intus;selection;0;universal concepts;Latin;0;pustin;Sabellic;0
+908;12#06;outside;Spatial relations;extra;selection;0;universal concepts;Latin;0;;;
+909;12#07;under;Spatial relations;sub;selection;0;universal concepts;Latin;0;sup;Sabellic;0
+910;12#08;up;Spatial relations;sursum;selection;0;universal concepts;Latin;0;;;
+911;12#081;above;Spatial relations;super;selection;0;universal concepts;Latin;0;super;Sabellic;0
+912;12#11;the place;Spatial relations;locus;selection;0;universal concepts;Latin;0;;;
+913;12#12;to put;Spatial relations;pono;selection;0;universal concepts;Latin;0;;;
+914;12#13;to sit;Spatial relations;sedeo;selection;0;universal concepts;Latin;0;zeref;Sabellic;0
+915;12#14;to lie down;Spatial relations;decumbo;selection;0;universal concepts;Latin;0;qupat;Sabellic;0
+916;12#15;to stand;Spatial relations;sto;selection;0;universal concepts;Latin;0;stait;Sabellic;0
+917;12#16;to remain;Spatial relations;maneo;selection;0;universal concepts;Latin;0;;;
+918;12#17;the remains;Spatial relations;reliquiae;selection;0;universal concepts;Latin;0;;;
+919;12#21;to gather;Spatial relations;colligo;selection;0;universal concepts;Latin;0;kuveitu;Sabellic;0
+920;12#212;to pick up;Spatial relations;tollo;selection;0;universal concepts;Latin;0;sumtu;Sabellic;0
+921;12#213;to pile up;Spatial relations;congero;selection;0;universal concepts;Latin;0;;;
+922;12#22;to join;Spatial relations;iungo;selection;0;universal concepts;Latin;0;;;
+923;12#23;to separate;Spatial relations;disiungo;selection;0;universal concepts;Latin;0;;;
+924;12#232;to divide;Spatial relations;divido;selection;0;universal concepts;Latin;0;;;
+925;12#24;to open;Spatial relations;aperio;selection;0;universal concepts;Latin;0;;;
+926;12#25;to shut;Spatial relations;claudo;selection;0;universal concepts;Latin;0;;;
+927;12#26;to cover;Spatial relations;tego;selection;0;universal concepts;Latin;0;;;
+928;12#27;to hide;Spatial relations;abscondo;selection;0;universal concepts;Latin;0;;;
+929;12#31;high;Spatial relations;altus;selection;0;universal concepts;Latin;0;;;
+930;12#32;low;Spatial relations;humilis;selection;0;universal concepts;Latin;0;;;
+931;12#33;the top;Spatial relations;summus;selection;0;universal concepts;Latin;0;sume;Sabellic;0
+932;12#34;the bottom;Spatial relations;fundus;selection;0;universal concepts;Latin;0;;;
+933;12#35;the end(1);Spatial relations;extremus;selection;0;universal concepts;Latin;0;;;
+934;12#352;pointed;Spatial relations;acutus;selection;0;universal concepts;Latin;0;;;
+935;12#353;the edge;Spatial relations;margo;selection;0;universal concepts;Latin;0;;;
+936;12#36;the side;Spatial relations;latus;selection;0;universal concepts;Latin;0;;;
+937;12#37;the middle;Spatial relations;medius;selection;0;universal concepts;Latin;0;mefiu;Sabellic;0
+938;12#41;right(1);Spatial relations;dexter;selection;0;universal concepts;Latin;0;destr;Sabellic;0
+939;12#42;left;Spatial relations;sinister;selection;0;universal concepts;Latin;0;nertru;Sabellic;0
+940;12#43;near;Spatial relations;prope;selection;0;universal concepts;Latin;0;;;
+941;12#44;far;Spatial relations;procul;selection;0;universal concepts;Latin;0;;;
+942;12#45;the east;Spatial relations;oriens;selection;0;universal concepts;Latin;0;;;
+943;12#46;the west;Spatial relations;occidens;selection;0;universal concepts;Latin;0;;;
+944;12#47;the north;Spatial relations;septentrio;selection;0;universal concepts;Latin;0;;;
+945;12#48;the south;Spatial relations;meridies;selection;0;universal concepts;Latin;0;;;
+946;12#53;to grow;Spatial relations;cresco;selection;0;universal concepts;Latin;0;;;
+947;12#54;to measure;Spatial relations;metior;selection;0;universal concepts;Latin;0;;;
+948;12#541;the fathom;Spatial relations;ulna;selection;0;universal concepts;Latin;0;;;
+949;12#55;big;Spatial relations;magnus;selection;0;universal concepts;Latin;0;;;
+950;12#56;small;Spatial relations;parvus;selection;0;universal concepts;Latin;0;;;
+951;12#57;long;Spatial relations;longus;selection;0;universal concepts;Latin;0;;;
+952;12#58;tall;Spatial relations;procerus;selection;0;universal concepts;Latin;0;;;
+953;12#59;short;Spatial relations;brevis;selection;0;universal concepts;Latin;0;;;
+954;12#61;wide;Spatial relations;latus;selection;0;universal concepts;Latin;0;;;
+955;12#62;narrow;Spatial relations;angustus;selection;0;universal concepts;Latin;0;;;
+956;12#63;thick;Spatial relations;crassus;selection;0;universal concepts;Latin;0;;;
+957;12#65;thin;Spatial relations;tenuis;selection;0;universal concepts;Latin;0;;;
+958;12#67;deep;Spatial relations;altus;selection;0;universal concepts;Latin;0;;;
+959;12#68;shallow;Spatial relations;brevis;selection;0;universal concepts;Latin;0;;;
+960;12#71;flat;Spatial relations;planus;selection;0;universal concepts;Latin;0;;;
+961;12#73;straight;Spatial relations;rectus;selection;0;universal concepts;Latin;0;rectas;Sabellic;0
+962;12#74;crooked;Spatial relations;pravus;selection;0;universal concepts;Latin;0;;;
+963;12#75;the hook;Spatial relations;hamus;selection;0;universal concepts;Latin;0;;;
+964;12#76;the corner;Spatial relations;angulus;selection;0;universal concepts;Latin;0;;;
+965;12#77;the cross;Spatial relations;decussis;selection;0;universal concepts;Latin;0;;;
+966;12#78;the square;Spatial relations;quadratum;selection;0;universal concepts;Latin;0;;;
+967;12#81;round;Spatial relations;rotundus;selection;0;universal concepts;Latin;0;;;
+968;12#82;the circle;Spatial relations;orbis;selection;0;universal concepts;Latin;0;;;
+969;12#83;the ball;Spatial relations;follis;selection;0;universal concepts;Latin;0;;;
+970;12#84;the line;Spatial relations;linea;selection;0;universal concepts;Latin;0;;;
+971;12#85;the hole;Spatial relations;foramen;selection;0;universal concepts;Latin;0;;;
+972;12#92;similar;Spatial relations;similis;selection;0;universal concepts;Latin;0;;;
+973;12#93;to change;Spatial relations;converto;selection;0;universal concepts;Latin;0;;;
+974;13#01;one;Quantity;unus;selection;0;universal concepts;Latin;0;unu;Sabellic;0
+975;13#02;two;Quantity;duo;selection;0;universal concepts;Latin;0;tuf;Sabellic;0
+976;13#03;three;Quantity;tres;selection;0;universal concepts;Latin;0;tris;Sabellic;0
+977;13#04;four;Quantity;quattuor;selection;0;universal concepts;Latin;0;;;
+978;13#05;five;Quantity;quinque;selection;0;universal concepts;Latin;0;;;
+979;13#06;six;Quantity;sex;selection;0;universal concepts;Latin;0;;;
+980;13#07;seven;Quantity;septem;selection;0;universal concepts;Latin;0;;;
+981;13#08;eight;Quantity;octo;selection;0;universal concepts;Latin;0;;;
+982;13#09;nine;Quantity;novem;selection;0;universal concepts;Latin;0;;;
+983;13#1;ten;Quantity;decem;selection;0;universal concepts;Latin;0;;;
+984;13#101;eleven;Quantity;undecim;selection;0;universal concepts;Latin;0;;;
+985;13#102;twelve;Quantity;duodecim;selection;0;universal concepts;Latin;0;desenduf;Sabellic;0
+986;13#103;fifteen;Quantity;quindecim;selection;0;universal concepts;Latin;0;;;
+987;13#104;twenty;Quantity;viginti;selection;0;universal concepts;Latin;0;;;
+988;13#105;a hundred;Quantity;centum;selection;0;universal concepts;Latin;0;;;
+989;13#106;a thousand;Quantity;mille;selection;0;universal concepts;Latin;0;;;
+990;13#107;to count;Quantity;numero;selection;0;universal concepts;Latin;0;;;
+991;13#14;all;Quantity;omnes;selection;0;universal concepts;Latin;0;sulum;Sabellic;0
+992;13#15;many;Quantity;multi;selection;0;universal concepts;Latin;0;;;
+993;13#16;more;Quantity;plus;selection;0;universal concepts;Latin;0;mais;Sabellic;0
+994;13#17;few;Quantity;pauci;selection;0;universal concepts;Latin;0;;;
+995;13#18;enough;Quantity;satis;selection;0;universal concepts;Latin;0;;;
+996;13#181;some;Quantity;aliqui;selection;0;universal concepts;Latin;0;;;
+997;13#19;the crowd;Quantity;turba;selection;0;universal concepts;Greek;0.75;;;
+998;13#21;full;Quantity;plenus;selection;0;universal concepts;Latin;0;plener;Sabellic;0
+999;13#22;empty;Quantity;vacuus;selection;0;universal concepts;Latin;0;;;
+1000;13#23;the part;Quantity;pars;selection;0;universal concepts;Latin;0;karne;Sabellic;0
+1001;13#231;the piece;Quantity;frustum;selection;0;universal concepts;Latin;0;;;
+1002;13#24;the half;Quantity;dimidium;selection;0;universal concepts;Latin;0;;;
+1003;13#33;only;Quantity;solus;selection;0;universal concepts;Latin;0;;;
+1004;13#331;alone;Quantity;solus;selection;0;universal concepts;Latin;0;;;
+1005;13#34;first;Quantity;primus;selection;0;universal concepts;Latin;0;prumu;Sabellic;0
+1006;13#35;last;Quantity;ultimus;selection;0;universal concepts;Latin;0;pustmas;Sabellic;0
+1007;13#36;second;Quantity;secundus;selection;0;universal concepts;Latin;0;etraf;Sabellic;0
+1008;13#37;the pair;Quantity;par;selection;0;universal concepts;Latin;0;;;
+1009;13#38;twice/two times;Quantity;bis;selection;0;universal concepts;Latin;0;;;
+1010;13#42;third;Quantity;tertius;selection;0;universal concepts;Latin;0;tref;Sabellic;0
+1011;13#44;three times;Quantity;ter;selection;0;universal concepts;Latin;0;triiuper;Sabellic;0
+1012;14#11;the time;Time;tempus;selection;0;universal concepts;Latin;0;;;
+1013;14#12;the age;Time;aetas;selection;0;universal concepts;Latin;0;;;
+1014;14#13;new;Time;novus;selection;0;universal concepts;Latin;0;;;
+1015;14#14;young;Time;parvus;selection;0;universal concepts;Latin;0;;;
+1016;14#15;old;Time;vetus;selection;0;universal concepts;Latin;0;;;
+1017;14#16;early;Time;mature;selection;0;universal concepts;Latin;0;;;
+1018;14#17;late;Time;sero;selection;0;universal concepts;Latin;0;;;
+1019;14#18;now;Time;nunc;selection;0;universal concepts;Latin;0;isek;Sabellic;0
+1020;14#19;immediately;Time;statim;selection;0;universal concepts;Latin;0;;;
+1021;14#21;fast;Time;cito;selection;0;universal concepts;Latin;0;;;
+1022;14#22;slow;Time;tarde;selection;0;universal concepts;Etruscan;0.25;;;
+1023;14#23;to hurry;Time;festino;selection;0;universal concepts;Latin;0;;;
+1024;14#24;to be late;;;compound;0;universal concepts;;;;;
+1025;14#25;to begin;Time;coepi;selection;0;universal concepts;Latin;0;;;
+1026;14#251;the beginning;Time;initium;selection;0;universal concepts;Latin;0;;;
+1027;14#252;to last;Time;duro;selection;0;universal concepts;Latin;0;;;
+1028;14#26;the end(2);Time;finis;selection;0;universal concepts;Latin;0;;;
+1029;14#27;to finish;Time;perficio;selection;0;universal concepts;Latin;0;;;
+1030;14#28;to cease;Time;desino;selection;0;universal concepts;Latin;0;;;
+1031;14#29;ready;Time;paratus;selection;0;universal concepts;Latin;0;;;
+1032;14#31;always;Time;semper;selection;0;universal concepts;Latin;0;;;
+1033;14#32;often;Time;saepe;selection;0;universal concepts;Latin;0;;;
+1034;14#33;sometimes;Time;interdum;selection;0;universal concepts;Latin;0;;;
+1035;14#331;soon;Time;mox;selection;0;universal concepts;Latin;0;;;
+1036;14#332;for a long time;Time;diu;selection;0;universal concepts;Latin;0;;;
+1037;14#34;never;Time;numquam;selection;0;universal concepts;Latin;0;;;
+1038;14#35;again;Time;iterum;selection;0;universal concepts;Latin;0;;;
+1039;14#41;the day(1);Time;dies;selection;0;universal concepts;Latin;0;diuklei;Sabellic;0
+1040;14#411;the day(2);Time;dies;selection;0;universal concepts;Latin;0;;;
+1041;14#42;the night;Time;nox;selection;0;universal concepts;Latin;0;;;
+1042;14#43;the dawn;Time;prima lux;selection;0;universal concepts;;;;;
+1043;14#44;the morning;Time;maneo;selection;0;universal concepts;Latin;0;;;
+1044;14#45;the midday;Time;meridies;selection;0;universal concepts;Latin;0;;;
+1045;14#451;the afternoon;Time;post meridiem;selection;0;universal concepts;Latin;0;;;
+1046;14#46;the evening;Time;vesper;selection;0;universal concepts;Latin;0;;;
+1047;14#47;today;Time;hodie;selection;0;universal concepts;Latin;0;;;
+1048;14#48;tomorrow;Time;cras;selection;0;universal concepts;Latin;0;;;
+1049;14#481;the day after tomorrow;Time;perendie;selection;0;universal concepts;Latin;0;;;
+1050;14#49;yesterday;Time;heri;selection;0;universal concepts;Latin;0;;;
+1051;14#491;the day before yesterday;Time;nudius tertius;compound;0;universal concepts;;;;;
+1052;14#51;the hour;Time;hora;selection;0;universal concepts;Greek;1;;;
+1053;14#53;the clock;Time;horologium;selection;1;universal concepts;Greek;1;;;
+1054;14#61;the week;Time;hebdomas;anachronism;0;universal concepts;Greek;1;;;
+1055;14#62;Sunday;Time;;anachronism;0;universal concepts;;;;;
+1056;14#63;Monday;Time;;anachronism;0;universal concepts;;;;;
+1057;14#64;Tuesday;Time;;anachronism;0;universal concepts;;;;;
+1058;14#65;Wednesday;Time;;anachronism;0;universal concepts;;;;;
+1059;14#66;Thursday;Time;;anachronism;0;universal concepts;;;;;
+1060;14#67;Friday;Time;;anachronism;0;universal concepts;;;;;
+1061;14#68;Saturday;Time;;anachronism;0;universal concepts;;;;;
+1062;14#71;the month;Time;mensis;selection;0;universal concepts;Latin;0;menzne;Sabellic;0
+1063;14#73;the year;Time;annus;selection;0;universal concepts;Latin;0;acnu;Sabellic;0
+1064;14#74;the winter;Time;hiems;selection;0;universal concepts;Latin;0;;;
+1065;14#75;the spring(2);Time;ver;selection;0;universal concepts;Latin;0;;;
+1066;14#76;the summer;Time;aestas;selection;0;universal concepts;Latin;0;;;
+1067;14#77;the autumn/fall;Time;auctumnus;selection;0;universal concepts;Etruscan;0.5;;;
+1068;14#78;the season;Time;tempus;selection;0;universal concepts;Latin;0;;;
+1069;15#21;to smell(1);Sense perception;oleo;selection;0;universal concepts;Latin;0;;;
+1070;15#212;to sniff;Sense perception;;none;0;universal concepts;;;;;
+1071;15#22;to smell(2);Sense perception;olfacio;selection;0;universal concepts;Latin;0;;;
+1072;15#25;fragrant;Sense perception;suavis;selection;0;universal concepts;Latin;0;;;
+1073;15#26;stinking;Sense perception;foetidus;selection;0;universal concepts;Latin;0;;;
+1074;15#31;to taste;Sense perception;gusto;selection;0;universal concepts;Latin;0;;;
+1075;15#35;sweet;Sense perception;dulcis;selection;0;universal concepts;substrate;0.25;;;
+1076;15#36;salty;Sense perception;salsus;selection;0;universal concepts;Latin;0;;;
+1077;15#37;bitter;Sense perception;amarus;selection;0;universal concepts;Latin;0;;;
+1078;15#38;sour;Sense perception;acidus;selection;0;universal concepts;Latin;0;;;
+1079;15#39;brackish;Sense perception;subsalsus;selection;0;universal concepts;Latin;0;;;
+1080;15#41;to hear;Sense perception;audio;selection;0;universal concepts;Latin;0;;;
+1081;15#42;to listen;Sense perception;ausculto;selection;0;universal concepts;Latin;0;;;
+1082;15#44;the sound or noise;Sense perception;sonus;selection;0;universal concepts;Latin;0;;;
+1083;15#45;loud;Sense perception;magnus;selection;0;universal concepts;Latin;0;;;
+1084;15#46;quiet;Sense perception;taciturnus;selection;0;universal concepts;Latin;0;;;
+1085;15#51;to see;Sense perception;video;selection;0;universal concepts;Latin;0;videtas;Sabellic;0
+1086;15#52;to look;Sense perception;aspicio;selection;0;universal concepts;Latin;0;;;
+1087;15#55;to show;Sense perception;monstro;selection;0;universal concepts;Latin;0;;;
+1088;15#56;to shine;Sense perception;luceo;selection;0;universal concepts;Latin;0;;;
+1089;15#57;bright;Sense perception;clarus;selection;0;universal concepts;Latin;0;;;
+1090;15#61;the colour/color;Sense perception;color;selection;0;universal concepts;Latin;0;;;
+1091;15#62;light(2);Sense perception;illustris;selection;0;universal concepts;Latin;0;;;
+1092;15#63;dark;Sense perception;obscurus;selection;0;universal concepts;Latin;0;;;
+1093;15#64;white;Sense perception;candidus;selection;0;universal concepts;Latin;0;kaleruf;Sabellic;0
+1094;15#65;black;Sense perception;ater;selection;0;universal concepts;Latin;0;peiu;Sabellic;0
+1095;15#66;red;Sense perception;rufus;selection;0;universal concepts;Sabellic;1;rufra;Sabellic;0
+1096;15#67;blue;Sense perception;caeruleus;selection;0;universal concepts;Latin;0;;;
+1097;15#68;green;Sense perception;viridis;selection;0;universal concepts;Latin;0;;;
+1098;15#69;yellow;Sense perception;flavus;selection;0;universal concepts;Latin;0;;;
+1099;15#71;to touch;Sense perception;tango;selection;0;universal concepts;Latin;0;taa;Sabellic;0
+1100;15#712;to pinch;Sense perception;vellico;selection;0;universal concepts;Latin;0;;;
+1101;15#72;to feel;Sense perception;tento;selection;0;universal concepts;Latin;0;;;
+1102;15#74;hard;Sense perception;durus;selection;0;universal concepts;Latin;0;;;
+1103;15#75;soft;Sense perception;mollis;selection;0;universal concepts;Latin;0;;;
+1104;15#76;rough(1);Sense perception;asper;selection;0;universal concepts;Latin;0;;;
+1105;15#77;smooth;Sense perception;levis;selection;0;universal concepts;Latin;0;;;
+1106;15#78;sharp;Sense perception;acutus;selection;0;universal concepts;Latin;0;akrid;Sabellic;0
+1107;15#79;blunt;Sense perception;hebes;selection;0;universal concepts;Latin;0;;;
+1108;15#81;heavy;Sense perception;gravis;selection;0;universal concepts;Latin;0;;;
+1109;15#82;light(1);Sense perception;levis;selection;0;universal concepts;Latin;0;;;
+1110;15#83;wet;Sense perception;humidus;selection;0;universal concepts;Latin;0;;;
+1111;15#84;dry;Sense perception;siccus;selection;0;universal concepts;Latin;0;sicu;Sabellic;0
+1112;15#85;hot;Sense perception;calidus;selection;0;universal concepts;Latin;0;;;
+1113;15#851;warm;Sense perception;tepidus;selection;0;universal concepts;Latin;0;;;
+1114;15#86;cold;Sense perception;frigidus;selection;0;universal concepts;Latin;0;;;
+1115;15#87;clean;Sense perception;mundus;selection;0;universal concepts;Etruscan;0.5;;;
+1116;15#88;dirty;Sense perception;sordidus;selection;0;universal concepts;Latin;0;;;
+1117;15#89;wrinkled;Sense perception;rugosus;selection;0;universal concepts;Latin;0;;;
+1118;16#11;the soul or spirit;Emotions and values;anima;selection;0;universal concepts;Latin;0;anams;Sabellic;0
+1119;16#15;surprised or astonished;Emotions and values;admiror;selection;0;universal concepts;Latin;0;;;
+1120;16#18;the good luck;Emotions and values;felicitas;selection;0;universal concepts;Latin;0;;;
+1121;16#19;the bad luck;Emotions and values;infelicitas;selection;0;universal concepts;Latin;0;;;
+1122;16#23;happy;Emotions and values;beatus;selection;0;universal concepts;Latin;0;;;
+1123;16#25;to laugh;Emotions and values;rideo;selection;0;universal concepts;Latin;0;;;
+1124;16#251;to smile;Emotions and values;subrideo;selection;0;universal concepts;Latin;0;;;
+1125;16#26;to play;Emotions and values;ludo;selection;0;universal concepts;Latin;0;;;
+1126;16#27;to love;Emotions and values;amo;selection;0;universal concepts;Latin;0;;;
+1127;16#29;to kiss;Emotions and values;suavior;selection;0;universal concepts;Latin;0;;;
+1128;16#3;to embrace;Emotions and values;amplector;selection;0;universal concepts;Latin;0;;;
+1129;16#31;the pain;Emotions and values;dolor;selection;0;universal concepts;Latin;0;;;
+1130;16#32;the grief;Emotions and values;dolor;selection;0;universal concepts;Latin;0;;;
+1131;16#33;the anxiety;Emotions and values;sollicitudo;selection;0;universal concepts;Latin;0;;;
+1132;16#34;to regret or be sorry;Emotions and values;paenitet;selection;0;universal concepts;Latin;0;;;
+1133;16#35;the pity;Emotions and values;misericordia;selection;0;universal concepts;Latin;0;;;
+1134;16#37;to cry;Emotions and values;fleo;selection;0;universal concepts;Latin;0;;;
+1135;16#38;the tear;Emotions and values;lacrima;selection;0;universal concepts;Greek;0.5;;;
+1136;16#39;to groan;Emotions and values;gemo;selection;0;universal concepts;Latin;0;;;
+1137;16#41;to hate;Emotions and values;odi;selection;0;universal concepts;Latin;0;;;
+1138;16#42;the anger;Emotions and values;ira;selection;0;universal concepts;Latin;0;;;
+1139;16#44;the envy or jealousy;Emotions and values;invidia;selection;0;universal concepts;Latin;0;;;
+1140;16#45;the shame;Emotions and values;pudor;selection;0;universal concepts;Latin;0;;;
+1141;16#48;proud;Emotions and values;superbus;selection;0;universal concepts;Latin;0;;;
+1142;16#51;to dare;Emotions and values;audeo;selection;0;universal concepts;Latin;0;;;
+1143;16#52;brave;Emotions and values;fortis;selection;0;universal concepts;Latin;0;;;
+1144;16#53;the fear;Emotions and values;metus;selection;0;universal concepts;Latin;0;;;
+1145;16#54;the danger;Emotions and values;periculum;selection;0;universal concepts;Latin;0;;;
+1146;16#62;to want;Emotions and values;volo;selection;0;universal concepts;Latin;0;heries;Sabellic;0
+1147;16#622;to choose;Emotions and values;lego;selection;0;universal concepts;Latin;0;oupid;Sabellic;0
+1148;16#63;to hope;Emotions and values;spero;selection;0;universal concepts;Latin;0;;;
+1149;16#65;faithful;Emotions and values;fidelis;selection;0;universal concepts;Latin;0;;;
+1150;16#66;true;Emotions and values;verus;selection;0;universal concepts;Latin;0;;;
+1151;16#67;to lie(2);Emotions and values;mentior;selection;0;universal concepts;Latin;0;;;
+1152;16#68;the deceit;Emotions and values;fallacia;selection;0;universal concepts;Latin;0;;;
+1153;16#69;to forgive;Emotions and values;ignosco;selection;0;universal concepts;Latin;0;;;
+1154;16#71;good;Emotions and values;bonus;selection;0;universal concepts;Latin;0;wolaisumad;Celtic;0.25
+1155;16#72;bad;Emotions and values;malus;selection;0;universal concepts;Latin;0;;;
+1156;16#73;right(2);Emotions and values;rectus;selection;0;universal concepts;Latin;0;rehte;Sabellic;0
+1157;16#74;wrong;Emotions and values;pravus;selection;0;universal concepts;Latin;0;;;
+1158;16#76;the fault;Emotions and values;culpa;selection;0;universal concepts;Latin;0;;;
+1159;16#77;the mistake;Emotions and values;error;selection;0;universal concepts;Latin;0;;;
+1160;16#78;the blame;Emotions and values;culpa;selection;0;universal concepts;Latin;0;;;
+1161;16#79;the praise;Emotions and values;laus;selection;0;universal concepts;Latin;0;;;
+1162;16#81;beautiful;Emotions and values;pulcer;selection;0;universal concepts;Etruscan;0.5;;;
+1163;16#82;ugly;Emotions and values;deformis;selection;0;universal concepts;Etruscan;0.75;;;
+1164;16#83;greedy;Emotions and values;avarus;selection;0;universal concepts;Latin;0;;;
+1165;16#84;clever;Emotions and values;ingeniosus;selection;0;universal concepts;Latin;0;;;
+1166;17#11;the mind;Cognition;mens;selection;0;universal concepts;Latin;0;;;
+1167;17#13;to think(1);Cognition;cogito;selection;0;universal concepts;Latin;0;;;
+1168;17#14;to think(2);Cognition;puto;selection;0;universal concepts;Latin;0;tadait;Sabellic;0
+1169;17#15;to believe;Cognition;credo;selection;0;universal concepts;Latin;0;;;
+1170;17#16;to understand;Cognition;intellego;selection;0;universal concepts;Latin;0;;;
+1171;17#17;to know;Cognition;scio;selection;0;universal concepts;Latin;0;sepu;Sabellic;0
+1172;17#171;to guess;Cognition;conicio;selection;0;universal concepts;Latin;0;;;
+1173;17#172;to imitate;Cognition;imitor;selection;0;universal concepts;Latin;0;;;
+1174;17#18;to seem;Cognition;videor;selection;0;universal concepts;Latin;0;;;
+1175;17#19;the idea;Cognition;species / notio;selection;0;universal concepts;Latin;0;;;
+1176;17#21;wise;Cognition;sapiens;selection;0;universal concepts;Latin;0;;;
+1177;17#22;stupid;Cognition;stultus;selection;0;universal concepts;Latin;0;;;
+1178;17#23;mad;Cognition;insanus;selection;0;universal concepts;Latin;0;;;
+1179;17#24;to learn;Cognition;disco;selection;0;universal concepts;Latin;0;;;
+1180;17#242;to study;Cognition;studeo;selection;1;specialised trades;Latin;0;;;
+1181;17#25;to teach;Cognition;doceo;selection;0;universal concepts;Latin;0;;;
+1182;17#26;the pupil;Cognition;discipulus;selection;0;universal concepts;Latin;0;;;
+1183;17#27;the teacher;Cognition;praeceptor;selection;0;universal concepts;Latin;0;;;
+1184;17#28;the school;Cognition;ludus;selection;1;specialised trades;Latin;0;;;
+1185;17#31;to remember;Cognition;memini;selection;0;universal concepts;Latin;0;plametod;Sabellic;0
+1186;17#32;to forget;Cognition;obliviscor;selection;0;universal concepts;Latin;0;;;
+1187;17#34;clear;Cognition;clarus;selection;0;universal concepts;Latin;0;;;
+1188;17#35;obscure;Cognition;obscurus;selection;0;universal concepts;Latin;0;;;
+1189;17#36;secret;Cognition;occultus;selection;0;universal concepts;Latin;0;;;
+1190;17#37;certain;Cognition;certus;selection;0;universal concepts;Latin;0;;;
+1191;17#38;to explain;Cognition;explano;selection;0;universal concepts;Latin;0;;;
+1192;17#41;the intention;Cognition;consilium;selection;0;universal concepts;Latin;0;;;
+1193;17#42;the cause;Cognition;causa;selection;0;universal concepts;Etruscan;0.25;;;
+1194;17#43;the doubt;Cognition;dubitatio;selection;0;universal concepts;Latin;0;;;
+1195;17#44;to suspect;Cognition;suspicor;selection;0;universal concepts;Latin;0;;;
+1196;17#441;to betray;Cognition;prodo;selection;0;universal concepts;Latin;0;;;
+1197;17#45;the need or necessity;Cognition;opus;nonspecific;0;universal concepts;;;;;
+1198;17#46;easy;Cognition;facilis;selection;0;universal concepts;Latin;0;;;
+1199;17#47;difficult;Cognition;difficilis;selection;0;universal concepts;Latin;0;;;
+1200;17#48;to try;Cognition;conor;selection;0;universal concepts;Latin;0;;;
+1201;17#49;the manner;Cognition;modus;selection;0;universal concepts;Latin;0;;;
+1202;17#51;and;Cognition;que, et;selection;0;universal concepts;Latin;0;et;Sabellic;0
+1203;17#52;because;Cognition;quia;selection;0;universal concepts;Latin;0;;;
+1204;17#53;if;Cognition;si;selection;0;universal concepts;Latin;0;suai;Sabellic;0
+1205;17#54;or;Cognition;aut;selection;0;universal concepts;Latin;0;aut;Sabellic;0
+1206;17#55;yes;Cognition;ita, sic;selection;0;universal concepts;Latin;0;;;
+1207;17#56;no;Cognition;non;selection;0;universal concepts;Latin;0;;;
+1208;17#61;how?;Cognition;quomodo? ut?;selection;0;universal concepts;Latin;0;;;
+1209;17#62;how many?;Cognition;quot;selection;0;universal concepts;Latin;0;;;
+1210;17#63;how much?;Cognition;quantus;selection;0;universal concepts;Latin;0;;;
+1211;17#64;what?;Cognition;quid;selection;0;universal concepts;Latin;0;;;
+1212;17#65;when?;Cognition;quando;selection;0;universal concepts;Latin;0;api;Sabellic;0
+1213;17#66;where?;Cognition;ubi;selection;0;universal concepts;Latin;0;pufe;Sabellic;0
+1214;17#67;which?;Cognition;quid;selection;0;universal concepts;Latin;0;;;
+1215;17#68;who?;Cognition;qui;selection;0;universal concepts;Latin;0;;;
+1216;17#69;why?;Cognition;cur;selection;0;universal concepts;Latin;0;;;
+1217;18#11;the voice;Speech and language;vox;selection;0;universal concepts;Latin;0;;;
+1218;18#12;to sing;Speech and language;cano;selection;0;universal concepts;Latin;0;kanetu;Sabellic;0
+1219;18#13;to shout;Speech and language;clamo;selection;0;universal concepts;Latin;0;karetu;Sabellic;0
+1220;18#15;to whisper;Speech and language;susurro;selection;0;universal concepts;Latin;0;;;
+1221;18#16;to mumble;Speech and language;murmuro;selection;0;universal concepts;Latin;0;;;
+1222;18#17;to whistle;Speech and language;sibilo;selection;0;universal concepts;Latin;0;;;
+1223;18#18;to shriek;Speech and language;ululo;selection;0;universal concepts;Latin;0;;;
+1224;18#19;to howl;Speech and language;ululo;selection;0;universal concepts;Latin;0;;;
+1225;18#21;to speak or talk;Speech and language;loquor;selection;0;universal concepts;Latin;0;;;
+1226;18#211;to stutter or stammer;Speech and language;balbutio;selection;0;universal concepts;Latin;0;;;
+1227;18#22;to say;Speech and language;dico;selection;0;universal concepts;Latin;0;teitu;Sabellic;0
+1228;18#221;to tell;Speech and language;narro;selection;0;universal concepts;Latin;0;;;
+1229;18#222;the speech;Speech and language;oratio;selection;0;universal concepts;Latin;0;;;
+1230;18#23;to be silent;Speech and language;taceo;selection;0;universal concepts;Latin;0;tacez;Sabellic;0
+1231;18#24;the language;Speech and language;lingua;selection;0;universal concepts;Latin;0;;;
+1232;18#26;the word;Speech and language;verbum;selection;0;universal concepts;Latin;0;iuku;Sabellic;0
+1233;18#28;the name;Speech and language;nomen;selection;0;universal concepts;Latin;0;numem;Sabellic;0
+1234;18#31;to ask(1);Speech and language;rogo;selection;0;universal concepts;Latin;0;;;
+1235;18#32;to answer;Speech and language;respondeo;selection;0;universal concepts;Latin;0;;;
+1236;18#33;to admit;Speech and language;doceo;selection;0;universal concepts;Latin;0;;;
+1237;18#34;to deny;Speech and language;nego;selection;0;universal concepts;Latin;0;;;
+1238;18#35;to ask(2);Speech and language;rogo;selection;0;universal concepts;Latin;0;;;
+1239;18#36;to promise;Speech and language;polliceor;selection;0;universal concepts;Latin;0;;;
+1240;18#37;to refuse;Speech and language;recuso;selection;0;universal concepts;Etruscan;0.25;;;
+1241;18#38;to forbid;Speech and language;veto;selection;0;universal concepts;Latin;0;;;
+1242;18#39;to scold;Speech and language;obiurgo;selection;0;universal concepts;Latin;0;;;
+1243;18#41;to call(1);Speech and language;voco;selection;0;universal concepts;Latin;0;;;
+1244;18#42;to call(2);Speech and language;appello;selection;0;universal concepts;Latin;0;;;
+1245;18#43;to announce;Speech and language;nuntio;selection;0;universal concepts;Latin;0;combifiatu;Sabellic;0
+1246;18#44;to threaten;Speech and language;minari;selection;0;universal concepts;Latin;0;;;
+1247;18#45;to boast;Speech and language;glorior;selection;0;universal concepts;Latin;0;;;
+1248;18#51;to write;Speech and language;scribo;selection;1;specialised trades;Latin;0;screihtor;Sabellic;0
+1249;18#52;to read;Speech and language;lego;selection;1;specialised trades;Latin;0;leexe;Sabellic;0
+1250;18#56;the paper;Speech and language;charta;selection;1;specialised trades;Greek;1;;;
+1251;18#57;the pen;Speech and language;calamus;selection;1;specialised trades;Greek;1;;;
+1252;18#61;the book;Speech and language;liber;selection;1;specialised trades;Latin;0;;;
+1253;18#67;the poet;Speech and language;poeta;selection;1;specialised trades;Greek;1;;;
+1254;18#71;the flute;Speech and language;tibia;selection;1;specialised trades;substrate;0.5;;;
+1255;18#72;the drum;Speech and language;tympanum;selection;1;specialised trades;Greek;1;;;
+1256;18#73;the horn or trumpet;Speech and language;tuba;selection;1;specialised trades;substrate;0.75;;;
+1257;18#74;the rattle;Speech and language;crepitaculum;selection;1;specialised trades;Latin;0;;;
+1258;19#11;the country;Social and political relations;regio;selection;1;transcends the home;Latin;0;;;
+1259;19#12;the native country;Social and political relations;patria;selection;1;transcends the home;Latin;0;;;
+1260;19#15;the town;Social and political relations;oppidum;selection;1;transcends the home;Latin;0;;;
+1261;19#16;the village;Social and political relations;pagus;selection;1;transcends the home;Latin;0;;;
+1262;19#17;the boundary;Social and political relations;finis;selection;1;transcends the home;Latin;0;;;
+1263;19#21;the people;Social and political relations;populus;selection;1;transcends the home;Etruscan;0.25;puplu;Sabellic;0.25
+1264;19#23;the clan;Social and political relations;gens;selection;1;transcends the home;Latin;0;natine;Sabellic;0
+1265;19#24;the chieftain;Social and political relations;dux;selection;1;transcends the home;Latin;0;;;
+1266;19#25;the walking stick;Social and political relations;baculum;selection;0;universal concepts;substrate;0.5;;;
+1267;19#31;to rule or govern;Social and political relations;rego;selection;0;universal concepts;Latin;0;;;
+1268;19#32;the king;Social and political relations;rex;selection;1;not in every home;Latin;0;regom;Sabellic;0
+1269;19#33;the queen;Social and political relations;regina;selection;1;not in every home;Latin;0;;;
+1270;19#36;the noble;Social and political relations;nobilis;selection;1;not in every home;Latin;0;;;
+1271;19#37;the citizen;Social and political relations;civis;selection;0;universal in Roman society;Latin;0;ceus;Latin;1
+1272;19#41;the master;Social and political relations;dominus;selection;0;universal in Roman society;Latin;0;diomanas;Sabellic;0
+1273;19#42;the slave;Social and political relations;servus;selection;0;universal in Roman society;Latin;0;famel;Sabellic;0
+1274;19#43;the servant;Social and political relations;minister;selection;0;universal in Roman society;Latin;0;;;
+1275;19#44;the freeman;Social and political relations;libertus;selection;0;universal concepts;Latin;0;;;
+1276;19#445;to liberate;Social and political relations;solvo;selection;0;universal concepts;Latin;0;;;
+1277;19#45;to command or order;Social and political relations;iubeo;selection;0;universal concepts;Latin;0;faamated;Sabellic;0
+1278;19#46;to obey;Social and political relations;pareo;selection;0;universal concepts;Latin;0;;;
+1279;19#47;to permit;Social and political relations;sino;selection;0;universal concepts;Latin;0;;;
+1280;19#51;the friend;Social and political relations;amicus;selection;0;universal concepts;Latin;0;;;
+1281;19#52;the enemy;Social and political relations;hostis;selection;0;universal concepts;Latin;0;;;
+1282;19#54;the neighbour;Social and political relations;vicinus;selection;0;universal concepts;Latin;0;;;
+1283;19#55;the stranger;Social and political relations;peregrinus;selection;0;universal concepts;Latin;0;;;
+1284;19#56;the guest;Social and political relations;hospes;selection;0;universal concepts;Latin;0;;;
+1285;19#565;to invite;Social and political relations;invito;selection;0;universal concepts;Latin;0;;;
+1286;19#57;the host;Social and political relations;hospes;selection;0;universal concepts;Latin;0;;;
+1287;19#58;to help;Social and political relations;adiuvo;selection;0;universal concepts;Latin;0;;;
+1288;19#59;to prevent;Social and political relations;prohibeo;selection;0;universal concepts;Latin;0;pertemust;Sabellic;0
+1289;19#61;the custom;Social and political relations;mos;selection;0;universal concepts;Latin;0;;;
+1290;19#62;the quarrel;Social and political relations;rixa;selection;0;universal concepts;Latin;0;;;
+1291;19#63;the plot;Social and political relations;coniuratio;selection;0;universal concepts;Latin;0;;;
+1292;19#65;to meet;Social and political relations;convenio;selection;0;universal concepts;Latin;0;;;
+1293;19#72;the prostitute;Social and political relations;meretrix;selection;1;specialised trades;Latin;0;;;
+1294;20#11;to fight;Warfare and hunting;pugno;selection;0;universal concepts;Latin;0;;;
+1295;20#13;the war or battle;Warfare and hunting;bellum;selection;1;specialised trades;Latin;0;;;
+1296;20#14;the peace;Warfare and hunting;pax;selection;0;universal concepts;Latin;0;pase;Sabellic;0
+1297;20#15;the army;Warfare and hunting;exercitum;selection;1;specialised trades;Latin;0;;;
+1298;20#17;the soldier;Warfare and hunting;miles;selection;1;specialised trades;Etruscan;0.25;;;
+1299;20#21;the weapons;Warfare and hunting;arma;selection;1;specialised trades;Latin;0;;;
+1300;20#22;the club;Warfare and hunting;clava;selection;1;specialised trades;Latin;0;;;
+1301;20#222;the battle-axe;Warfare and hunting;fustis;selection;1;specialised trades;Latin;0;;;
+1302;20#23;the sling;Warfare and hunting;funda;selection;1;specialised trades;substrate;0.25;;;
+1303;20#24;the bow;Warfare and hunting;arcus;selection;1;specialised trades;Latin;0;;;
+1304;20#25;the arrow;Warfare and hunting;sagitta;selection;1;specialised trades;substrate;0.75;;;
+1305;20#26;the spear;Warfare and hunting;hasta;selection;1;specialised trades;substrate;0.25;;;
+1306;20#27;the sword;Warfare and hunting;gladius;selection;1;specialised trades;Celtic;0.75;;;
+1307;20#28;the gun;Warfare and hunting;;anachronism;1;specialised trades;;;;;
+1308;20#31;the armour;Warfare and hunting;tegumenta corporis;compound;1;specialised trades;;;;;
+1309;20#33;the helmet;Warfare and hunting;cassis;selection;1;specialised trades;Greek;0.25;;;
+1310;20#34;the shield;Warfare and hunting;scutum;selection;1;specialised trades;Latin;0;;;
+1311;20#35;the fortress;Warfare and hunting;arx;selection;1;specialised trades;Latin;0;okrei;Sabellic;0
+1312;20#36;the tower;Warfare and hunting;turris;selection;1;specialised trades;Greek;1;tiurris;substrate;0.75
+1313;20#41;the victory;Warfare and hunting;victoria;selection;1;specialised trades;Latin;0;;;
+1314;20#42;the defeat;Warfare and hunting;clades;selection;1;specialised trades;Latin;0;;;
+1315;20#43;the attack;Warfare and hunting;impetus;selection;1;specialised trades;Latin;0;;;
+1316;20#44;to defend;Warfare and hunting;defendo;selection;1;specialised trades;Latin;0;;;
+1317;20#45;to retreat;Warfare and hunting;me recipio;compound;1;specialised trades;;;;;
+1318;20#46;to surrender;Warfare and hunting;trado;selection;1;specialised trades;Latin;0;;;
+1319;20#47;the captive or prisoner;Warfare and hunting;captivus;selection;1;specialised trades;Latin;0;;;
+1320;20#471;the guard;Warfare and hunting;custos;selection;1;specialised trades;Latin;0;;;
+1321;20#48;the booty;Warfare and hunting;praeda;selection;1;specialised trades;Latin;0;;;
+1322;20#49;the ambush;Warfare and hunting;insidiae;selection;1;specialised trades;Latin;0;;;
+1323;20#51;the fisherman;Warfare and hunting;piscator;selection;1;specialised trades;Latin;0;;;
+1324;20#52;the fishhook;Warfare and hunting;hamus;selection;1;specialised trades;Latin;0;;;
+1325;20#53;the fishing line;Warfare and hunting;linum;selection;1;specialised trades;Latin;0;;;
+1326;20#54;the fishnet;Warfare and hunting;rete;selection;1;specialised trades;Semitic;0.5;;;
+1327;20#55;the fish trap;Warfare and hunting;;none?;1;specialised trades;;;;;
+1328;20#56;the bait;Warfare and hunting;esca;selection;1;specialised trades;Latin;0;;;
+1329;20#61;to hunt;Warfare and hunting;venor;selection;1;specialised trades;Latin;0;;;
+1330;20#62;to shoot;Warfare and hunting;ferire;selection;1;specialised trades;Latin;0;;;
+1331;20#63;to miss;Warfare and hunting;aberro;selection;1;specialised trades;Latin;0;;;
+1332;20#64;the trap;Warfare and hunting;laqueus;selection;1;specialised trades;Latin;0;;;
+1333;20#65;to trap;Warfare and hunting;illaqueo;selection;1;specialised trades;Latin;0;;;
+1334;21#11;the law;Law;lex;selection;0;universal concepts?;Latin;0;leiguss;Sabellic;0
+1335;21#15;the court;Law;iudices;selection;1;legal term;Latin;0;;;
+1336;21#16;to adjudicate;Law;iudico;selection;1;legal term;Latin;0;;;
+1337;21#17;the judgment;Law;iudicium;selection;1;legal term;Latin;0;;;
+1338;21#18;the judge;Law;iudex;selection;1;legal term;Latin;0;;;
+1339;21#21;the plaintiff;Law;petitor;selection;1;legal term;Latin;0;;;
+1340;21#22;the defendant;Law;reus;selection;1;legal term;Latin;0;;;
+1341;21#23;the witness;Law;testis;selection;1;legal term;Latin;0;trstus;Latin;0.5
+1342;21#24;to swear;Law;iurare;selection;0;universal concepts?;Latin;0;deiuast;Sabellic;0
+1343;21#25;the oath;Law;iusiurandum;selection;0;universal concepts?;Latin;0;;;
+1344;21#31;to accuse;Law;accusare;selection;1;legal term;Etruscan;0.25;;;
+1345;21#32;to condemn;Law;condemno;selection;1;legal term;Latin;0;;;
+1346;21#33;to convict;Law;convinco;selection;1;legal term;Latin;0;uincter;Latin;0.75
+1347;21#34;to acquit;Law;absolvo;selection;1;legal term;Latin;0;;;
+1348;21#35;guilty;Law;sons;selection;1;legal term;Latin;0;;;
+1349;21#36;innocent;Law;insons;selection;1;legal term;Latin;0;;;
+1350;21#37;the penalty or punishment;Law;poena;selection;0;universal concepts?;Greek;1;;;
+1351;21#38;the fine;Law;poena;nonspecific;1;legal term;Greek;1;;;
+1352;21#39;the prison;Law;carcer;selection;1;legal term;Latin;0;;;
+1353;21#42;the murder;Law;caedes;selection;1;legal term;Latin;0;;;
+1354;21#43;the adultery;Law;adulterium;selection;1;legal term;Latin;0;;;
+1355;21#44;the rape;Law;vis;anachronism;1;legal term;Latin;0;;;
+1356;21#46;the arson;Law;incendium;selection;1;legal term;Latin;0;;;
+1357;21#47;the perjury;Law;periurium;selection;1;legal term;Latin;0;;;
+1358;21#51;to steal;Law;furor;selection;0;universal concepts?;Latin;0;klopoust;Sabellic;0
+1359;21#52;the thief;Law;fur;selection;0;universal concepts?;Latin;0;kulupu;Sabellic;0
+1360;22#11;the religion;Religion and belief;religio;selection;0;present in home?;Latin;0;;;
+1361;22#12;the god;Religion and belief;deus;selection;0;present in home?;Latin;0;aisos;Etruscan;1
+1362;22#13;the temple;Religion and belief;aedes;selection;1;religious term;Latin;0;fesner;Sabellic;0
+1363;22#131;the church;Religion and belief;;anachronism;1;;;;;;
+1364;22#132;the mosque;Religion and belief;;anachronism;1;;;;;;
+1365;22#14;the altar;Religion and belief;ara;selection;1;religious term;Latin;0;ase;Sabellic;0
+1366;22#15;the sacrifice;Religion and belief;sacrificium;selection;0;perhaps would have occurred in any home?;Latin;0;esunu;Etruscan;1
+1367;22#16;to worship;Religion and belief;veneror;nonspecific;1;religious term;Latin;0;;;
+1368;22#17;to pray;Religion and belief;precor;selection;0;perhaps would have occurred in any home?;Latin;0;pesnimu;Sabellic;0
+1369;22#18;the priest;Religion and belief;sacerdos;selection;1;religious term;Latin;0;pristafalacirix;Sabellic;0
+1370;22#19;holy;Religion and belief;sanctus;selection;1;religious term;Latin;0;;;
+1371;22#22;to preach;Religion and belief;praedico;selection;1;religious term;Latin;0;;;
+1372;22#23;to bless;Religion and belief;benedico;selection;1;religious term;Latin;0;;;
+1373;22#24;to curse;Religion and belief;exsecror;selection;1;religious term;Latin;0;;;
+1374;22#26;to fast;Religion and belief;ieiunus sum;compound;1;religious term;;;;;
+1375;22#31;the heaven;Religion and belief;superi;anachronism;1;;Latin;0;;;
+1376;22#32;the hell;Religion and belief;inferi;anachronism;1;;Latin;0;;;
+1377;22#35;the demon;Religion and belief;;anachronism;1;;;;;;
+1378;22#37;the idol;Religion and belief;;anachronism;1;;;;;;
+1379;22#42;the magic;Religion and belief;(ars) magica;selection;1;religious term;Greek;1;;;
+1380;22#43;the sorcerer or witch;Religion and belief;saga;selection;1;religious term;Celtic;1;;;
+1381;22#44;the fairy or elf;Religion and belief;numen;anachronism;1;;Latin;0;;;
+1382;22#45;the ghost;Religion and belief;phantasma;anachronism;1;;Greek;1;;;
+1383;22#47;the omen;Religion and belief;omen;selection;1;religious term;Latin;0;;;
+1384;22#5;the circumcision;Religion and belief;;anachronism;1;;;;;;
+1385;22#51;the initiation ceremony;Religion and belief;initiatio;anachronism;1;;Latin;0;;;
+1386;23#1;the radio;Modern world;;anachronism;1;;;;;;
+1387;23#11;the television;Modern world;;anachronism;1;;;;;;
+1388;23#12;the telephone;Modern world;;anachronism;1;;;;;;
+1389;23#13;the bicycle;Modern world;;anachronism;1;;;;;;
+1390;23#135;the motorcycle;Modern world;;anachronism;1;;;;;;
+1391;23#14;the car;Modern world;;anachronism;1;;;;;;
+1392;23#15;the bus;Modern world;;anachronism;1;;;;;;
+1393;23#155;the train;Modern world;;anachronism;1;;;;;;
+1394;23#16;the airplane;Modern world;;anachronism;1;;;;;;
+1395;23#17;the electricity;Modern world;;anachronism;1;;;;;;
+1396;23#175;the battery;Modern world;;anachronism;1;;;;;;
+1397;23#18;to brake;Modern world;;anachronism;1;;;;;;
+1398;23#185;the motor;Modern world;;anachronism;1;;;;;;
+1399;23#19;the machine;Modern world;;anachronism;1;;;;;;
+1400;23#195;the petroleum;Modern world;;anachronism;1;;;;;;
+1401;23#2;the hospital;Modern world;valetudinarium;anachronism;1;;Latin;0;;;
+1402;23#21;the nurse;Modern world;;anachronism;1;;;;;;
+1403;23#22;the pill or tablet;Modern world;pilula;anachronism;1;;Latin;0;;;
+1404;23#23;the injection;Modern world;infusio;anachronism;1;;Latin;0;;;
+1405;23#24;the spectacles/glasses;Modern world;;anachronism;1;;;;;;
+1406;23#3;the government;Modern world;res publica;selection;1;political term;Latin;0;;;
+1407;23#31;the president;Modern world;;anachronism;1;;;;;;
+1408;23#32;the minister;Modern world;;anachronism;1;;;;;;
+1409;23#33;the police;Modern world;vigiles;anachronism;1;;Latin;0;;;
+1410;23#34;the driver's license;Modern world;;anachronism;1;;;;;;
+1411;23#35;the license plate;Modern world;;anachronism;1;;;;;;
+1412;23#36;the birth certificate;Modern world;;anachronism;1;;;;;;
+1413;23#37;the crime;Modern world;scelus, facinus;selection;1;legal term;Latin;0;;;
+1414;23#38;the election;Modern world;electio;selection;1;political term;Latin;0;;;
+1415;23#385;the address;Modern world;;anachronism;1;;;;;;
+1416;23#39;the number;Modern world;numerus;anachronism;1;;Latin;0;;;
+1417;23#395;the street;Modern world;platea;anachronism;1;;Greek;1;;;
+1418;23#4;the post/mail;Modern world;;anachronism;1;;;;;;
+1419;23#41;the postage stamp;Modern world;;anachronism;1;;;;;;
+1420;23#42;the letter;Modern world;litterae;selection;1;specialised trades;Latin;0;;;
+1421;23#43;the postcard;Modern world;;anachronism;1;;;;;;
+1422;23#44;the bank;Modern world;;anachronism;1;;;;;;
+1423;23#5;the tap/faucet;Modern world;fistula;anachronism;1;;Latin;0;;;
+1424;23#51;the sink;Modern world;;anachronism;1;;;;;;
+1425;23#52;the toilet;Modern world;latrina;selection;1;not in any home?;Latin;0;;;
+1426;23#53;the mattress;Modern world;culcita;nonspecific;1;;Latin;0;;;
+1427;23#54;the tin/can;Modern world;;anachronism;1;;;;;;
+1428;23#55;the screw;Modern world;;anachronism;1;;;;;;
+1429;23#555;the screwdriver;Modern world;;anachronism;1;;;;;;
+1430;23#56;the bottle;Modern world;ampulla;anachronism;1;;Greek;1;;;
+1431;23#565;the candy/sweets;Modern world;;anachronism;1;;;;;;
+1432;23#57;the plastic;Modern world;;anachronism;1;;;;;;
+1433;23#575;the bomb;Modern world;;anachronism;1;;;;;;
+1434;23#58;the workshop;Modern world;officina;selection;1;specialised trades;Latin;0;anei;Sabellic;0
+1435;23#59;the cigarette;Modern world;;anachronism;1;;;;;;
+1436;23#6;the newspaper;Modern world;;anachronism;1;;;;;;
+1437;23#61;the calendar;Modern world;fasti;selection;1;specialised trades;Latin;0;;;
+1438;23#62;the film/movie;Modern world;;anachronism;1;;;;;;
+1439;23#63;the music;Modern world;(ars) musica;selection;1;specialised trades;Latin;0;;;
+1440;23#64;the song;Modern world;cantus;selection;0;in any home;Latin;0;;;
+1441;23#9;the tea;Modern world;;anachronism;1;;;;;;
+1442;23#91;the coffee;Modern world;;anachronism;1;;;;;;
+1443;24#01;to be;Miscellaneous function words;esse;selection;0;universal concepts;Latin;0;esum;Sabellic;0
+1444;24#02;to become;Miscellaneous function words;fieri;selection;0;universal concepts;Latin;0;;;
+1445;24#03;without;Miscellaneous function words;sine;selection;0;universal concepts;Latin;0;perum;Sabellic;0
+1446;24#04;with;Miscellaneous function words;cum;selection;0;universal concepts;Latin;0;ku;Sabellic;0
+1447;24#05;through;Miscellaneous function words;per;selection;0;universal concepts;Latin;0;;;
+1448;24#06;not;Miscellaneous function words;non;selection;0;universal concepts;Latin;0;ne;Sabellic;0
+1449;24#07;this;Miscellaneous function words;hic;selection;0;universal concepts;Latin;0;eu;Sabellic;0
+1450;24#08;that;Miscellaneous function words;ille;selection;0;universal concepts;Latin;0;eiok;Sabellic;0
+1451;24#09;here;Miscellaneous function words;hic;selection;0;universal concepts;Latin;0;estufk;Sabellic;0
+1452;24#1;there;Miscellaneous function words;ibi;selection;0;universal concepts;Latin;0;uru;Sabellic;0
+1453;24#11;other;Miscellaneous function words;alius;selection;0;universal concepts;Latin;0;alttrei;Sabellic;0
+1454;24#12;next;Miscellaneous function words;proximus;selection;0;universal concepts;Latin;0;nessimas;Sabellic;0
+1455;24#13;same;Miscellaneous function words;idem;selection;0;universal concepts;Latin;0;;;
+1456;24#14;nothing;Miscellaneous function words;nihil;selection;0;universal concepts;Latin;0;;;
+1457;13;zero;Quantity;nihil;anachronism;0;universal concepts;Latin;0;;;

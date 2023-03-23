@@ -1,0 +1,87 @@
+﻿WALS features;ID;Category;Latin;Oscan;Umbrian;Old_Sabellic;Venetic;Messapic;Etruscan;Greek_Ancient;Gaulish;Phrygian;Punic
+1. Consonant Inventories;1;Phonology;2;2;2;2;2;2;2;2;2;2;3
+2. Vowel Quality Inventories;2;Phonology;2;3;3;2;2;1;1;3;2;2;5
+3. Consonant‑Vowel Ratio;3;Phonology;3;2;3;3;3;3;3;2;2;3;3
+4. Voicing of Obstruents;4;Phonology;2;2;2;2;4;2;1;2;2;2;4
+5. Gaps in Plosive Systems;5;Phonology;2;2;2;2;2;2;1;2;2;2;2
+10. Vowel Nasalization;10;Phonology;1;2;1;2;2;2;2;2;2;2;2
+11. Front Rounded Vowels;11;Phonology;1;1;1;1;1;1;1;3;1;1;1
+12. Syllable Structure;12;Phonology;3;3;3;3;3;3;3;3;3;3;3
+14. Fixed Stress Locations;14;Phonology;2;2;2;2;2;0;2;1;1;0;7
+18. Common Consonants;18;Phonology;1;1;1;1;1;1;1;1;1;1;1
+20. Fusion of Formatives;20;Morphology;1;1;1;1;1;1;1;1;1;1;2
+21. Exponence of Formatives;21;Morphology;2;2;2;2;2;2;1;2;2;2;5
+22. Inflectional Verb Synthesis;22;Morphology;3;3;3;3;3;3;2;3;3;3;3
+23. Marking in the Clause;23;Morphology;2;2;2;2;2;2;2;2;2;2;4
+24. Possessive Marking;24;Morphology;2;2;2;2;2;2;2;2;2;2;1
+25. Marking: Typology;25;Morphology;2;2;2;2;2;2;2;2;2;2;5
+26. Prefixing vs. Suffixing;26;Morphology;2;2;2;2;2;2;2;2;2;2;3
+28. Case Syncretism;28;Morphology;3;3;3;0;3;3;4;2;3;2;1
+30. Number of Genders;30;Morphology;3;3;3;3;3;3;1;3;3;3;2
+31. Sex‑based Gender Systems;31;Morphology;2;2;2;2;2;2;1;2;2;2;2
+33. Coding of Nominal Plurality;33;Morphology;2;2;2;2;2;2;2;2;2;2;2
+34. Occurrence of Plurality;34;Morphology;6;6;6;0;0;6;6;6;6;0;6
+35. Plurality in Pronouns;35;Morphology;5;5;5;0;0;0;0;6;0;0;5
+49. Number of Cases;49;Morphology;5;6;6;6;5;6;5;4;6;4;1
+50. Asymmetrical Case‑Marking;50;Morphology;4;4;4;4;4;0;2;4;4;4;1
+51. Position of Case Affixes;51;Morphology;1;1;1;1;1;1;1;1;1;1;7
+57. Possessive Affixes;57;Morphology;4;4;4;0;0;0;4;4;0;0;2
+58. Possessive Inflection;58;Morphology;2;2;2;0;0;0;2;2;0;0;2
+59. Possessive classification;59;Morphology;1;1;1;1;1;1;1;1;1;1;1
+98. Alignment of NPs;98;Morphology;2;2;2;2;2;0;1;2;2;2;1
+99. Alignment of Pronouns;99;Morphology;2;2;2;0;0;0;2;2;2;0;1
+100. Verbal Alignment;100;Morphology;2;2;2;2;2;0;1;2;2;2;2
+101. Pronominal Subjects;101;Morphology;2;2;2;2;2;2;2;2;2;2;2
+102. Verbal Person Marking;102;Morphology;2;2;2;2;2;2;1;2;2;2;1
+103. Third Person Zero;103;Morphology;2;2;2;2;2;3;1;2;2;2;2
+104. Order of Person Markers;104;Morphology;1;1;1;1;1;1;1;1;1;1;3
+37. Definite Articles;37;Words;5;5;5;0;5;5;3;1;5;5;3
+38. Indefinite Articles;38;Words;5;5;5;5;5;5;4;4;5;5;4
+42. Pronominal vs Adnominal ;42;Words;1;1;1;0;0;0;1;1;0;0;1
+44. Gender Distinctions;44;Words;2;2;2;0;0;0;0;2;0;0;1
+46. Indefinite Pronouns;46;Words;1;1;1;1;0;1;0;1;0;0;2
+47. Intensifiers and Reflexive;47;Words;2;0;0;0;0;0;0;2;0;0;2
+48. Person‑marking adpositions;48;Words;2;2;2;2;2;2;2;2;2;2;2
+53. Ordinal Numerals;53;Words;7;7;7;0;0;0;0;7;0;0;6
+55. Numeral classifiers;55;Words;1;1;1;0;0;0;1;1;0;0;1
+56. Conjunctions, Quantifiers;56;Words;1;1;1;0;0;0;0;1;0;0;1
+63. Noun Phrase Conjunction;63;Words;1;1;1;1;1;1;1;1;1;1;1
+64. Verbal Conjunction;64;Words;2;1;3;0;0;1;2;1;0;1;1
+131. Numeral Bases;131;Words;1;1;1;0;0;0;1;1;0;0;1
+136. M‑T Pronouns;136;Words;2;2;2;0;0;0;0;1;2;0;1
+137. N‑M Pronouns;137;Words;1;1;1;0;1;0;0;1;0;0;1
+60. Genitives, Adjectives ;60;Categories;6;6;6;6;6;6;6;6;6;6;6
+61. Adjectives without Nouns;61;Categories;2;2;2;2;0;0;2;2;0;0;2
+66. The Past Tense;66;Categories;1;1;1;1;1;1;1;1;1;1;4
+67. The Future Tense;67;Categories;1;1;1;1;0;0;0;1;1;1;2
+69. Position of TAM Affixes;69;Categories;2;2;2;2;2;2;2;2;2;2;5
+70. Morphological Imperative;70;Categories;1;1;1;1;0;0;1;1;1;1;1
+71. The Prohibitive;71;Categories;4;4;2;4;0;4;2;4;0;0;4
+81. Order of SOV;81;Order;1;1;1;1;0;1;1;1;3;1;3
+82. Order of Subject;82;Order;1;1;1;1;1;1;1;1;2;1;2
+83. Order of Object;83;Order;1;1;1;1;0;1;1;1;2;1;2
+85. Order of Adposition;85;Order;2;2;2;2;2;2;1;2;2;2;2
+86. Order of Genitive;86;Order;1;1;1;1;3;1;1;1;2;3;2
+87. Order of Adjective;87;Order;2;2;2;1;0;2;2;1;2;2;2
+88. Order of Demonstrative;88;Order;1;1;1;1;0;1;1;1;0;1;2
+89. Order of Numeral;89;Order;2;2;2;0;0;0;2;1;0;0;1
+90. Order of Relative Clause;90;Order;1;1;1;1;0;1;1;1;1;0;2
+94. Subordinator and Clause;94;Order;1;1;1;1;0;1;1;1;0;1;1
+95. Object‑Verb Adp‑NP;95;Order;2;2;2;2;0;2;1;2;4;2;4
+96. Object‑Verb Rel‑Noun;96;Order;2;2;2;2;0;2;2;2;4;0;4
+97. Object‑Verb Adj‑Noun;97;Order;2;2;2;3;0;2;2;3;4;0;4
+105. Ditransitive Constructions;105;Syntax;1;1;1;1;1;1;1;1;1;1;1
+107. Passive Constructions;107;Syntax;1;1;1;1;1;0;1;1;0;1;1
+112. Negative Morphemes;112;Syntax;2;2;2;0;0;0;2;2;0;0;2
+113. Symmetric Negation;113;Syntax;1;1;1;0;0;0;0;1;0;0;1
+114. Asymmetric Negation;114;Syntax;7;7;7;0;0;0;0;7;0;0;7
+115. Negative Indefinites;115;Syntax;2;0;0;2;0;0;0;2;0;0;2
+117. Predicative Possession;117;Syntax;2;2;2;2;0;2;2;2;0;0;1
+118. Predicative Adjectives;118;Syntax;2;2;2;0;0;0;0;2;0;0;1
+119. Nominal and Locational;119;Syntax;2;2;2;0;0;0;0;2;0;0;2
+120. Zero Copula;120;Syntax;2;0;0;0;0;2;2;2;0;0;2
+122. Relativization on Subjects;122;Syntax;1;1;1;1;0;0;1;1;4;0;1
+124. 'Want' Complements;124;Syntax;3;1;1;0;0;0;0;0;1;0;2
+125. Purpose Clauses;125;Syntax;3;3;3;0;0;3;0;0;0;0;1
+126. 'When' Clauses;126;Syntax;2;1;1;1;0;0;1;0;0;0;2
+128. Utterance Complements;128;Syntax;2;3;3;0;0;0;0;1;0;0;1

@@ -1,0 +1,64 @@
+﻿Name;Family;Branch;Latitude;Longitude;Source;Region;Type;Source;Relevant;Comment
+Latin;Indo-European;Latin;41.9;12.45;Glottolog;Italy;1;;1;
+Oscan;Indo-European;Sabellic;40.98;15.67;Glottolog;Italy;2;;1;
+Umbrian;Indo-European;Sabellic;42.75;13.02;Glottolog;Italy;2;;1;
+Old Sabellic;Indo-European;Sabellic;43.54;13.46;Glottolog;Italy;3;;1;
+Venetic;Indo-European;Venetic;45.6;12.06;Glottolog;Italy;3;;1;
+Messapic;Indo-European;Messapic;40.54;17.86;Glottolog;Italy;3;Joseph, Linguistic Contact in the Ancient Balkans;1;
+Etruscan;Tyrrhenian;Tyrrhenian;43.4;11.1;self;Italy;2;;1;
+Rhaetic;Tyrrhenian;Tyrrhenian;46.68;10.61;self;Italy;3;;1;
+Lepontic;Indo-European;Celtic;45.98;8.92;Glottolog;Italy;3;;1;
+Sicel;Indo-European;;37.61;14.73;self;Italy;4;;1;
+Sicanian;unclassified;;37.53;13.51;Glottolog;Italy;4;Fortson, Indo-European Language and Culture;1;
+Elymian;Indo-European;;37.94;12.83;Glottolog;Italy;4;;1;
+Gaulish;Indo-European;Celtic;43.97;3.3;Glottolog;Gaul;2;;1;
+Celtiberian;Indo-European;Celtic;41.28;-2.53;Glottolog;Spain;3;Sinner & Frías, Epigraphy: The Palaeohispanic Languages;1;
+Gallaecian;Indo-European;Celtic;0;0;;Spain;0;;0;
+Iberian;unclassified;;40.62;0.21;Glottolog;Spain;3;Sinner & Frías, Epigraphy: The Palaeohispanic Languages;1;
+Vasconic;Vasconic;;43.28;-1.32;Glottolog;Spain;4;Sinner & Frías, Epigraphy: The Palaeohispanic Languages;1;
+Tartessian;unclassified;;37.24;-8.12;Glottolog;Spain;3;Sinner & Frías, Epigraphy: The Palaeohispanic Languages;1;
+Lusitanian;Indo-European;Lusitanian;39.94;-8.11;Glottolog;Spain;4;Sinner & Frías, Epigraphy: The Palaeohispanic Languages;1;
+Greek;Indo-European;Greek;39.82;21.91;Glottolog;Balkans;1;Joseph, Linguistic Contact in the Ancient Balkans;1;
+Phrygian;Indo-European;Phrygian;39.61;31.28;Glottolog;Anatolia;2;Joseph, Linguistic Contact in the Ancient Balkans;1;
+Galatian;Indo-European;Celtic;39.34;32.84;Glottolog;Anatolia;3;;1;
+Hittite;Indo-European;Anatolian;40;35;Glottolog;Anatolia;1;;1;
+Luwian;Indo-European;Anatolian;40.02;34.62;Glottolog;Anatolia;2;;1;108 absences from online Swadesh list
+Sidetic;Indo-European;Anatolian;36.76;31.92;Glottolog;Anatolia;4;Fortson, Indo-European Language and Culture;1;
+Palaic;Indo-European;Anatolian;41.33;33.5;Glottolog;Anatolia;3;;0;dies out early!
+Lycian;Indo-European;Anatolian;36.517;29.764;Glottolog;Anatolia;3;;1;
+Pisidian;Indo-European;Anatolian;37.273;31.28;Glottolog;Anatolia;4;Fortson, Indo-European Language and Culture;1;about 30 tomb inscriptions
+Milyan;Indo-European;Anatolian;36.356111;29.318611;Glottolog;Anatolia;3;;1;
+Lydian;Indo-European;Anatolian;40.287;28.599;Glottolog;Anatolia;3;;1;
+Hattic;unclassified;;33.9833;40.3333;Glottolog;Anatolia;4;;1;
+Carian;Indo-European;Anatolian;37.203;28.182;Glottolog;Anatolia;3;;1;
+Urartian;Hurro-Urartian;;38.5;43.3425;Glottolog;ANE;2;;1;
+Moabite;Afro-Asiatic;Northwest Semitic;0;0;;ANE;0;;0;glottolog as dialect of Hebrew
+Ammonite;Afro-Asiatic;Northwest Semitic;0;0;;ANE;0;;0;glottolog as dialect of Hebrew
+Edomite;Afro-Asiatic;Northwest Semitic;0;0;;ANE;0;;0;glottolog as dialect of Hebrew
+Hebrew;Afro-Asiatic;Northwest Semitic;31.7761;35.1725;Glottolog;ANE;1;;1;
+Phoenician;Afro-Asiatic;Northwest Semitic;34.12;35.65;Glottolog;ANE;2;;1;
+Aramean;Afro-Asiatic;Northwest Semitic;32.84;37;Glottolog;ANE;1;;1;Glottolog also has imperial aramaic
+Eblaite;Afro-Asiatic;East Semitic;35.798;36.798;Glottolog;ANE;3;Huehnergard, the Languages of the Ancient Near East;0;3rd millennium
+Akkadian;Afro-Asiatic;East Semitic;33.1;44.1;Glottolog;ANE;1;Huehnergard, the Languages of the Ancient Near East;1;
+Babylonian;Afro-Asiatic;East Semitic;0;0;;ANE;0;Huehnergard, the Languages of the Ancient Near East;0;glottolog as dialect of akkadian
+Assyrian;Afro-Asiatic;East Semitic;0;0;;ANE;0;Huehnergard, the Languages of the Ancient Near East;0;glottolog as dialect of akkadian
+Ancient North Arabian;Afro-Asiatic;;29.044;39.776;Glottolog;ANE;2;Huehnergard, the Languages of the Ancient Near East;1;
+Egyptian;Afro-Asiatic;Egyptian;28.381735;30.834959;Glottolog;Africa;1;Huehnergard, the Languages of the Ancient Near East;1;
+Dacian;;;46.2;23.3;Glottolog;Balkans;4;Joseph, Linguistic Contact in the Ancient Balkans;1;1 inscription?
+Moesian;;;0;0;;Balkans;0;Joseph, Linguistic Contact in the Ancient Balkans;0;maybe variety of Dacian
+Illyrian;;;0;0;;Balkans;0;Joseph, Linguistic Contact in the Ancient Balkans;0;not attested
+Lemnian;Tyrrhenian;Tyrrhenian;39.93;25.18;self;Balkans;4;Joseph, Linguistic Contact in the Ancient Balkans;1;
+Liburnian;;;0;0;;Balkans;0;Joseph, Linguistic Contact in the Ancient Balkans;0;only onomastic?
+Macedonian;;;41;22.52;self;Balkans;4;Joseph, Linguistic Contact in the Ancient Balkans;1;distinct from Greek as a language (Joseph)
+Mysian;;;0;0;;Balkans;0;Joseph, Linguistic Contact in the Ancient Balkans;0;
+Paeonian;;;0;0;;Balkans;0;Joseph, Linguistic Contact in the Ancient Balkans;0;not in Glottolog
+Pre-Greek;;;0;0;;Balkans;0;Joseph, Linguistic Contact in the Ancient Balkans;0;unattested
+Thracian;;;42.115469;24.711977;Glottolog;Balkans;3;Joseph, Linguistic Contact in the Ancient Balkans;1;brief coin inscriptions, short inscriptions
+Elamite;unclassified;;31.1833;48.2333;Glottolog;ANE;2;Huehnergard, the Languages of the Ancient Near East;1;126 of Swadesh attested
+Old Persian;Indo-European;;32;54;Glottolog;ANE;2;Huehnergard, the Languages of the Ancient Near East;1;lacunary Swadesh list
+Kassite;unclassified;;0;0;;ANE;0;Huehnergard, the Languages of the Ancient Near East;0;
+Punic;;;36.527295;10.356444;Glottolog;Africa;2;;1;
+Numidian;;;36.42;9.21;self;Africa;2;Woodard, Encyclopaedia World's Ancient Languages;1;difficult to interpret
+Eteo-Cypriot;unclassified;;;;;ANE;0;Woodard, Encyclopaedia World's Ancient Languages;0;
+Byblic;unclassified;;;;;ANE;0;;0;
+Meroitic;unclassified;;;;;Sudan;0;;0;
