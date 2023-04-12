@@ -14,7 +14,7 @@ import pandas as pd
 
 # import the CEIPoM data
 from CEIPoM_import import CEIPoM
-from treesearch import TreeSearch
+from syntax_query import TreeSearch
 syntax = TreeSearch(CEIPoM)
 
 

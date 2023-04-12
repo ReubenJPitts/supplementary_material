@@ -15,7 +15,7 @@ import pandas as pd
 
 # import pandas
 from CEIPoM_import import CEIPoM
-from treesearch import TreeSearch
+from syntax_query import TreeSearch
 
 
 ### 1 ### Clean up data and add fields
