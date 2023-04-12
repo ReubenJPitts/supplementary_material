@@ -1,0 +1,208 @@
+﻿No.;English;Latin;Oscan;Umbrian;Old Sabellic;Latin_cognacy;Oscan_cognacy;Umbrian_cognacy;Other_cognacy
+1;I;ego;íív;eco;ekú;1;1;1;1
+2;you (singular);tu;tiium;tiu;tíom;1;1;1;1
+3;he;is;eiseis;erer;;1;1;1;
+4;we;nos;;;;1;;;
+5;you (plural);vos;uus;;;1;1;;
+6;they;is;eisunk;ero;;1;1;1;
+7;this;hic;ekuf;;estufk;1;2;;2
+8;that;ille;ulam / pus;ures / pusi;;1;2;2;
+9;here;hic;ecuf;;estufk;1;2;;2
+10;there;ibi;íp;ife;;1;1;1;
+11;who;quis;pis;poi;poi;1;1;1;1
+12;what;quid;;pirse;;1;;1;
+13;where;ubi;puf;pufe;;1;1;1;
+14;when;cum;pún;ape / pune;;1;1;1;
+15;how;quomodo;;;;1;;;
+16;not;non, ne;nep;neip;ni;1;1;1;1
+17;all;omnes;sulum;;;1;2;;
+18;many;multi;;;;1;;;
+19;some;aliqui;;;;1;;;
+20;few;pauci;;;;1;;;
+21;other;alius;alttreí;;;1;1;;
+22;one;unus;;unu;;1;;1;
+23;two;duo;;tuf;;1;;1;
+24;three;tres;tris;trif;;1;1;1;
+25;four;quattuor;;;;1;;;
+26;five;quinque;;;;1;;;
+27;big;magnus;maistram;;;1;1;;
+28;long;longus;;;;1;;;
+29;wide;latus;;;;1;;;
+30;thick;crassus;;;;1;;;
+31;heavy;gravis;;;;1;;;
+32;small;parvus;;;;1;;;
+33;short;brevis;;;;1;;;
+34;narrow;angustus;;;;1;;;
+35;thin;tenuis;;;;1;;;
+36;woman;mulier;usurs;;;1;2;;
+37;man (adult male);vir;niir;nerf;nír;1;2;2;2
+38;man (human being);homo;humuns;homonus / ueiro;;1;1;1;
+39;child;puer;malaks / cnatois;;;1;;;
+40;wife;uxor;;;;1;;;
+41;husband;maritus;;;;1;;;
+42;mother;mater;maatreís;matres;matereíh;1;1;1;1
+43;father;pater;patir;patre;patereíh;1;1;1;1
+44;animal;animal;;;;1;;;
+45;fish;piscis;;;;1;;;
+46;bird;avis;;aves;;1;;1;
+47;dog;canis;;katle;;1;;2;
+48;louse;pedis;;;;1;;;
+49;snake;anguis;;;;1;;;
+50;worm;vermis;;;;1;;;
+51;tree;arbor;;;;1;;;
+52;forest;silva;;;;1;;;
+53;stick;baculum;;arsmatia;;1;;2;
+54;fruit;fructus;;fri;;1;;1;
+55;seed;semen;;;;1;;;
+56;leaf;folium;;;;1;;;
+57;root;radix;;;;1;;;
+58;bark (of a tree);cortex;;;;1;;;
+59;flower;flos;;;;1;;;
+60;grass;herba;;;;1;;;
+61;rope;funis;;;;1;;;
+62;skin;cutis;;;;1;;;
+63;meat;caro;;pelmner;;1;;2;
+64;blood;sanguis;;;;1;;;
+65;bone;os;;;;1;;;
+66;fat (noun);pinguamen;;;;1;;;
+67;egg;ovum;;;;1;;;
+68;horn;cornu;;;;1;;;
+69;tail;cauda;;;;1;;;
+70;feather;penna;;;;1;;;
+71;hair;pilus;;;;1;;;
+72;head;caput;;;;1;;;
+73;ear;auris;;;;1;;;
+74;eye;oculus;;;;1;;;
+75;nose;nasus;;;;1;;;
+76;mouth;os;;;;1;;;
+77;tooth;dens;;;;1;;;
+78;tongue (organ);lingua;fangvam;;;1;1;;
+79;fingernail;unguis;;;;1;;;
+80;foot;pes;pedú;persi;;1;1;1;
+81;leg;crus;;;;1;;;
+82;knee;genu;;;;1;;;
+83;hand;manus;manim;manf;manus;1;1;1;1
+84;wing;ala;;;;1;;;
+85;belly;venter;;;;1;;;
+86;guts;viscera;;arvia;;1;;2;
+87;neck;cervix;;;;1;;;
+88;back;tergum;;;;1;;;
+89;breast;mamma;;;;1;;;
+90;heart;cor;;;;1;;;
+91;liver;iecur;;iepru;;1;;1;
+92;to drink;bibo;;;;1;;;
+93;to eat;edo;edum;;;1;1;;
+94;to bite;mordo;;;;1;;;
+95;to suck;sugo;;feliuf;;1;;;
+96;to spit;supo;;;;1;;;
+97;to vomit;vomo;;;;1;;;
+98;to blow;inflo, flo;;;;1;;;
+99;to breathe;respiro;;;;1;;;
+100;to laugh;rideo;;;;1;;;
+101;to see;video;;uirseto;videtas;1;;1;1
+102;to hear;audio;;;;1;;;
+103;to know;scio;;;;1;;;
+104;to think;cogito, puto, existimo;;;;1;;;
+105;to smell;olfacio;;;;1;;;
+106;to fear;timeo;;;;1;;;
+107;to sleep;dormio;;;veiat;1;;;2
+108;to live;vivo;;;;1;;;
+109;to die;morior;;;;1;;;
+110;to kill;neco;;;;1;;;
+111;to fight;pugno;;;;1;;;
+112;to hunt;venor;;;;1;;;
+113;to hit;pello;;;;1;;;
+114;to cut;seco;;iseçeles;;1;;;
+115;to split;scindo;;vetu?;;1;;;
+116;to stab;pungo;;;;1;;;
+117;to scratch;scabo;;;;1;;;
+118;to dig;fodio;;;;1;;;
+119;to swim;no, nato;;;;1;;;
+120;to fly;volo;;;;1;;;
+121;to walk;ambulo;;;;1;;;
+122;to come;venio;cebnust;benus;;1;1;1;
+123;to lie (as in a bed);cubo;cibat;;qupat;1;1;;1
+124;to sit;sedeo;;sersitu;;1;;1;
+125;to stand;sto;stahint;staheren;;1;1;1;
+126;to turn (intransitive);verto;;;;1;;;
+127;to fall;cado;;;;1;;;
+128;to give;do;deded;dede;tetet;1;1;1;1
+129;to hold;teneo;;tenitu;;1;;1;
+130;to squeeze;exprimo;;;;1;;;
+131;to rub;frico;;;;1;;;
+132;to wash;lavo;;anderuomu;;1;;;
+133;to wipe;tergeo;;;;1;;;
+134;to pull;traho;;;;1;;;
+135;to push;pello;;;;1;;;
+136;to throw;iacio;;;;1;;;
+137;to tie;ligo;;;;1;;;
+138;to sew;suo;;;;1;;;
+139;to count;numero;;;;1;;;
+140;to say;dico;deíkum;deitu;;1;1;1;
+141;to sing;cano;;kanetu;;1;;1;
+142;to play;ludo;;ařkani;;1;;;
+143;to float;fluctuo;;;;1;;;
+144;to flow;fluo;;;;1;;;
+145;to freeze;gelo;;;;1;;;
+146;to swell;tumeo;;;;1;;;
+147;sun;sol;;;;1;;;
+148;moon;luna;;;;1;;;
+149;star;stella;;;;1;;;
+150;water;aqua;aapas;utur;;1;2;3;
+151;rain;pluvia;;;;1;;;
+152;river;flumen, fluvius, amnis;;;;1;;;
+153;lake;lacus;;;;1;;;
+154;sea;mare;;;;1;;;
+155;salt;sal;;salu;;1;;1;
+156;stone;saxum, lapis, petra;kúru;vapẹ[řia;qora;1;2;1;2
+157;sand;harena;;;;1;;;
+158;dust;pulvis;;;;1;;;
+159;earth;humus, terra, ager;;;;1;;;
+160;cloud;nubes, nebula;;;;1;;;
+161;fog;caligo, nebula, tenebrae;;;;1;;;
+162;sky;caelum;;;;1;;;
+163;wind;ventus;;;;1;;;
+164;snow;nix;;;;1;;;
+165;ice;gelu;;;;1;;;
+166;smoke;fumus;;;;1;;;
+167;fire;ignis;;pir;;1;;2;
+168;ash;cinis;;;;1;;;
+169;to burn;urere, flammare;asum;;;1;;;
+170;road;via;víu;uia;viam;1;1;1;1
+171;mountain;mons;βρειγ;;;1;2;;
+172;red;ruber, rufus;;rufru;rufra;1;;1;1
+173;green;viridis;;;;1;;;
+174;yellow;croceus, flavus;;;;1;;;
+175;white;albus, candidus;;kaleruf, alfu;;1;;1;
+176;black;ater, niger;;peiu, atru;;1;;1;
+177;night;nox;;;;1;;;
+178;day;dies;zicolom;;;1;1;;
+179;year;annus;acunum;acnu;;1;2;2;
+180;warm;calidus;;;;1;;;
+181;cold;frigidus;;;;1;;;
+182;full;plenus;;plener;;1;;1;
+183;new;novus;;nuvis;;1;;1;
+184;old;vetus;;;;1;;;
+185;good;bonus;;;ϝολοϲ;1;;;2
+186;bad;malus;;;;1;;;
+187;rotten;putridus;;;;1;;;
+188;dirty;sordidus, immundus;;;;1;;;
+189;straight;rectus;;;;1;;;
+190;round;rotundus;;;;1;;;
+191;sharp (as a knife);acutus;akrid;;;1;1;;
+192;dull (as a knife);hebes, retusus;;;;1;;;
+193;smooth;suavis;;;;1;;;
+194;wet;umidus, aqueus;;;;1;;;
+195;dry;siccus;sicu;;;1;1;;
+196;correct;rectus;;;;1;;;
+197;near;propinquus, proximus;;;;1;;;
+198;far;longus;;;;1;;;
+199;right;dexter;destr;testru;;1;1;1;
+200;left;laevus, sinister;nertrak;mersto / nertru;;1;2;2;
+201;at;ad, in;op;kum / pert;;1;2;3;
+202;in;in;en;em;;1;1;1;
+203;with;cum;com;ku;;1;1;1;
+204;and;et, que;inim;et;;1;2;1;
+205;if;si;svai;sve;suai;1;1;1;1
+206;because;quod;;;;1;;;
+207;name;nomen;numneís;numem;;1;1;1;
