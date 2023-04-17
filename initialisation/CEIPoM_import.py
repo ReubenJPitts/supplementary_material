@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+
+"""
+Output: CEIPoM database
+Used in: Throughout
+Author: Reuben J. Pitts
+Date: 10/04/2023
+"""
 
 
 ### 0 ### necessary imports
