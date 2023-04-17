@@ -16,6 +16,9 @@ import pandas as pd
 # import dataset
 data = pd.read_csv("datasets_automatic/loanwords_dataset.csv", sep=";", index_col=0)
 
+# round off wold
+data["wold"] = [round(i,2) for i in data["wold"]]
+
 # set the desired number of outliers
 n = 20
 

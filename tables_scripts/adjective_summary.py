@@ -43,7 +43,7 @@ for c in categories:
         
         order = list(subset["Order"])
         
-        row.append(percentage(order.count(0),order.count(1)) + " (" + str(len(order)) + ")")
+        row.append(percentage(order.count(0),len(order)) + " (" + str(len(order)) + ")")
     summary.append(row)
 
 summary = pd.DataFrame(data=summary, columns=["All"] + list(set(data["Language"])), index=["all"] + list(set(data["Semantics"])))

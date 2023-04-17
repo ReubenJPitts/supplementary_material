@@ -33,6 +33,7 @@ for l in languages:
         row = ["CEIPoM"]
     t_subset = texts[texts["Language"].str.contains(l)]
     c_subset = CEIPoM[CEIPoM["Language"].str.contains(l)]
+    c_subset = c_subset[c_subset["Token"] != "-"]
     
     # number of texts
     t_total = len(t_subset)
