@@ -14,13 +14,18 @@ Date: 14/03/2023
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.transforms import Bbox
 from collections import Counter
 
 # set some matplotlib parametres
 plt.rcParams['axes.axisbelow'] = True
 plt.rcParams['savefig.facecolor']='white'
-plt.rcParams["figure.figsize"] = (15,20)
-plt.rcParams.update({'font.size': 14})
+plt.rcParams["figure.figsize"] = (13,21)
+
+# specify fonts
+plt.rcParams['font.family'] = 'Brill'
+plt.rcParams['font.style'] = 'normal'
+plt.rcParams['font.size'] = 15
 
 # import datasets
 data = pd.read_csv("datasets_manual/italian_epigraphy.csv", sep=";")
@@ -29,11 +34,11 @@ data = pd.read_csv("datasets_manual/italian_epigraphy.csv", sep=";")
 ### 1 ### Process the data
 
 # add some columns
+
 data["date_average"] = [(i+j)/2 for i,j in zip(list(data["date_after"]),list(data["date_before"]))]
 data["date_range"] = [abs(i-j) for i,j in zip(list(data["date_after"]),list(data["date_before"]))]
 
 # eliminate some data
-data = data[data["check"] == 1]
 data = data[data["date_range"].notna()]
 data = data[data["date_range"] < 201]
 
@@ -72,7 +77,7 @@ for i, ax in enumerate(ax_list):
     
     # create the bar chart
     ax.yaxis.grid(True)
-    ax.set_title(l, y=0.9, fontsize=18)
+    ax.set_title(l, y=0.9, fontsize=22)
     ax.set_ylim([0, 1800])
     ax.set_xlim([-7, 2])
     ax.bar(x,y)
@@ -82,7 +87,7 @@ for i, ax in enumerate(ax_list):
         ax.yaxis.set_ticklabels([])
 
     # set BCE centuries as x_ticks
-    plt.xticks(np.arange(-7, 2, 1))
+    ax.xaxis.set_major_locator(plt.FixedLocator(np.arange(-7, 2, 1)))
     labels = [item.get_text() for item in ax.get_xticklabels()]
     labels[0] = ''
     labels[1] = '7th BCE'
@@ -94,17 +99,21 @@ for i, ax in enumerate(ax_list):
     labels[7] = '1st BCE'
     labels[8] = '1st CE'
     
-    # clean up x_ticks of bottom ax
-    if l != "Messapic":
-        labels[9] = ''
-        
     # set and rotate x_ticks
     ax.set_xticklabels(labels,rotation=45)
 
-# remove white space between axes
-plt.subplots_adjust(wspace=0.1)
 
-# save and show figure
-plt.savefig('figures/inscriptions_time.png', bbox_inches='tight', dpi=600)
+### 2 ### Export
+
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -1.5
+right_margin = fig_width + 1.5
+bottom_margin = -1.5
+top_margin = fig_height + 1.5
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
+
+# show the figure and save it
+plt.savefig('figures/inscriptions_time.pdf', bbox_inches=bbox, dpi=600)
 plt.show()
 

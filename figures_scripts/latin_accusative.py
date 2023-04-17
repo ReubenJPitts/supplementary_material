@@ -14,13 +14,18 @@ Date: 14/03/2023
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
+from matplotlib.transforms import Bbox
 import numpy as np
 
 # set some parametres
 plt.rcParams['axes.axisbelow'] = True
-plt.rcParams["figure.figsize"] = (15,20)
 plt.rcParams['savefig.facecolor']='white'
-plt.rcParams.update({'font.size': 14})
+plt.rcParams["figure.figsize"] = (23,14)
+
+# specify fonts
+plt.rcParams['font.family'] = 'Brill'
+plt.rcParams['font.style'] = 'normal'
+plt.rcParams['font.size'] = 16
 
 # import dataset
 data = pd.read_csv("datasets_automatic/order_accusative.csv", sep=";", index_col=0)
@@ -52,7 +57,7 @@ def add_to_ax(df, ax, title):
     data[1] = verb_before
 
     # set centuries
-    include = [-4,-3,-2,-1]
+    include = [-4,-3,-2,-1,0]
     include = [i for i in include if i not in list(data.index)]
     for i in include:
         data.loc[i] = [0,0]
@@ -110,7 +115,6 @@ ax3 = plt.subplot(gs[0:1, 4:])
 ax4 = plt.subplot(gs[1:, 1:3])
 ax5 = plt.subplot(gs[1:,3:5])
 fig = plt.gcf()
-fig.set_size_inches(18.5, 10.5)
 ax_lst = [ax1,ax2,ax3,ax4,ax5]
 
 # add a first plot with all objects
@@ -126,15 +130,24 @@ add_to_ax(subset,ax3,"Latin one-word objects")
 
 # add a fourth plot with only main clauses
 subset = data[data["Main_clause"] == 1].copy()
-add_to_ax(subset,ax4,"main clauses only")
+add_to_ax(subset,ax4,"Main clauses only")
 
 # add a fourth plot with only main clauses
 subset = data[data["Main_clause"] == 0].copy()
-add_to_ax(subset,ax5,"subordinate clauses only")
+add_to_ax(subset,ax5,"Subordinate clauses only")
 
 
+### 3 ### Export
 
-### 3 ### Save the plot
-plt.savefig('figures/latin_accusative.png', bbox_inches='tight', dpi=600)
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -0.5
+right_margin = fig_width + 0.5
+bottom_margin = -0.5
+top_margin = fig_height + 1.5
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
+
+# show the figure and save it
+plt.savefig('figures/latin_accusative.pdf', bbox_inches=bbox, dpi=600)
 
 

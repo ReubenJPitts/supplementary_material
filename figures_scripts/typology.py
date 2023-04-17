@@ -15,6 +15,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
+from matplotlib.transforms import Bbox
 from adjustText import adjust_text
 from sklearn.manifold import MDS
 from scipy.cluster.hierarchy import dendrogram
@@ -23,8 +24,12 @@ from sklearn.cluster import AgglomerativeClustering
 # set some matplotlib parameters
 plt.rcParams['axes.axisbelow'] = True
 plt.rcParams['savefig.facecolor']='white'
-plt.rcParams["figure.figsize"] = (30,15)
-plt.rcParams.update({'font.size': 17})
+plt.rcParams["figure.figsize"] = (21,13)
+
+# specify fonts
+plt.rcParams['font.family'] = 'Brill'
+plt.rcParams['font.style'] = 'normal'
+plt.rcParams['font.size'] = 17
 
 # import the datasets
 data = pd.read_csv("datasets_manual/typology.csv", sep=";")
@@ -194,13 +199,17 @@ matrix = matrix.to_numpy()
 matrix = 1 - matrix
 matrix = matrix.round(2)
 
+# clean up the language list
+langlist = ["Old Sabellic" if i == "Old_Sabellic" else i for i in languages]
+langlist = ["Ancient Greek" if i == "Greek_Ancient" else i for i in langlist]
+
 # create the heatmap figure
 fig, ax = plt.subplots()
 im = ax.imshow(matrix, cmap="Blues")
 
 # set the names of the languages along the axes
-ax.set_xticks(np.arange(len(languages)), labels=languages)
-ax.set_yticks(np.arange(len(languages)), labels=languages)
+ax.set_xticks(np.arange(len(languages)), labels=langlist)
+ax.set_yticks(np.arange(len(languages)), labels=langlist)
 
 # rotate the x-axis language labels by 45 degrees
 plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
@@ -213,11 +222,19 @@ for i in range(len(languages)):
             text = ax.text(j, i, matrix[i, j], ha="center", va="center", color="black")
 
 # add a title and turn the square plot into a rectangle
-ax.set_title("similarity matrix (darker = more similar)")
-ax.set_aspect(0.7)
+ax.set_title("Similarity Matrix (darker = more similar)")
+ax.set_aspect(13/21)
+
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -1.5
+right_margin = fig_width + 1.5
+bottom_margin = -1.5
+top_margin = fig_height + 1.5
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
 
 # display and save the plot
-plt.savefig('figures/typology_heatmap.png', bbox_inches='tight', dpi=600)
+plt.savefig('figures/typology_heatmap.pdf', bbox_inches=bbox, dpi=600)
 plt.show()
 
 
@@ -232,18 +249,30 @@ languages = list(matrix.index)
 dendrodata = hcd(matrix)
 
 # create a new plot
-fig, ax = plt.subplots(figsize=(15,25))
+offset = 0.85
+fig, ax = plt.subplots(figsize=(13*offset,21))
+
+# define Ancient Italian languages
+ancient_italy = ["Latin","Oscan","Umbrian"]
 
 # create the dendrogram
 dendrogram(dendrodata, color_threshold=0, orientation="right")
 
 # add the language labels
 ax.set_yticks((np.arange(len(languages))*10)+5)
-ax.set_yticklabels([languages[int(i.get_text())] for i in ax.get_yticklabels()],fontsize=20)
+ax.set_yticklabels([langlist[int(i.get_text())] for i in ax.get_yticklabels()],fontsize=20)
 ax.set_xticklabels(["","",""])
 
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -1.5 -(13*(1-offset))
+right_margin = fig_width + 1.5
+bottom_margin = -1.5
+top_margin = fig_height + 1.5
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
+
 # display and save the plot
-plt.savefig('figures/typology_dendrogram.png', bbox_inches='tight', dpi=600)
+plt.savefig('figures/typology_dendrogram.pdf', bbox_inches=bbox, dpi=600)
 plt.show()
 
 
@@ -260,7 +289,10 @@ size = [(i*2)-30 for i in language_att]
 size = [30 if i < 30 else i for i in size]
 
 # create a plot with three vertical subplots
-fig, [ax1, ax2, ax3] = plt.subplots(3, figsize=(15,30))
+fig, [ax1, ax2, ax3] = plt.subplots(3, figsize=(13,18.5))
+
+# set size of ax
+ax1.set_position([0,0.7,0.7,0.3])
 
 # for the first plot, define genealogical relations
 colours = []
@@ -292,15 +324,18 @@ for i in range(len(languages)):
         texts.append(ax1.text(x[i], y[i], languages[i]))
 
 # add a title and legend
-ax1.set_title("Colour-coded by genealogy", fontsize=22)
+ax1.set_title("Colour-coded by genealogy", fontsize=27)
 ax1.legend([patches.Patch(facecolor='blue'),patches.Patch(facecolor='darkblue'),patches.Patch(facecolor='royalblue'),patches.Patch(facecolor='red'),patches.Patch(facecolor='green'),patches.Patch(facecolor='orange')],
            ["Italic","Celtic","Other Indo-European","Tyrrhenian","Semitic","Basque"],
-           bbox_to_anchor=(1.32, 0.75))
+           bbox_to_anchor=(1.4, 0.75))
 adjust_text(texts,ax=ax1)
 
 # get rid of tick-labels
 ax1.set_xticks([])
 ax1.set_yticks([])
+
+# set size of ax
+ax2.set_position([0,0.35,0.7,0.3])
 
 # for the second plot, define geography
 colours = []
@@ -328,10 +363,10 @@ for i in range(len(x)):
         texts.append(ax2.text(x[i], y[i], languages[i]))
 
 # add a title and legend
-ax2.set_title("Colour-coded by geography", fontsize=22)
+ax2.set_title("Colour-coded by geography", fontsize=27)
 ax2.legend([patches.Patch(facecolor='blue'),patches.Patch(facecolor='red'),patches.Patch(facecolor='orange'),patches.Patch(facecolor='green')],
            ["Italy","Balkans","Western Europe","Eastern Mediterranean"],
-           bbox_to_anchor=(1.34, 0.55))
+           bbox_to_anchor=(1.4, 0.55))
 adjust_text(texts,ax=ax2)
 
 # get rid of tick-labels
@@ -345,6 +380,9 @@ for l in languages:
         colours.append("blue")
     if l in ['Basque', 'Greek', 'French', 'Irish', 'Spanish', 'Arabic', 'Hebrew', 'Italian', 'Albanian', 'Serbian-Croatian']:
         colours.append("orange")
+
+# set size of ax
+ax3.set_position([0,0,0.7,0.3])
 
 # add third scatter plot
 texts = []
@@ -360,21 +398,26 @@ for i in range(len(x)):
         texts.append(ax3.text(x[i], y[i], languages[i]))
 
 # add a title and legend
-ax3.set_title("Colour-coded by chronology", fontsize=22)
+ax3.set_title("Colour-coded by chronology", fontsize=27)
 ax3.legend([patches.Patch(facecolor='blue'),patches.Patch(facecolor='orange')],
-           ["ancient languages","modern languages"],
-           bbox_to_anchor=(1.30, 0.50))
+           ["Ancient languages          ","Modern languages"],
+           bbox_to_anchor=(1.4, 0.50))
 adjust_text(texts,ax=ax3)
 
 # get rid of tick-labels
 ax3.set_xticks([])
 ax3.set_yticks([])
 
-# remove empty space between subplots
-plt.subplots_adjust(wspace=0.1, hspace=0.1)
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -1.5
+right_margin = fig_width + 1.5
+bottom_margin = -1.5
+top_margin = fig_height + 4
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
 
 # display and save the plot
-plt.savefig('figures/typology_mds.png', bbox_inches='tight', dpi=600)
+plt.savefig('figures/typology_mds.pdf', bbox_inches=bbox, dpi=600)
 plt.show()
 
 
@@ -392,17 +435,20 @@ types = ["Syntax" if i == "Order" else i for i in types]
 data["Category"] = types
 
 # create a figure
-fig, axes = plt.subplots(3, figsize=(15,30))
+fig, axes = plt.subplots(3, figsize=(13,18.5))
 
 # iterate over subplots
 for i, ax in enumerate(axes):
+    
+    # set positions of axes
+    ax.set_position([[0,0.7,0.7,0.3],[0,0.35,0.7,0.3],[0,0,0.7,0.3]][i])
     
     # define the current subset
     criterion = criteria[i]
     title = titles[i]
     
     # add a title to the axis
-    ax.set_title(title, fontsize=22)
+    ax.set_title(title, fontsize=27)
     
     # select relevant subset of the typological dataset
     subset = data.copy()
@@ -419,7 +465,7 @@ for i, ax in enumerate(axes):
         if l in ['Latin', 'Oscan', 'Umbrian', 'Old_Sabellic', 'Venetic', 'Messapic', 'Etruscan']:
             colours.append("blue")
         else:
-            colours.append("grey")
+            colours.append("orange")
       
     # scatter the data
     texts = []
@@ -435,9 +481,9 @@ for i, ax in enumerate(axes):
             texts.append(ax.text(x[i], y[i], languages[i]))
     
     # add legend
-    ax.legend([patches.Patch(facecolor='blue'),patches.Patch(facecolor='grey')],
+    ax.legend([patches.Patch(facecolor='blue'),patches.Patch(facecolor='orange')],
                ["Ancient Italian peninsula","Other languages"],
-               bbox_to_anchor=(1.34, 0.55))
+               bbox_to_anchor=(1.4, 0.55))
 
     # adjust text
     adjust_text(texts,ax=ax)
@@ -446,11 +492,16 @@ for i, ax in enumerate(axes):
     ax.set_xticks([])
     ax.set_yticks([])
 
-# remove empty space between subplots
-plt.subplots_adjust(wspace=0.1, hspace=0.1)
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -1.5
+right_margin = fig_width + 1.5
+bottom_margin = -1.5
+top_margin = fig_height + 4
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
 
 # display and save the plot
-plt.savefig('figures/typology_mds_subsets.png', bbox_inches='tight', dpi=600)
+plt.savefig('figures/typology_mds_subsets.pdf', bbox_inches=bbox, dpi=600)
 plt.show()
 
 

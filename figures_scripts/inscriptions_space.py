@@ -13,14 +13,21 @@ Date: 14/03/2023
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.transforms import Bbox
+import matplotlib.image as mpimg
+from matplotlib.backends.backend_pdf import PdfPages
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 
 # set some matplotlib parametres
 plt.rcParams['axes.axisbelow'] = True
 plt.rcParams['savefig.facecolor']='white'
-plt.rcParams["figure.figsize"] = (30,50)
-plt.rcParams.update({'font.size': 22})
+plt.rcParams["figure.figsize"] = (21,13)
+
+# specify fonts
+plt.rcParams['font.family'] = 'Brill'
+plt.rcParams['font.style'] = 'normal'
+plt.rcParams['font.size'] = 18
 
 # import datasets
 data = pd.read_csv("datasets_manual/italian_epigraphy.csv", sep=";")
@@ -33,9 +40,12 @@ data["date_average"] = [(i+j)/2 for i,j in zip(list(data["date_after"]),list(dat
 data["date_range"] = [abs(i-j) for i,j in zip(list(data["date_after"]),list(data["date_before"]))]
 
 # eliminate some data
-data = data[data["check"] == 1]
 data = data[data["date_range"].notna()]
 data = data[data["date_range"] < 201]
+data["longitude"] = pd.to_numeric(data["longitude"], errors='coerce')
+data = data[data["longitude"].notna()]
+data["latitude"] = pd.to_numeric(data["latitude"], errors='coerce')
+data = data[data["latitude"].notna()]
 
 # add a field specifying century
 data["century"] = [round((i+49)/100) for i in list(data["date_average"])]
@@ -61,7 +71,10 @@ fig, axs = plt.subplots(1, 3, subplot_kw={"projection": ccrs.InterruptedGoodeHom
 
 # iterate over the subplots
 for i, ax in enumerate(axs):
-
+    
+    # specify the position of the subplots
+    ax.set_position([[0,0,0.3,1],[0.35,0,0.3,1],[0.7,0,0.3,1]][i])
+    
     # get the dataframe with the relevant information
     data = collection[i]
 
@@ -94,7 +107,7 @@ for i, ax in enumerate(axs):
     ax.scatter(subset["latitude"], subset["longitude"], color="purple", s=pointersize, zorder=7, transform=ccrs.PlateCarree(), label="Venetic")
 
     # set titles
-    ax.set_title(titles[i])
+    ax.set_title(titles[i],fontsize=22)
     
     # set legends for the third subplot online
     if i == 2:
@@ -103,10 +116,31 @@ for i, ax in enumerate(axs):
             handle.set_sizes([100])
         lgnd.set_zorder(11)
 
-# reduce the size between the subplots
-plt.subplots_adjust(wspace=0.01)
+
+### 3 ### Export
+
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -1.5
+right_margin = fig_width + 1.5
+bottom_margin = -1.5
+top_margin = fig_height + 1.5
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
 
 # save and show figure
-plt.savefig('figures/inscriptions_space.png', bbox_inches='tight', dpi=600)
+plt.savefig('figures/inscriptions_space.png', bbox_inches=bbox, dpi=600)
 plt.show()
+
+# reimport and resave as pdf
+# (goes via png > pdf to ensure that the pdf isn't too heavy)
+img = mpimg.imread("figures/inscriptions_space.png")
+fig = plt.figure()
+plt.imshow(img)
+plt.axis("off")
+
+with PdfPages("figures/inscriptions_space.pdf") as pdf:
+    pdf.savefig(fig, bbox_inches="tight", pad_inches=0, dpi=600)
+    plt.close(fig)
+
+
 

@@ -14,13 +14,18 @@ Date: 14/03/2023
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
+from matplotlib.transforms import Bbox
 import numpy as np
 
 # set some parametres
 plt.rcParams['axes.axisbelow'] = True
-plt.rcParams["figure.figsize"] = (15,20)
 plt.rcParams['savefig.facecolor']='white'
-plt.rcParams.update({'font.size': 14})
+plt.rcParams["figure.figsize"] = (23,14)
+
+# specify fonts
+plt.rcParams['font.family'] = 'Brill'
+plt.rcParams['font.style'] = 'normal'
+plt.rcParams['font.size'] = 16
 
 # import dataset
 data = pd.read_csv("datasets_enriched/order_adjective_enriched.csv", sep=";", index_col=0)
@@ -50,7 +55,7 @@ def add_to_ax(df, ax, title):
     data[1] = verb_before
 
     # set centuries
-    include = [-4,-3,-2,-1]
+    include = [-4,-3,-2,-1,0]
     include = [i for i in include if i not in list(data.index)]
     for i in include:
         data.loc[i] = [0,0]
@@ -98,7 +103,6 @@ def add_to_ax(df, ax, title):
     ax.bar_label(rects2, [rect.get_height() if rect.get_height() != 0 else "" for rect in rects2], padding=3)
 
 
-
 ### 2 ### Visualise dative plot for non-Latin languages
 
 # set the grid
@@ -110,7 +114,6 @@ ax4 = plt.subplot(gs[1:, 0:2])
 ax5 = plt.subplot(gs[1:, 2:4])
 ax6 = plt.subplot(gs[1:, 4:])
 fig = plt.gcf()
-fig.set_size_inches(18.5, 10.5)
 ax_lst = [ax1,ax2,ax3,ax4,ax5,ax6]
 
 # get the Latin subset
@@ -136,12 +139,25 @@ umbrian = data[data["Language"] == "Umbrian"].copy()
 umbrian = umbrian[umbrian["Language_(text)"] == "Umbrian"]
 
 # create two plots
-add_to_ax(umbrian,ax3,"Latin adjectives")
+add_to_ax(umbrian,ax3,"Umbrian adjectives")
 umbrian = umbrian[umbrian["Meaning_category"] != "PROPER"]
-add_to_ax(umbrian,ax6,"Latin non-proper adjectives")
+add_to_ax(umbrian,ax6,"Umbrian non-proper adjectives")
+
+# remove white space between axes
+plt.subplots_adjust(wspace=0.4)
 
 
-### 3 ### Save the plot
-plt.savefig('figures/italian_adjective.png', bbox_inches='tight', dpi=600)
+### 3 ### Export
+
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -0.5
+right_margin = fig_width + 0.5
+bottom_margin = -0.5
+top_margin = fig_height + 1.5
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
+
+# show the figure and save it
+plt.savefig('figures/italian_adjective.pdf', bbox_inches=bbox, dpi=600)
 
 

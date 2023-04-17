@@ -13,12 +13,20 @@ Date: 20/03/2023
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.transforms import Bbox
 
-# set some parametres
+# set some matplotlib parametres
 plt.rcParams['axes.axisbelow'] = True
-plt.rcParams["figure.figsize"] = (15,20)
 plt.rcParams['savefig.facecolor']='white'
-plt.rcParams.update({'font.size': 20})
+
+# specify fonts
+plt.rcParams['font.family'] = 'Brill'
+plt.rcParams['font.style'] = 'normal'
+plt.rcParams['font.size'] = 22
+
+# work out figure size
+label_offset = 0.6
+plt.rcParams["figure.figsize"] = (13*label_offset,21)
 
 # import dataset
 data = pd.read_csv("tables/loanword_fields.csv", sep=";", index_col=0)
@@ -30,7 +38,7 @@ data = pd.read_csv("tables/loanword_fields.csv", sep=";", index_col=0)
 data = data.sort_values(by="Latin", ascending=True)
 
 # create a chart
-fig, ax = plt.subplots(figsize=(10,20))
+fig, ax = plt.subplots()
 
 # get the data
 x = [i + " (" + str(j) + ")" for i,j in zip(list(data["Field"]),list(data["Count"]))]
@@ -40,7 +48,8 @@ i = np.arange(len(data))
 w = 0.35
 
 # visualise the data
-ax.xaxis.grid(True)
+ax.xaxis.set_minor_locator(plt.MultipleLocator(0.05))
+ax.xaxis.grid(True,which="both")
 ax.barh(i+w,y,w,label="Latin")
 ax.barh(i,z,w,label="WOLD")
 
@@ -53,6 +62,16 @@ ax.set_yticklabels(x)
 ax.legend()
 
 
-### 2 ### Export and save
+### 3 ### Export
 
-plt.savefig('figures/loanword_fields.png', bbox_inches='tight', dpi=600)
+# specify margins
+fig_width, fig_height = fig.get_size_inches()
+left_margin = -1.5 - (13*(1-label_offset))
+right_margin = fig_width + 1.5
+bottom_margin = -1.5
+top_margin = fig_height + 1.5
+bbox = Bbox.from_extents(left_margin, bottom_margin, right_margin, top_margin)
+
+# show the figure and save it
+plt.savefig('figures/loanword_fields.pdf', bbox_inches=bbox, dpi=600)
+plt.show()
