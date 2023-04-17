@@ -3,7 +3,7 @@
 
 This folder contains the supplementary material for the doctoral dissertation "Language Contact and Language Change in a Multilingual Epigraphic Corpus: The Italian Peninsula in the First Millennium BCE".
 
-## how to run these scripts
+## initialisation (working directory)
 
 The Python code requires the working directory to be initialised to the parent folder of the supplementary material, e.g. using:
 
@@ -20,12 +20,10 @@ setwd("~/supplementary_material")
 
 Some of this code relies on external databases. For convenient use, the required files should be placed in their own folder within the parent folder, and given the following names:
 
-~~~
-* /CEIPoM                         (epigraphic database of ancient Italy)
-* /WALS                           (general typological database)
-* /WOLD                           (cross-linguistic loanword database)
-* /PROIEL                         (treebank corpus of ancient Indo-European languages)
-~~~
+* /CEIPoM (epigraphic database of ancient Italy)
+* /WALS (general typological database)
+* /WOLD (cross-linguistic loanword database)
+* /PROIEL (treebank corpus of ancient Indo-European languages)
 
 These files can be downloaded from the following locations:
 
@@ -34,172 +32,152 @@ These files can be downloaded from the following locations:
 * https://github.com/lexibank/wold
 * https://github.com/proiel/proiel-treebank
 
-For each script, this readme will specify which external files are required, except for CEIPoM, which is integral to all of this research.
 
-## initialisation
+## 1. initialisation
 
-This folder contains two modules used by all subsequent code. These should be placed in the Python sys.path:
+This folder contains two modules used by much subsequent code.
 
-~~~
-* CEIPoM_import.py                (imports CEIPoM database for use)
-* treesearch.py                   (enables syntactic queries)
-~~~
+* CEIPoM_import.py ← CEIPoM datasets
+* syntax_query.py (enables syntactic queries)
 
-## datasets_manual
 
-These datasets were created manually by the author, albeit in some cases by exporting them from external databases and then manually enriching the data.
+## 2. datasets_scripts
 
-~~~
-* coordination_typology.csv       (created manually)
-* italian_epigraphy.csv           (exported from Trismegistos and manually enriched)
-* loanwords_italic.csv            (created manually)
-* loanwords_sabellic.csv          (created manually)
-* mediterranean_diversity.csv     (created manually)
-* pairs_ancient.csv               (exported from CEIPoM and manually enriched)
-* pairs_modern.csv                (exported from ASJD and manually enriched)
-* typology.csv                    (created manually)
-~~~
+This folder contains the code used to generate some of the datasets in the following section:
 
-## datasets_scripts
+* coordination_dataset.py ← CEIPoM datasets
+* loanwords_dataset.py ← loanwords_italic.csv, WOLD, PROIEL
+* phonological_dataset.py ← pairs_modern.csv, pairs_ancient.csv
+* syntax_datasets.py ← CEIPoM datasets
 
-This folder contains the code used to generate some of the datasets in the following section. 
 
-~~~
-* coordination_dataset.py         (uses CEIPoM files)
-* loanwords_dataset.py            (uses "/datasets/italic_loanwords.csv", "/WOLD/forms.csv" and the PROIEL xmls)
-* locative_dataset.py             (uses CEIPoM files)
-* phonological_dataset.py         (uses "/datasets/pairs_modern.csv" and "/datasets/pairs_ancient.csv")
-* syntax_datasets.py              (uses CEIPoM files)
-~~~
+## 3. datasets_automatic
 
-The output datasets are, in each case, eponymous .csv files, except for syntax_datasets which produces five distinct datasets (order_accusative.csv, order_dative.csv, order_adverbial.csv, order_genitive, order_adjective).
+This folder contains automatically generated datasets.
 
-## datasets_automatic
+* coordination_dataset.csv ← coordination_dataset.py
+* loanwords_dataset.csv ← loanwords_dataset.py
+* order_accusative.csv ← syntax_datasets.py
+* order_adjective.csv ← syntax_datasets.py
+* order_adverbial.csv ← syntax_datasets.py
+* order_dative.csv ← syntax_datasets.py
+* order_genitive.csv ← syntax_datasets.py
+* phonological_dataset.csv ← phonological_dataset.py
 
-This contents contains datasets, which can be subdivided into three categories: datasets which were generated (or exported) automatically, datasets which were generated (or exported) automatically and then manually enriched, and datasets which were created manually from scratch. The datasets in question are the following:
 
-~~~
-* coordination_dataset.csv        (created automatically by coordination_dataset.py)
-* loanwords_dataset.csv           (created automatically by locative_dataset.py)
-* locative_dataset.csv            (created automatically by locative_dataset.py)
-* order_accusative.csv            (created automatically by syntax_datasets.py)
-* order_dative.csv                (created automatically by syntax_datasets.py)
-* order_adverbial.csv             (created automatically by syntax_datasets.py)
-* order_genitive.csv              (created automatically by syntax_datasets.py)
-* order_adjective.csv             (created automatically by syntax_datasets.py)
-* phonological_dataset.csv        (created automatically by phonological_dataset.py)
-~~~
+## 4. datasets_enriched
 
-## datasets_enriched
+This folder contains an automatically generated dataset which was manually enriched.
 
-One datasets from the folder "automatic_datasets" was manually enriched after having been generated by a Python script:
+* order_adjective_enriched.csv ← order_adjective.csv
 
-~~~
-* order_adjective_enriched.csv    (created automatically by syntax_datasets.py and manually enriched)
-~~~
 
-## regression_scripts
+## 5. datasets_manual
 
-Three R scripts are used for regression analyses, which are exported as csv files for effect plots to "regression_datasets". Please note that unlike the Python scripts (which use ";" for compatibility with Excel), these R scripts export "," separated .csv files to ensure decimal points are correctly reimported into the subsequent Python scripts.
+This folder contains datasets created manually or exported from elsewhere.
 
-~~~
-* coordination_regression.R       (used in chapter 8)
-* loanwords_regression.R          (used in chapter 5) TO COMPLETE
-* syntax_regression.R             (used in chapter 6)
-~~~
+* coordination_typology.csv ← created manually
+* italian_epigraphy.csv ← Trismegistos and CEIPoM
+* loanwords_italic.csv ← created manually
+* loanwords_sabellic.csv ← created manually
+* mediterranean_diversity.csv ← created manually
+* pairs_ancient.csv ← CEIPoM, manually enriched
+* pairs_modern.csv ← ASJP, manually enriched
+* sabellic_locative.csv ← CEIPoM, manually enriched
+* swadesh_italic.csv ← created manually
+* typology.csv ← created manually
 
-## regression_datasets
 
-These csv files were created automatically by the regression analyses in "regression_scripts".
+## 6. figures_scripts
 
-~~~
-* effect_plot_coordination.csv    (created automatically by coordination_regression.R)
-* effect_plot_date.csv            (created automatically by syntax_regression.R)
-* effect_plot_date_mixed.csv      (created automatically by syntax_regression.R)
-* effect_plot_language.csv        (created automatically by syntax_regression.R)
-* effect_plot_language_mixed.csv  (created automatically by syntax_regression.R)
-* effect_plot_loanwords.csv       (created automatically by coordination_regression.R) TO COMPLETE
-~~~
+This folder contains the scripts which generate the figures in the following folder.
 
-## figures_scripts
+* coordination_typology.py ← coordination_typology.csv
+* inscriptions_space.py ← italian_epigraphy.csv
+* inscriptions_time.py ← italian_epigraphy.csv
+* italian_accusative.py ← order_accusative.csv
+* italian_adjective.py ← order_adjective.csv
+* italian_adverbial.py ← order_adverbial.csv
+* italian_dative.py ← order_dative.csv
+* italian_genitive.py ← order_genitive_csv
+* latin_accusative.py ← order_accusative.csv
+* loanword_borrowability.py ← loanwords_dataset.csv
+* loanword_fields.py ← loanwords_dataset.csv
+* loanword_source.py ← loanwords_dataset.csv
+* mediterranean_diversity.py ← mediterranean_diversity.csv
+* object_order_typology.py ← WALS datasets
+* phonological_distances.py ← phonological_dataset.csv
+* sabellic_locative.py ← sabellic_locative.csv
+* syntax_regression.py ← regression_datasets
+* typology.py ← typology.csv
 
-These scripts are used to generate their eponymous png figures in "figures" (except typology.py, which generates multiple plots: "typology_dendrogram.png", "typology_heatmap.png", "typology_mds.png", "typology_mds_subsets.png").
 
-~~~
-* coordination_regression.py      (using effect_plot_coordination.csv) TO COMPLETE
-* coordination_typology.py        (using coordination_dataset.csv)
-* inscriptions_space.py           (using italian_epigraphy.csv)
-* inscriptions_time.py            (using italian_epigraphy.csv)
-* italian_accusative.py           (using order_accusative.csv)
-* italian_adjective.py            (using order_adjective.csv)
-* italian_adverbial.py            (using order_adverbial.csv)
-* italian_dative.py               (using order_dative_enriched.csv)
-* italian_genitive.py             (using order_genitive.csv)
-* latin_accusative.py             (using order_accusative.csv)
-* loanword_borrowability.py       (using loanwords_dataset.csv)
-* loanword_source.py              (using loanwords_italic.csv)
-* mediterranean_diversity.py      (using mediterranean_diversity.csv) SMALL EDITS NEEDED
-* phonological_distances.py       (using phonological_dataset.csv)
-* sabellic_locative.py            (using locative_dataset.csv)
-* syntax_regression.py            (using various effect plot .csv files from "regression_datasets")
-* typology.py                     (using typology.csv and "/WALS/values.csv")
-~~~
+## 7. figures
 
-One of these files makes use of a csv file generated in "tables_scripts":
+This folder contains figures generated by the scripts in the previous folder.
 
-~~~
-* loanword_fields.py              (using loanwords_italic.csv)
-~~~
+* coordination_typology.pdf ← coordination_typology.py
+* inscriptions_space.pdf ← inscription_space.py
+* inscriptions_time.pdf ← inscription_time.py
+* italian_accusative.pdf ← italian_accusative.py
+* italian_adjective.pdf ← italian_adjective.py
+* italian_adverbial.pdf ← italian_adverbial.py
+* italian_dative.pdf ← italian_dative.py
+* italian_genitive.pdf ← italian_genitive.py
+* latin_accusative.pdf ← latin_accusative.py
+* loanword_borrowability.pdf ← loanword_borrowability.py
+* loanword_fields.pdf ← loanword_fields.py
+* loanword_source.pdf ← loanword_source.py
+* mediterranean_diversity.pdf ← mediterranean_diversity.py
+* object_order_typology.pdf ← object_order_typology.py
+* phonological_distances.pdf ← phonological_distance.py
+* sabellic_locative.pdf ← sabellic_locative.py
+* syntax_regression.pdf ← syntax_regression.py
+* typology_dendrogram.pdf ← typology.py
+* typology_heatmap.pdf ← typology.py
+* typology_mds.pdf ← typology.py
+* typology_mds_subsets.pdf ← typology.py
 
-## figures
 
-This folder contains the (automatically generated) figures used in the thesis. All of them use the matplotlib library, with maps additionally using cartopy.
+## 8. regression_scripts
 
-~~~
-* coordination_regression.png     (chapter 8)
-* coordination_typology.png       (chapter 8)
-* inscriptions_space.png          (chapter 2)
-* inscriptions_time.png           (chapter 2)
-* italian_accusative.png          (chapter 6)
-* italian_adjective.png           (chapter 6)
-* italian_adverbial.png           (chapter 6)
-* italian_dative.png              (chapter 6)
-* italian_genitive.png            (chapter 6)
-* latin_accusative.png            (chapter 6)
-* loanword_borrowability.png      (chapter 5)
-* loanword_fields.png             (chapter 5)
-* loanword_source.png             (chapter 5)
-* mediterranean_diversity.png     (chapter 2)
-* phonological_distances.png      (chapter 2)
-* sabellic_locative.png           (chapter 7)
-* syntax_regression.png           (chapter 6)
-* typology_dendrogram.png         (chapter 11)
-* typology_heatmap.png            (chapter 11)
-* typology_mds.png                (chapter 11)
-* typology_mds_subsets.png        (chapter 11)
-~~~
+This folder contains regression analyses in R.
 
-## tables_scripts
+* accusative_regression.r ← order_accusative.csv
+* loanwords_regression.r ← loanwords_dataset.csv
 
-These scripts are used to generate their eponymous csv figures in "tables":
 
-~~~
-* adjective_summary.py            (using order_adjective_enriched.csv) TO WRITE
-* ceipom_summary.py               (using CEIPoM)
-* coordination_summary.py         (using italy_coordination.csv)
-* loanword_fields.py              (using loanwords_dataset.csv)
-* loanword_outliers.py            (using loanwords_dataset.csv)
-~~~
- 
-## tables
+## 9. regression_datasets
 
-This folder contains the (automatically generated) tabular summaries used in the thesis, as .csv files:
+This folder contains the output of the regression scripts for visualisation.
 
-~~~
-* adjective_summary.csv           (chapter 6)
-* ceipom_summary.csv              (chapter 4)
-* coordination_summary.csv        (chapter 8)
-* loanword_fields.csv             (chapter 5)
-* loanword_outliers.csv           (chapter 5)
-~~~
+* effect_plot_date ← accusative_regression.r
+* effect_plot_date_mixed ← accusative_regression.r
+* effect_plot_language ← accusative_regression.r
+* effect_plot_language_mixed ← accusative_regression.r
+
+
+## 10. tables_scripts
+
+This folder contains scripts for generating the summary tables in the following folder.
+
+* adjective_summary.py ← order_adjective_enriched.csv
+* ceipom_summary.py ← CEIPoM datasets
+* coordination_summary.py ← coordination_dataset.csv
+* loanword_fields.py ← loanwords_dataset.csv
+* loanword_non_greek.py ← loanwords_dataset.csv
+* loanword_outliers.py ← loanwords_dataset.csv
+
+
+## 11. tables
+
+This folder contains the summary tables generated by the scripts in the previous folder.
+
+* adjective_summary.csv	← adjective_summary.py
+* ceipom_summary.csv ← ceipom_summary.py
+* coordination_summary.csv ← coordination_summary.py
+* loanword_fields.csv ← loanword_fields.py
+* loanword_non_greek.csv ← loanword_non_greek.py
+* loanword_outliers.csv ← loanword_outliers.py
+
 
